@@ -1,0 +1,21 @@
+<div alias-bar="{{store.alias}}"></div>
+<h1>
+	<span id="name">{{store.meta.name}}</span>
+	<button
+		ng-show="account === store.owner"
+		class="btn btn-default"
+		ng-click="openStoreModal(store)"
+    id="open-store-modal-button"
+	>
+		Edit Store
+	</button>
+</h1>
+<tabset>
+    <tab
+        ng-repeat="tab in tabs"
+        heading="{{tab.heading}}"
+        select="go(tab.route)"
+        active="tab.active">
+    </tab>
+</tabset>
+<div ui-view></div>

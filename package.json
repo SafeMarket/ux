@@ -1,0 +1,69 @@
+{
+  "name": "safemarket-ux",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch --progress --colors",
+    "server": "node ./modules/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SafeMarket/ux.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SafeMarket/ux/issues"
+  },
+  "homepage": "https://github.com/SafeMarket/ux#readme",
+  "dependencies": {
+    "amorph": "^0.1.1",
+    "amorph-base58": "0.0.1",
+    "amorph-bignumber": "0.0.1",
+    "amorph-buffer": "0.0.1",
+    "amorph-hex": "0.0.2",
+    "safemarket-protocol": "^0.1.1",
+    "web3": "^0.17.0-beta"
+  },
+  "devDependencies": {
+    "amorph": "^0.1.2",
+    "amorph-bignumber": "0.0.2",
+    "angular": "^1.5.9",
+    "angular-marked": "^1.2.2",
+    "angular-promise-extras-real": "^0.1.7",
+    "angular-route": "^1.5.9",
+    "angular-timeago": "^0.4.4",
+    "angular-ui-bootstrap": "^2.3.1",
+    "angular-ui-router": "^0.3.2",
+    "blueimp-md5": "^2.6.0",
+    "bootstrap": "^3.3.7",
+    "brfs": "^1.4.3",
+    "bulk-require": "^1.0.0",
+    "bulkify": "^1.4.2",
+    "crypto-js": "^3.1.8",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.11.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.1",
+    "eslint-plugin-react": "^6.8.0",
+    "ethereumjs-testrpc": "^3.0.3",
+    "file-loader": "^0.9.0",
+    "http-server": "^0.9.0",
+    "iso-3166-country-codes-angular": "^1.2.1",
+    "json-loader": "^0.5.4",
+    "lodash": "^4.17.2",
+    "mock-fs": "^3.12.1",
+    "q": "^1.4.1",
+    "safemarket-protocol": "^0.1.1",
+    "sprintf-js": "^1.0.3",
+    "style-loader": "^0.13.1",
+    "transform-loader": "^0.2.3",
+    "tweetnacl": "^0.14.5",
+    "ultralightbeam": "^0.3.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.3"
+  }
+}
