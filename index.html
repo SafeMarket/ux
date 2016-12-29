@@ -12,7 +12,7 @@
               <a class="navbar-brand" ng-href="{{isLoggedIn?'#/':'.'}}">SafeMarket</a>
             </div>
             <div class="navbar-header pull-right">
-              <blockie seed="account" ng-click="openSettingsModal()" ng-if="isLoggedIn"></blockie>
+              <blockie seed="account" ng-click="openSettingsModal()"></blockie>
               <button class="navbar-btn btn btn-default btn-lg" ng-click="goBack()">
                 <span class="glyphicon glyphicon-menu-left"></span>
               </button>
@@ -25,24 +25,27 @@
               <button class="navbar-btn btn btn-default btn-lg" id="refreshButton">
                 <span class="glyphicon glyphicon-refresh" id="refreshIcon"></span>
               </button>
-              <a class="navbar-btn btn btn-default btn-lg" href="#affiliate" ng-if="isLoggedIn">
+              <a class="navbar-btn btn btn-default btn-lg" href="#affiliate">
                 <span class="glyphicon glyphicon-tags" id="refreshIcon"></span>
               </a>
-              <button class="navbar-btn btn btn-default btn-lg" ng-if="isLoggedIn" ng-click="openSettingsModal()">
+              <button class="navbar-btn btn btn-default btn-lg" ng-click="openSettingsModal()">
                 <span class="glyphicon glyphicon-cog"></span>
               </button>
-              <button class="btn btn-default btn-lg" ng-click="logout()" ng-if="isLoggedIn">
+              <button class="btn btn-default btn-lg" ng-click="logout()">
                 <span class="glyphicon glyphicon-log-out"></span>
               </button>
             </div>
           </div>
         </nav>
-        <div class="blockWatcher">
+        <div ng-controller="Status" class="blockWatcher" >
           <div class="container">
             <div ng-if='block'>
-            Block Number: {{block.number | amorph:'number' }} &nbsp;&nbsp;&nbsp;
-            Received: {{blockSecondsAgo}} seconds ago &nbsp;&nbsp;&nbsp;
-            Gas Limit: {{block.gasLimit | amorph:'number'}}
+            Block Number: {{block.number.to('number') }} &nbsp;&nbsp;&nbsp;
+            Mined: {{blockSecondsAgo}} seconds ago &nbsp;&nbsp;&nbsp;
+            Gas Limit: {{block.gasLimit.to('number')}} &nbsp;&nbsp;&nbsp;
+            <span ng-if="priceOfEthInCurrencyNumber">
+            1 ETH = {{ priceOfEthInCurrencyNumber | rounded }} {{ currencyAscii }}
+            </span>
             </div>
           </div>
         </div>

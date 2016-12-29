@@ -1,14 +1,13 @@
 <div class="modal-header">
     <h3 class="modal-title">Settings</h3>
 </div>
-<div class="modal-body" id="settings-modal-body">
+<div class="modal-body">
 
     <table class="table">
         <tr>
             <td>
                 Profile
-                <blockie seed="profile.persona.address" class="settings-blockie"></blockie>
-                <div class="text-small text-muted ellipsis">{{profile.persona.address | amorph: 'hex.prefixed'}}</div>
+                <div address="profile.persona.address"></div>
             </td>
             <td>
                  <select ng-model="profile" ng-options="profile as profile.persona.address.to('hex.prefixed') for profile in profiles" class="form-control"></select>
@@ -22,48 +21,20 @@
                 </button>
             </td>
             <td>
-              <span ng-if="balance">{{balance | amorph:'number'}}</span>
+              <span ng-if="balancePricemorph" pricemorph="balancePricemorph" currency="currency"></span>
             </td>
         </tr>
         <tr>
             <td>Currency</td>
             <td>
-                <select type="text" ng-model="currency" class="form-control" ng-options="currency as currency.to('ascii') for currency in currencies" id="currency-select"></select>
+                <select type="text" ng-model="currency" class="form-control" ng-options="currency as currency.to('ascii') for currency in currencies"></select>
             </td>
         </tr>
     </table>
     <h3>Transfer</h3>
-    <table class="table">
-        <tr>
-            <td>Recipient <blockie seed="recipientType === 'internal' ? internalRecipient : externalRecipient" class="settings-blockie"></blockie></td>
-            <td>
-                 <select ng-model="recipientType" ng-options="recipientType as recipientLabel for (recipientType,recipientLabel) in recipientTypes" class="form-control"></select>
-                 <select ng-show="recipientType=='internal'" ng-model="internalRecipient" ng-options="internalRecipient as internalRecipient.to('hex.prefixed') for internalRecipient in internalRecipients" class="form-control push-down" id="internalRecipient-select"></select>
-                 <div ng-show="recipientType=='external'" class="input-group push-down">
-                    <div class="input-group-addon">0x</div>
-                    <input ng-model="externalRecipient" type="text" class="form-control">
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td>Amount</td>
-            <td>
-                <select ng-model="amountType" ng-options="amountType as amountLabel for (amountType,amountLabel) in amountTypes" class="form-control" id="amountType-select"></select>
-                <div ng-show="amountType=='fixed'">
-                    <div class="input-group push-down">
-                        <input type="text" ng-model="transferAmountInUserCurrency" class="form-control" numeric-input ng-model-options="{debounce:500}">
-                        <div class="input-group-addon">{{currency | amorph:'ascii'}}</div>
-                    </div>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">
-                <button class="btn btn-primary pull-right" ng-click="transfer()" id="transfer-button">Transfer</button>
-            </td>
-        </tr>
-    </table>
+    <ng-include src="'html/transfer.html'"></ng-include>
 </div>
 <div class="modal-footer">
-    <button class="btn btn-primary" type="button" ng-click="submit()">OK</button>
+    <button class="btn btn-primary" type="button" ng-click="cancel()">Cancel</button>
+    <button class="btn btn-primary" type="button" ng-click="submit()">Submit</button>
 </div>

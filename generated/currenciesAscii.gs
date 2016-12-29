@@ -1,9 +1,5 @@
-[
+module.exports = [
   "WEI",
-  "ETH",
-  "USD",
-  "BTC",
-  "EUR",
   "AUD",
   "BGN",
   "BRL",
@@ -33,5 +29,8 @@
   "SGD",
   "THB",
   "TRY",
-  "ZAR"
+  "USD",
+  "ZAR",
+  "BTC",
+  "ETH"
 ]

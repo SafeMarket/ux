@@ -115,10 +115,10 @@ h3 .btn{float: right}
 
 .product-image{max-height: 100px;max-width: 100%}
 
-blockie{
+[blockie]{
     display: inline-block;
-    width: 1em;
-    height: 1em;
+    width: 1.6em;
+    height: 1.6em;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 50%;
@@ -129,7 +129,7 @@ blockie{
     margin-bottom: -2px;
 }
 
-.navbar blockie{
+.navbar [blockie]{
     font-size: 36px;
     margin-bottom: -14px;
     margin-right: 2px;
@@ -149,6 +149,10 @@ blockie{
 .ellipsis{
     overflow: hidden;
     text-overflow:ellipsis;
+    display: inline-block;
+}
+[address] .ellipsis{
+  max-width: 200px;
 }
 
 .tbody-alternate tbody:not(:last-child){
@@ -157,4 +161,8 @@ blockie{
 
 .tbody-alternate tbody:not(:last-child):nth-child(even){
     background-color:#eee;
+}
+
+input.ng-dirty.ng-invalid {
+  border-color: red
 }
