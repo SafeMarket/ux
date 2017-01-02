@@ -17,7 +17,9 @@ module.exports = function deploy() {
       contracts[contractName].abi,
       []
     )
-    const deployment = ultralightbeam.sendTransaction(transactionRequest).then((
+    const deployment = ultralightbeam.sendTransaction(
+      transactionRequest
+    ).getTransactionReceipt().then((
       transactionReceipt
     ) => {
       const contractAddress = transactionReceipt.contractAddress

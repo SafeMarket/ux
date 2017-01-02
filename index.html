@@ -37,17 +37,8 @@
             </div>
           </div>
         </nav>
-        <div ng-controller="Status" class="blockWatcher" >
-          <div class="container">
-            <div ng-if='block'>
-            Block Number: {{block.number.to('number') }} &nbsp;&nbsp;&nbsp;
-            Mined: {{blockSecondsAgo}} seconds ago &nbsp;&nbsp;&nbsp;
-            Gas Limit: {{block.gasLimit.to('number')}} &nbsp;&nbsp;&nbsp;
-            <span ng-if="priceOfEthInCurrencyNumber">
-            1 ETH = {{ priceOfEthInCurrencyNumber | rounded }} {{ currencyAscii }}
-            </span>
-            </div>
-          </div>
+        <div ng-controller="Status" class="blockWatcher">
+          <div class="container" status></div>
         </div>
         <div class="container">
           <div class="alert alert-warning text-center">SafeMarket is still in Alpha. Funds deposited are likely to be lost.</div>

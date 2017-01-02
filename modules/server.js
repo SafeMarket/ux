@@ -5,7 +5,6 @@ const httpServer = require('./httpServer')
 const deploy = require('./deploy')
 const generateContractAddressesHex = require('./generators/contractAddressesHex')
 const setTickerPrices = require('./setTickerPrices')
-const generatePricemorphPathsPojo = require('./generators/pricemorphPathsPojo')
 
 testRPCserver.listen(8545)
 httpServer.listen(8080)
