@@ -1,36 +1,40 @@
-<div class="modal-header">
+<div id="register-modal-header" class="modal-header">
     <h3 class="modal-title">Register</h3>
 </div>
 <div class="modal-body" id="settings-modal-body">
     <p>
-      Instead of using a database of username/passwords,
-      SafeMarket uses a passphrase-encrypted keyfile to manage your account.
-      To get started, you'll need to select a passphrase.
+      Instead of using a centrally owned database of username/passwords,
+      SafeMarket uses a passphrase-encrypted authfile to manage your account.
+      Avoid storing your authfile on cloud services (like GMail or DropBox),
+      and back it up on another device you own (like a thumb drive).
+      If you lose your authfile, you will lose access to your account.
     </p>
-    <p>Tips on chosing a strong passphrase</p>
+    <p>
+      To get started, you'll need to select a passphrase. Tips on chosing a strong passphrase:</p>
     <ul style="padding-left: 15px;">
       <li>Make it long.</li>
       <li>Use words that aren't in the dictionary, like proper nouns and slang.</li>
       <li>Use punctuations and numbers.</li>
-      <li><b>Remember it!</b></li>
+      <li><b>Don't forget it!</b></li>
     </ul>
     <table class="table">
       <tr>
         <td>Passphrase:</td>
-        <td><input type="{{showPassphrase?'text':'password'}}" ng-model="passphrase" class="form-control"></td>
+        <td><input id="register-modal-passphrase-input" type="{{doShowPassphrase?'text':'password'}}" ng-model="passphrase" class="form-control"></td>
       </tr>
       <tr>
         <td>Repeat Passphrase:</td>
-        <td><input type="{{showPassphrase?'text':'password'}}" ng-model="passphrase1" class="form-control"></td>
+        <td><input id="register-modal-passphrase-confirmation-input"  type="{{doShowPassphrase?'text':'password'}}" ng-model="passphrase-confirmation" class="form-control"></td>
       </tr>
       <tr>
         <td></td>
         <td>
-          <label><input type="checkbox" ng-model="showPassphrase"> Show Passphrase</label>
+          <label><input id="register-modal-show-passphrase-checkbox" type="checkbox" ng-model="doShowPassphrase"> Show Passphrase</label>
         </td>
       </tr>
     </table>
 </div>
 <div class="modal-footer">
-    <button class="btn btn-primary" ng-click="submit()">Generate Keyfile</button>
+    <button id="register-modal-cancel-button" class="btn btn-warning" ng-click="cancel()">Cancel</button>
+    <button id="register-modal-submit-button" class="btn btn-primary" ng-click="submit()">Generate Authfile</button>
 </div>

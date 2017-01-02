@@ -1,0 +1,537 @@
+{
+  "title": "auth",
+  "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
+  "suites": [
+    {
+      "title": "settings button",
+      "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
+      "suites": [],
+      "tests": [
+        {
+          "status": 1,
+          "title": "should be displayed",
+          "fullTitle": "auth settings button should be displayed",
+          "duration": 0.15,
+          "error": null
+        },
+        {
+          "status": 1,
+          "title": "should be clicked",
+          "fullTitle": "auth settings button should be clicked",
+          "duration": 0.13,
+          "error": null
+        }
+      ],
+      "stats": {
+        "tests": 2,
+        "pending": 0,
+        "failures": 0,
+        "duration": 0.28,
+        "timeStart": 1483396724584,
+        "timeStop": 1483396724867
+      }
+    },
+    {
+      "title": "settings modal",
+      "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
+      "suites": [
+        {
+          "title": "logout button",
+          "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
+          "suites": [],
+          "tests": [
+            {
+              "status": 1,
+              "title": "should be displayed",
+              "fullTitle": "auth settings modal logout button should be displayed",
+              "duration": 0.1,
+              "error": null
+            },
+            {
+              "status": 1,
+              "title": "should be clicked",
+              "fullTitle": "auth settings modal logout button should be clicked",
+              "duration": 0.14,
+              "error": null
+            }
+          ],
+          "stats": {
+            "tests": 2,
+            "pending": 0,
+            "failures": 0,
+            "duration": 0.24,
+            "timeStart": 1483396725229,
+            "timeStop": 1483396725466
+          }
+        }
+      ],
+      "tests": [
+        {
+          "status": 1,
+          "title": "should be displayed",
+          "fullTitle": "auth settings modal should be displayed",
+          "duration": 0.36,
+          "error": null
+        }
+      ],
+      "stats": {
+        "tests": 3,
+        "pending": 0,
+        "failures": 0,
+        "duration": 0.6,
+        "timeStart": 1483396724868,
+        "timeStop": 1483396725466
+      }
+    },
+    {
+      "title": "logout modal",
+      "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
+      "suites": [
+        {
+          "title": "cancel button",
+          "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
+          "suites": [],
+          "tests": [
+            {
+              "status": 1,
+              "title": "should be displayed",
+              "fullTitle": "auth logout modal cancel button should be displayed",
+              "duration": 0.08,
+              "error": null
+            },
+            {
+              "status": 1,
+              "title": "should be clicked",
+              "fullTitle": "auth logout modal cancel button should be clicked",
+              "duration": 0.12,
+              "error": null
+            }
+          ],
+          "stats": {
+            "tests": 2,
+            "pending": 0,
+            "failures": 0,
+            "duration": 0.2,
+            "timeStart": 1483396725607,
+            "timeStop": 1483396725802
+          }
+        }
+      ],
+      "tests": [
+        {
+          "status": 1,
+          "title": "should be displayed",
+          "fullTitle": "auth logout modal should be displayed",
+          "duration": 0.14,
+          "error": null
+        }
+      ],
+      "stats": {
+        "tests": 3,
+        "pending": 0,
+        "failures": 0,
+        "duration": 0.34,
+        "timeStart": 1483396725466,
+        "timeStop": 1483396725802
+      }
+    },
+    {
+      "title": "settings modal",
+      "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
+      "suites": [
+        {
+          "title": "logout button",
+          "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
+          "suites": [],
+          "tests": [
+            {
+              "status": 1,
+              "title": "should be displayed",
+              "fullTitle": "auth settings modal logout button should be displayed",
+              "duration": 0.05,
+              "error": null
+            },
+            {
+              "status": 1,
+              "title": "should be clicked",
+              "fullTitle": "auth settings modal logout button should be clicked",
+              "duration": 0.09,
+              "error": null
+            }
+          ],
+          "stats": {
+            "tests": 2,
+            "pending": 0,
+            "failures": 0,
+            "duration": 0.14,
+            "timeStart": 1483396725862,
+            "timeStop": 1483396726006
+          }
+        }
+      ],
+      "tests": [
+        {
+          "status": 1,
+          "title": "should be displayed",
+          "fullTitle": "auth settings modal should be displayed",
+          "duration": 0.06,
+          "error": null
+        }
+      ],
+      "stats": {
+        "tests": 3,
+        "pending": 0,
+        "failures": 0,
+        "duration": 0.2,
+        "timeStart": 1483396725803,
+        "timeStop": 1483396726006
+      }
+    },
+    {
+      "title": "logout modal",
+      "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
+      "suites": [
+        {
+          "title": "submit button",
+          "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
+          "suites": [],
+          "tests": [
+            {
+              "status": 1,
+              "title": "should be displayed",
+              "fullTitle": "auth logout modal submit button should be displayed",
+              "duration": 0.08,
+              "error": null
+            },
+            {
+              "status": 1,
+              "title": "should be clicked",
+              "fullTitle": "auth logout modal submit button should be clicked",
+              "duration": 0.11,
+              "error": null
+            }
+          ],
+          "stats": {
+            "tests": 2,
+            "pending": 0,
+            "failures": 0,
+            "duration": 0.19,
+            "timeStart": 1483396726087,
+            "timeStop": 1483396726281
+          }
+        },
+        {
+          "title": "settings modal header",
+          "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
+          "suites": [],
+          "tests": [
+            {
+              "status": 1,
+              "title": "should be displayed",
+              "fullTitle": "auth logout modal settings modal header should be displayed",
+              "duration": 0.04,
+              "error": null
+            }
+          ],
+          "stats": {
+            "tests": 1,
+            "pending": 0,
+            "failures": 0,
+            "duration": 0.05,
+            "timeStart": 1483396726281,
+            "timeStop": 1483396726326
+          }
+        }
+      ],
+      "tests": [
+        {
+          "status": 1,
+          "title": "should be displayed",
+          "fullTitle": "auth logout modal should be displayed",
+          "duration": 0.08,
+          "error": null
+        }
+      ],
+      "stats": {
+        "tests": 4,
+        "pending": 0,
+        "failures": 0,
+        "duration": 0.32,
+        "timeStart": 1483396726006,
+        "timeStop": 1483396726326
+      }
+    },
+    {
+      "title": "settings modal",
+      "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
+      "suites": [
+        {
+          "title": "register button",
+          "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
+          "suites": [],
+          "tests": [
+            {
+              "status": 1,
+              "title": "should be displayed",
+              "fullTitle": "auth settings modal register button should be displayed",
+              "duration": 0.08,
+              "error": null
+            },
+            {
+              "status": 1,
+              "title": "should be clicked",
+              "fullTitle": "auth settings modal register button should be clicked",
+              "duration": 0.11,
+              "error": null
+            }
+          ],
+          "stats": {
+            "tests": 2,
+            "pending": 0,
+            "failures": 0,
+            "duration": 0.19,
+            "timeStart": 1483396726368,
+            "timeStop": 1483396726557
+          }
+        }
+      ],
+      "tests": [
+        {
+          "status": 1,
+          "title": "should be displayed",
+          "fullTitle": "auth settings modal should be displayed",
+          "duration": 0.04,
+          "error": null
+        }
+      ],
+      "stats": {
+        "tests": 3,
+        "pending": 0,
+        "failures": 0,
+        "duration": 0.23,
+        "timeStart": 1483396726326,
+        "timeStop": 1483396726557
+      }
+    },
+    {
+      "title": "register modal",
+      "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
+      "suites": [
+        {
+          "title": "passphrase input",
+          "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
+          "suites": [],
+          "tests": [
+            {
+              "status": 1,
+              "title": "should be displayed",
+              "fullTitle": "auth register modal passphrase input should be displayed",
+              "duration": 0.09,
+              "error": null
+            },
+            {
+              "status": 1,
+              "title": "type should be \"password\"",
+              "fullTitle": "auth register modal passphrase input type should be \"password\"",
+              "duration": 0.05,
+              "error": null
+            }
+          ],
+          "stats": {
+            "tests": 2,
+            "pending": 0,
+            "failures": 0,
+            "duration": 0.14,
+            "timeStart": 1483396726685,
+            "timeStop": 1483396726826
+          }
+        },
+        {
+          "title": "passphrase confirmation input",
+          "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
+          "suites": [],
+          "tests": [
+            {
+              "status": 1,
+              "title": "should be displayed",
+              "fullTitle": "auth register modal passphrase confirmation input should be displayed",
+              "duration": 0.11,
+              "error": null
+            },
+            {
+              "status": 1,
+              "title": "type should be \"password\"",
+              "fullTitle": "auth register modal passphrase confirmation input type should be \"password\"",
+              "duration": 0.05,
+              "error": null
+            }
+          ],
+          "stats": {
+            "tests": 2,
+            "pending": 0,
+            "failures": 0,
+            "duration": 0.16,
+            "timeStart": 1483396726827,
+            "timeStop": 1483396726987
+          }
+        },
+        {
+          "title": "show passphrase checkbox",
+          "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
+          "suites": [],
+          "tests": [
+            {
+              "status": 1,
+              "title": "should be displayed",
+              "fullTitle": "auth register modal show passphrase checkbox should be displayed",
+              "duration": 0.08,
+              "error": null
+            },
+            {
+              "status": 1,
+              "title": "should be clicked \"passphrase\"",
+              "fullTitle": "auth register modal show passphrase checkbox should be clicked \"passphrase\"",
+              "duration": 0.12,
+              "error": null
+            },
+            {
+              "status": 1,
+              "title": "should have changed passphrase input type to \"text\"",
+              "fullTitle": "auth register modal show passphrase checkbox should have changed passphrase input type to \"text\"",
+              "duration": 0.03,
+              "error": null
+            },
+            {
+              "status": 1,
+              "title": "should have changed passphrase confirmation input type to \"text\"",
+              "fullTitle": "auth register modal show passphrase checkbox should have changed passphrase confirmation input type to \"text\"",
+              "duration": 0.04,
+              "error": null
+            }
+          ],
+          "stats": {
+            "tests": 4,
+            "pending": 0,
+            "failures": 0,
+            "duration": 0.28,
+            "timeStart": 1483396726987,
+            "timeStop": 1483396727264
+          }
+        },
+        {
+          "title": "cancel button",
+          "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
+          "suites": [],
+          "tests": [
+            {
+              "status": 1,
+              "title": "should be displayed",
+              "fullTitle": "auth register modal cancel button should be displayed",
+              "duration": 0.08,
+              "error": null
+            }
+          ],
+          "stats": {
+            "tests": 1,
+            "pending": 0,
+            "failures": 0,
+            "duration": 0.08,
+            "timeStart": 1483396727264,
+            "timeStop": 1483396727343
+          }
+        },
+        {
+          "title": "submit button",
+          "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
+          "suites": [],
+          "tests": [
+            {
+              "status": 1,
+              "title": "should be displayed",
+              "fullTitle": "auth register modal submit button should be displayed",
+              "duration": 0.07,
+              "error": null
+            },
+            {
+              "status": 1,
+              "title": "should be clicked",
+              "fullTitle": "auth register modal submit button should be clicked",
+              "duration": 0.11,
+              "error": null
+            }
+          ],
+          "stats": {
+            "tests": 2,
+            "pending": 0,
+            "failures": 0,
+            "duration": 0.19,
+            "timeStart": 1483396727343,
+            "timeStop": 1483396727528
+          }
+        },
+        {
+          "title": "growl message",
+          "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
+          "suites": [],
+          "tests": [
+            {
+              "status": 1,
+              "title": "should be displayed",
+              "fullTitle": "auth register modal growl message should be displayed",
+              "duration": 0.07,
+              "error": null
+            },
+            {
+              "status": 1,
+              "title": "should be error",
+              "fullTitle": "auth register modal growl message should be error",
+              "duration": 0.04,
+              "error": null
+            },
+            {
+              "status": 1,
+              "title": "should have right blurb",
+              "fullTitle": "auth register modal growl message should have right blurb",
+              "duration": 0.07,
+              "error": null
+            }
+          ],
+          "stats": {
+            "tests": 3,
+            "pending": 0,
+            "failures": 0,
+            "duration": 0.18,
+            "timeStart": 1483396727528,
+            "timeStop": 1483396727711
+          }
+        }
+      ],
+      "tests": [
+        {
+          "status": 1,
+          "title": "should be displayed",
+          "fullTitle": "auth register modal should be displayed",
+          "duration": 0.13,
+          "error": null
+        }
+      ],
+      "stats": {
+        "tests": 15,
+        "pending": 0,
+        "failures": 0,
+        "duration": 1.15,
+        "timeStart": 1483396726558,
+        "timeStop": 1483396727711
+      }
+    }
+  ],
+  "tests": [],
+  "stats": {
+    "tests": 33,
+    "pending": 0,
+    "failures": 0,
+    "duration": 3.13,
+    "timeStart": 1483396724584,
+    "timeStop": 1483396727711
+  }
+}

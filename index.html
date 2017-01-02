@@ -12,7 +12,6 @@
               <a class="navbar-brand" ng-href="{{isLoggedIn?'#/':'.'}}">SafeMarket</a>
             </div>
             <div class="navbar-header pull-right">
-              <blockie seed="account" ng-click="openSettingsModal()"></blockie>
               <button class="navbar-btn btn btn-default btn-lg" ng-click="goBack()">
                 <span class="glyphicon glyphicon-menu-left"></span>
               </button>
@@ -28,11 +27,8 @@
               <a class="navbar-btn btn btn-default btn-lg" href="#affiliate">
                 <span class="glyphicon glyphicon-tags" id="refreshIcon"></span>
               </a>
-              <button class="navbar-btn btn btn-default btn-lg" ng-click="openSettingsModal()">
+              <button id="navbar-settings-button" class="navbar-btn btn btn-default btn-lg" ng-click="openSettingsModal()">
                 <span class="glyphicon glyphicon-cog"></span>
-              </button>
-              <button class="btn btn-default btn-lg" ng-click="logout()">
-                <span class="glyphicon glyphicon-log-out"></span>
               </button>
             </div>
           </div>

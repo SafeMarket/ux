@@ -1,10 +1,16 @@
-<div class="modal-header">
+<div class="modal-header" id="settings-modal-header">
     <h3 class="modal-title">Settings</h3>
 </div>
 <div class="modal-body">
-
     <table class="table">
-        <tr>
+        <tr ng-if="!profile">
+          <td>Register or Login</td>
+          <td>
+            <button id="settings-modal-register-button" ng-click="register()" class="btn btn-default">Register</button>
+            <button id="settings-modal-login-button" ng-click="login()" class="btn btn-default">Login</button>
+          </td>
+        </tr>
+        <tr ng-if="profile">
             <td>
                 Profile
                 <div address="profile.persona.address"></div>
@@ -13,7 +19,7 @@
                  <select ng-model="profile" ng-options="profile as profile.persona.address.to('hex.prefixed') for profile in profiles" class="form-control"></select>
             </td>
         </tr>
-        <tr>
+        <tr ng-if="profile">
             <td>
                 Balance
                 <button class="navbar-btn btn btn-default btn-sm" ng-click="updateBalance()">
@@ -30,11 +36,19 @@
                 <select type="text" ng-model="currency" class="form-control" ng-options="currency as currency.to('ascii') for currency in currencies"></select>
             </td>
         </tr>
+        <tr ng-if="profile">
+          <td>Logout</td>
+          <td>
+            <button id="settings-modal-logout-button" ng-click="logout()" class="btn btn-default">Logout</button>
+          </td>
+        </tr>
     </table>
-    <h3>Transfer</h3>
-    <ng-include src="'html/transfer.html'"></ng-include>
+    <div ng-if="profile">
+      <h3>Transfer</h3>
+      <ng-include src="'html/transfer.html'"></ng-include>
+    </div>
 </div>
 <div class="modal-footer">
-    <button class="btn btn-primary" type="button" ng-click="cancel()">Cancel</button>
-    <button class="btn btn-primary" type="button" ng-click="submit()">Submit</button>
+    <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+    <button class="btn btn-primary" type="button" ng-click="submit()">Save</button>
 </div>
