@@ -1,6 +1,5 @@
 const contracts = require('../lib/contracts')
 const ultralightbeam = require('../lib/ultralightbeam')
-const blockFlags = require('ultralightbeam/lib/blockFlags')
 const SolDeployTransactionRequest = require('ultralightbeam/lib/SolDeployTransactionRequest')
 const Q = require('q')
 
