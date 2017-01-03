@@ -1,0 +1,36 @@
+<div id="login-modal-header" class="modal-header">
+    <h3 class="modal-title">Login</h3>
+</div>
+<div class="modal-body" id="settings-modal-body">
+    <table class="table">
+      <tr>
+        <td>
+          Select Authfile:
+        </td>
+        <td>
+          <input id="login-modal-authfile-input" type="file" file-input ng-model="authfileFile" />
+          <hr ng-if="authfileFile">
+          <div class="panel panel-default" ng-if="authfileFile">
+            <div class="panel-heading">
+              <h3 class="panel-title" id="login-modal-authfile-name" >{{authfileFile.name}}</h3>
+            </div>
+            <div class="panel-body authfile" id="login-modal-authfile">{{authfile}}</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>Passphrase:</td>
+        <td><input id="login-modal-passphrase-input" type="{{doShowPassphrase?'text':'password'}}" ng-model="passphrase" class="form-control"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <label><input id="login-modal-show-passphrase-checkbox" type="checkbox" ng-model="doShowPassphrase"> Show Passphrase</label>
+        </td>
+      </tr>
+    </table>
+</div>
+<div class="modal-footer">
+    <button id="login-modal-cancel-button" class="btn btn-warning" ng-click="cancel()">Cancel</button>
+    <button id="login-modal-submit-button" class="btn btn-primary" ng-click="submit()">Login</button>
+</div>

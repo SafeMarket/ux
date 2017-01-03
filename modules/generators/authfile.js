@@ -8,7 +8,9 @@ module.exports = function writeAuthfile() {
     return new Profile()
   })
   const authfile = createAuthfile(profiles, 'password')
-  const path = 'generated/authfile.gs'
-  fs.writeFileSync(path, `module.exports = '${authfile}'`)
-  console.log(`Wrote authfile to ${path}`.green)
+  const pathGs = 'generated/authfile.gs'
+  const pathTxt = 'generated/authfile.txt'
+  fs.writeFileSync(pathGs, `module.exports = '${authfile}'`)
+  fs.writeFileSync(pathTxt, authfile)
+  console.log(`Wrote authfile to ${pathGs} and ${pathTxt}`.green)
 }

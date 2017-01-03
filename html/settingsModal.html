@@ -13,7 +13,7 @@
         <tr ng-if="profile">
             <td>
                 Profile
-                <div address="profile.persona.address"></div>
+                <div id="settings-modal-profile-address" address="profile.persona.address"></div>
             </td>
             <td>
                  <select ng-model="profile" ng-options="profile as profile.persona.address.to('hex.prefixed') for profile in profiles" class="form-control"></select>
