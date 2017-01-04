@@ -11,6 +11,8 @@ exports.config = {
       console: true,
       screenshot: false
     },
-    ui: 'bdd'
+    ui: 'bdd',
+    timeout: 5000,
+    bail: true
   }
 }

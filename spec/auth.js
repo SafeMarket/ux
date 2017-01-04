@@ -4,7 +4,7 @@ const fs = require('fs')
 
 const authfilePath = path.resolve(__dirname, '../generated/authfile.txt')
 const authfile = fs.readFileSync(authfilePath, 'utf8').split('\n').join('')
-const profileAddressHexPrefixed = "0x4d557926b0fdd955af879c3f290a45bdd4b5966e"
+const profileAddressHexPrefixed = '0x4d557926b0fdd955af879c3f290a45bdd4b5966e'
 
 describe('auth', () => {
   describe('settings button', () => {

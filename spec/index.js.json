@@ -11,14 +11,14 @@
           "status": 1,
           "title": "should be displayed",
           "fullTitle": "auth settings button should be displayed",
-          "duration": 0.12,
+          "duration": 0.2,
           "error": null
         },
         {
           "status": 1,
           "title": "should be clicked",
           "fullTitle": "auth settings button should be clicked",
-          "duration": 0.11,
+          "duration": 0.1,
           "error": null
         }
       ],
@@ -26,9 +26,9 @@
         "tests": 2,
         "pending": 0,
         "failures": 0,
-        "duration": 0.24,
-        "timeStart": 1483485666176,
-        "timeStop": 1483485666417
+        "duration": 0.31,
+        "timeStart": 1483486213385,
+        "timeStop": 1483486213693
       }
     },
     {
@@ -44,7 +44,7 @@
               "status": 1,
               "title": "should be displayed",
               "fullTitle": "auth settings modal logout button should be displayed",
-              "duration": 0.1,
+              "duration": 0.09,
               "error": null
             },
             {
@@ -59,9 +59,9 @@
             "tests": 2,
             "pending": 0,
             "failures": 0,
-            "duration": 0.22,
-            "timeStart": 1483485666745,
-            "timeStop": 1483485666961
+            "duration": 0.2,
+            "timeStart": 1483486214001,
+            "timeStop": 1483486214196
           }
         }
       ],
@@ -70,7 +70,7 @@
           "status": 1,
           "title": "should be displayed",
           "fullTitle": "auth settings modal should be displayed",
-          "duration": 0.33,
+          "duration": 0.31,
           "error": null
         }
       ],
@@ -78,9 +78,9 @@
         "tests": 3,
         "pending": 0,
         "failures": 0,
-        "duration": 0.54,
-        "timeStart": 1483485666417,
-        "timeStop": 1483485666961
+        "duration": 0.5,
+        "timeStart": 1483486213694,
+        "timeStop": 1483486214196
       }
     },
     {
@@ -112,8 +112,8 @@
             "pending": 0,
             "failures": 0,
             "duration": 0.2,
-            "timeStart": 1483485667105,
-            "timeStop": 1483485667300
+            "timeStart": 1483486214300,
+            "timeStop": 1483486214497
           }
         }
       ],
@@ -122,7 +122,7 @@
           "status": 1,
           "title": "should be displayed",
           "fullTitle": "auth logout modal should be displayed",
-          "duration": 0.14,
+          "duration": 0.1,
           "error": null
         }
       ],
@@ -130,9 +130,9 @@
         "tests": 3,
         "pending": 0,
         "failures": 0,
-        "duration": 0.34,
-        "timeStart": 1483485666961,
-        "timeStop": 1483485667300
+        "duration": 0.3,
+        "timeStart": 1483486214196,
+        "timeStop": 1483486214498
       }
     },
     {
@@ -155,7 +155,7 @@
               "status": 1,
               "title": "should be clicked",
               "fullTitle": "auth settings modal logout button should be clicked",
-              "duration": 0.1,
+              "duration": 0.19,
               "error": null
             }
           ],
@@ -163,9 +163,9 @@
             "tests": 2,
             "pending": 0,
             "failures": 0,
-            "duration": 0.15,
-            "timeStart": 1483485667350,
-            "timeStop": 1483485667500
+            "duration": 0.24,
+            "timeStart": 1483486214552,
+            "timeStop": 1483486214790
           }
         }
       ],
@@ -182,9 +182,9 @@
         "tests": 3,
         "pending": 0,
         "failures": 0,
-        "duration": 0.2,
-        "timeStart": 1483485667301,
-        "timeStop": 1483485667500
+        "duration": 0.29,
+        "timeStart": 1483486214498,
+        "timeStop": 1483486214790
       }
     },
     {
@@ -200,7 +200,7 @@
               "status": 1,
               "title": "should be displayed",
               "fullTitle": "auth logout modal submit button should be displayed",
-              "duration": 0.08,
+              "duration": 0.07,
               "error": null
             },
             {
@@ -216,8 +216,8 @@
             "pending": 0,
             "failures": 0,
             "duration": 0.18,
-            "timeStart": 1483485667578,
-            "timeStop": 1483485667762
+            "timeStart": 1483486214859,
+            "timeStop": 1483486215034
           }
         },
         {
@@ -238,8 +238,8 @@
             "pending": 0,
             "failures": 0,
             "duration": 0.05,
-            "timeStart": 1483485667763,
-            "timeStop": 1483485667813
+            "timeStart": 1483486215034,
+            "timeStop": 1483486215082
           }
         }
       ],
@@ -248,7 +248,7 @@
           "status": 1,
           "title": "should be displayed",
           "fullTitle": "auth logout modal should be displayed",
-          "duration": 0.08,
+          "duration": 0.07,
           "error": null
         }
       ],
@@ -256,9 +256,9 @@
         "tests": 4,
         "pending": 0,
         "failures": 0,
-        "duration": 0.31,
-        "timeStart": 1483485667500,
-        "timeStop": 1483485667813
+        "duration": 0.29,
+        "timeStart": 1483486214790,
+        "timeStop": 1483486215082
       }
     },
     {
@@ -274,14 +274,14 @@
               "status": 1,
               "title": "should be displayed",
               "fullTitle": "auth settings modal register button should be displayed",
-              "duration": 0.08,
+              "duration": 0.07,
               "error": null
             },
             {
               "status": 1,
               "title": "should be clicked",
               "fullTitle": "auth settings modal register button should be clicked",
-              "duration": 0.11,
+              "duration": 0.1,
               "error": null
             }
           ],
@@ -289,9 +289,9 @@
             "tests": 2,
             "pending": 0,
             "failures": 0,
-            "duration": 0.19,
-            "timeStart": 1483485667855,
-            "timeStop": 1483485668045
+            "duration": 0.17,
+            "timeStart": 1483486215119,
+            "timeStop": 1483486215285
           }
         }
       ],
@@ -308,9 +308,9 @@
         "tests": 3,
         "pending": 0,
         "failures": 0,
-        "duration": 0.23,
-        "timeStart": 1483485667813,
-        "timeStop": 1483485668045
+        "duration": 0.2,
+        "timeStart": 1483486215082,
+        "timeStop": 1483486215285
       }
     },
     {
@@ -326,7 +326,7 @@
               "status": 1,
               "title": "should be displayed",
               "fullTitle": "auth register modal passphrase input should be displayed",
-              "duration": 0.08,
+              "duration": 0.07,
               "error": null
             },
             {
@@ -342,8 +342,8 @@
             "pending": 0,
             "failures": 0,
             "duration": 0.12,
-            "timeStart": 1483485668170,
-            "timeStop": 1483485668293
+            "timeStart": 1483486215395,
+            "timeStop": 1483486215511
           }
         },
         {
@@ -355,14 +355,14 @@
               "status": 1,
               "title": "should be displayed",
               "fullTitle": "auth register modal passphrase confirmation input should be displayed",
-              "duration": 0.09,
+              "duration": 0.07,
               "error": null
             },
             {
               "status": 1,
               "title": "type should be \"password\"",
               "fullTitle": "auth register modal passphrase confirmation input type should be \"password\"",
-              "duration": 0.05,
+              "duration": 0.04,
               "error": null
             }
           ],
@@ -370,9 +370,9 @@
             "tests": 2,
             "pending": 0,
             "failures": 0,
-            "duration": 0.14,
-            "timeStart": 1483485668294,
-            "timeStop": 1483485668429
+            "duration": 0.11,
+            "timeStart": 1483486215511,
+            "timeStop": 1483486215620
           }
         },
         {
@@ -384,14 +384,14 @@
               "status": 1,
               "title": "should be displayed",
               "fullTitle": "auth register modal show passphrase checkbox should be displayed",
-              "duration": 0.08,
+              "duration": 0.07,
               "error": null
             },
             {
               "status": 1,
               "title": "should be clicked \"passphrase\"",
               "fullTitle": "auth register modal show passphrase checkbox should be clicked \"passphrase\"",
-              "duration": 0.12,
+              "duration": 0.11,
               "error": null
             },
             {
@@ -405,7 +405,7 @@
               "status": 1,
               "title": "should have changed passphrase confirmation input type to \"text\"",
               "fullTitle": "auth register modal show passphrase checkbox should have changed passphrase confirmation input type to \"text\"",
-              "duration": 0.04,
+              "duration": 0.05,
               "error": null
             }
           ],
@@ -413,9 +413,9 @@
             "tests": 4,
             "pending": 0,
             "failures": 0,
-            "duration": 0.28,
-            "timeStart": 1483485668429,
-            "timeStop": 1483485668707
+            "duration": 0.27,
+            "timeStart": 1483486215620,
+            "timeStop": 1483486215894
           }
         },
         {
@@ -427,7 +427,7 @@
               "status": 1,
               "title": "should be displayed",
               "fullTitle": "auth register modal cancel button should be displayed",
-              "duration": 0.09,
+              "duration": 0.07,
               "error": null
             }
           ],
@@ -435,9 +435,9 @@
             "tests": 1,
             "pending": 0,
             "failures": 0,
-            "duration": 0.09,
-            "timeStart": 1483485668707,
-            "timeStop": 1483485668800
+            "duration": 0.07,
+            "timeStart": 1483486215894,
+            "timeStop": 1483486215966
           }
         },
         {
@@ -449,14 +449,14 @@
               "status": 1,
               "title": "should be displayed",
               "fullTitle": "auth register modal submit button should be displayed",
-              "duration": 0.07,
+              "duration": 0.08,
               "error": null
             },
             {
               "status": 1,
               "title": "should be clicked",
               "fullTitle": "auth register modal submit button should be clicked",
-              "duration": 0.24,
+              "duration": 0.11,
               "error": null
             }
           ],
@@ -464,9 +464,9 @@
             "tests": 2,
             "pending": 0,
             "failures": 0,
-            "duration": 0.32,
-            "timeStart": 1483485668800,
-            "timeStop": 1483485669115
+            "duration": 0.19,
+            "timeStart": 1483486215967,
+            "timeStop": 1483486216158
           }
         },
         {
@@ -478,7 +478,7 @@
               "status": 1,
               "title": "should be displayed",
               "fullTitle": "auth register modal growl message should be displayed",
-              "duration": 0.08,
+              "duration": 0.07,
               "error": null
             },
             {
@@ -492,7 +492,7 @@
               "status": 1,
               "title": "should have blurb passphrase_required",
               "fullTitle": "auth register modal growl message should have blurb passphrase_required",
-              "duration": 0.08,
+              "duration": 0.06,
               "error": null
             }
           ],
@@ -500,9 +500,9 @@
             "tests": 3,
             "pending": 0,
             "failures": 0,
-            "duration": 0.2,
-            "timeStart": 1483485669115,
-            "timeStop": 1483485669313
+            "duration": 0.17,
+            "timeStart": 1483486216158,
+            "timeStop": 1483486216328
           }
         },
         {
@@ -514,7 +514,7 @@
               "status": 1,
               "title": "should be send keys \"passphrase\"",
               "fullTitle": "auth register modal passphrase input should be send keys \"passphrase\"",
-              "duration": 0.13,
+              "duration": 0.11,
               "error": null
             }
           ],
@@ -522,9 +522,9 @@
             "tests": 1,
             "pending": 0,
             "failures": 0,
-            "duration": 0.13,
-            "timeStart": 1483485669313,
-            "timeStop": 1483485669440
+            "duration": 0.11,
+            "timeStart": 1483486216328,
+            "timeStop": 1483486216439
           }
         },
         {
@@ -536,7 +536,7 @@
               "status": 1,
               "title": "should be clicked",
               "fullTitle": "auth register modal submit button should be clicked",
-              "duration": 0.08,
+              "duration": 0.06,
               "error": null
             }
           ],
@@ -544,9 +544,9 @@
             "tests": 1,
             "pending": 0,
             "failures": 0,
-            "duration": 0.08,
-            "timeStart": 1483485669440,
-            "timeStop": 1483485669517
+            "duration": 0.07,
+            "timeStart": 1483486216439,
+            "timeStop": 1483486216504
           }
         },
         {
@@ -558,21 +558,21 @@
               "status": 1,
               "title": "should be displayed",
               "fullTitle": "auth register modal growl message should be displayed",
-              "duration": 0.07,
+              "duration": 0.06,
               "error": null
             },
             {
               "status": 1,
               "title": "should be error",
               "fullTitle": "auth register modal growl message should be error",
-              "duration": 0.05,
+              "duration": 0.04,
               "error": null
             },
             {
               "status": 1,
               "title": "should have blurb passphrase_mismatch",
               "fullTitle": "auth register modal growl message should have blurb passphrase_mismatch",
-              "duration": 0.13,
+              "duration": 0.07,
               "error": null
             }
           ],
@@ -580,9 +580,9 @@
             "tests": 3,
             "pending": 0,
             "failures": 0,
-            "duration": 0.25,
-            "timeStart": 1483485669518,
-            "timeStop": 1483485669770
+            "duration": 0.18,
+            "timeStart": 1483486216505,
+            "timeStop": 1483486216683
           }
         },
         {
@@ -594,7 +594,7 @@
               "status": 1,
               "title": "should be send keys \"passphrase\"",
               "fullTitle": "auth register modal passphrase confirmation input should be send keys \"passphrase\"",
-              "duration": 0.12,
+              "duration": 0.1,
               "error": null
             }
           ],
@@ -602,9 +602,9 @@
             "tests": 1,
             "pending": 0,
             "failures": 0,
-            "duration": 0.12,
-            "timeStart": 1483485669770,
-            "timeStop": 1483485669894
+            "duration": 0.1,
+            "timeStart": 1483486216684,
+            "timeStop": 1483486216785
           }
         },
         {
@@ -616,7 +616,7 @@
               "status": 1,
               "title": "should be clicked",
               "fullTitle": "auth register modal submit button should be clicked",
-              "duration": 0.15,
+              "duration": 0.12,
               "error": null
             }
           ],
@@ -624,9 +624,9 @@
             "tests": 1,
             "pending": 0,
             "failures": 0,
-            "duration": 0.16,
-            "timeStart": 1483485669895,
-            "timeStop": 1483485670051
+            "duration": 0.12,
+            "timeStart": 1483486216785,
+            "timeStop": 1483486216905
           }
         },
         {
@@ -652,7 +652,7 @@
               "status": 1,
               "title": "should have blurb registration_successful",
               "fullTitle": "auth register modal growl message should have blurb registration_successful",
-              "duration": 0.09,
+              "duration": 0.08,
               "error": null
             }
           ],
@@ -661,8 +661,8 @@
             "pending": 0,
             "failures": 0,
             "duration": 0.39,
-            "timeStart": 1483485670051,
-            "timeStop": 1483485670439
+            "timeStart": 1483486216905,
+            "timeStop": 1483486217291
           }
         }
       ],
@@ -671,7 +671,7 @@
           "status": 1,
           "title": "should be displayed",
           "fullTitle": "auth register modal should be displayed",
-          "duration": 0.12,
+          "duration": 0.11,
           "error": null
         }
       ],
@@ -679,9 +679,9 @@
         "tests": 25,
         "pending": 0,
         "failures": 0,
-        "duration": 2.39,
-        "timeStart": 1483485668046,
-        "timeStop": 1483485670439
+        "duration": 2.01,
+        "timeStart": 1483486215286,
+        "timeStop": 1483486217291
       }
     },
     {
@@ -706,8 +706,8 @@
             "pending": 0,
             "failures": 0,
             "duration": 0.15,
-            "timeStart": 1483485670534,
-            "timeStop": 1483485670679
+            "timeStart": 1483486217385,
+            "timeStop": 1483486217537
           }
         },
         {
@@ -719,7 +719,7 @@
               "status": 1,
               "title": "should be displayed",
               "fullTitle": "auth login modal growl message should be displayed",
-              "duration": 0.07,
+              "duration": 0.08,
               "error": null
             },
             {
@@ -733,7 +733,7 @@
               "status": 1,
               "title": "should have blurb authfile_required",
               "fullTitle": "auth login modal growl message should have blurb authfile_required",
-              "duration": 0.09,
+              "duration": 0.07,
               "error": null
             }
           ],
@@ -741,9 +741,9 @@
             "tests": 3,
             "pending": 0,
             "failures": 0,
-            "duration": 0.21,
-            "timeStart": 1483485670679,
-            "timeStop": 1483485670889
+            "duration": 0.19,
+            "timeStart": 1483486217538,
+            "timeStop": 1483486217732
           }
         },
         {
@@ -755,14 +755,14 @@
               "status": 1,
               "title": "should be displayed",
               "fullTitle": "auth login modal authfile select input should be displayed",
-              "duration": 0.11,
+              "duration": 0.08,
               "error": null
             },
             {
               "status": 1,
               "title": "should be sent path to authfile",
               "fullTitle": "auth login modal authfile select input should be sent path to authfile",
-              "duration": 0.11,
+              "duration": 0.08,
               "error": null
             }
           ],
@@ -770,9 +770,9 @@
             "tests": 2,
             "pending": 0,
             "failures": 0,
-            "duration": 0.23,
-            "timeStart": 1483485670889,
-            "timeStop": 1483485671118
+            "duration": 0.16,
+            "timeStart": 1483486217733,
+            "timeStop": 1483486217895
           }
         },
         {
@@ -799,9 +799,9 @@
             "tests": 2,
             "pending": 0,
             "failures": 0,
-            "duration": 0.2,
-            "timeStart": 1483485671118,
-            "timeStop": 1483485671313
+            "duration": 0.18,
+            "timeStart": 1483486217895,
+            "timeStop": 1483486218076
           }
         },
         {
@@ -813,14 +813,14 @@
               "status": 1,
               "title": "should be displayed",
               "fullTitle": "auth login modal authfile should be displayed",
-              "duration": 0.08,
+              "duration": 0.09,
               "error": null
             },
             {
               "status": 1,
               "title": "should match authfile",
               "fullTitle": "auth login modal authfile should match authfile",
-              "duration": 0.08,
+              "duration": 0.06,
               "error": null
             }
           ],
@@ -828,103 +828,9 @@
             "tests": 2,
             "pending": 0,
             "failures": 0,
-            "duration": 0.16,
-            "timeStart": 1483485671313,
-            "timeStop": 1483485671471
-          }
-        },
-        {
-          "title": "submit button",
-          "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
-          "suites": [],
-          "tests": [
-            {
-              "status": 1,
-              "title": "should be clicked",
-              "fullTitle": "auth login modal submit button should be clicked",
-              "duration": 0.09,
-              "error": null
-            }
-          ],
-          "stats": {
-            "tests": 1,
-            "pending": 0,
-            "failures": 0,
-            "duration": 0.09,
-            "timeStart": 1483485671471,
-            "timeStop": 1483485671561
-          }
-        },
-        {
-          "title": "growl message",
-          "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
-          "suites": [],
-          "tests": [
-            {
-              "status": 1,
-              "title": "should be displayed",
-              "fullTitle": "auth login modal growl message should be displayed",
-              "duration": 0.07,
-              "error": null
-            },
-            {
-              "status": 1,
-              "title": "should be error",
-              "fullTitle": "auth login modal growl message should be error",
-              "duration": 0.05,
-              "error": null
-            },
-            {
-              "status": 1,
-              "title": "should have blurb passphrase_required",
-              "fullTitle": "auth login modal growl message should have blurb passphrase_required",
-              "duration": 0.08,
-              "error": null
-            }
-          ],
-          "stats": {
-            "tests": 3,
-            "pending": 0,
-            "failures": 0,
-            "duration": 0.2,
-            "timeStart": 1483485671561,
-            "timeStop": 1483485671757
-          }
-        },
-        {
-          "title": "passphrase input",
-          "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
-          "suites": [],
-          "tests": [
-            {
-              "status": 1,
-              "title": "should be displayed",
-              "fullTitle": "auth login modal passphrase input should be displayed",
-              "duration": 0.09,
-              "error": null
-            },
-            {
-              "status": 1,
-              "title": "type should be \"password\"",
-              "fullTitle": "auth login modal passphrase input type should be \"password\"",
-              "duration": 0.05,
-              "error": null
-            },
-            {
-              "status": 1,
-              "title": "type should be sent keys \"pass\"",
-              "fullTitle": "auth login modal passphrase input type should be sent keys \"pass\"",
-              "duration": 0.13,
-              "error": null
-            }
-          ],
-          "stats": {
-            "tests": 3,
-            "pending": 0,
-            "failures": 0,
-            "duration": 0.28,
-            "timeStart": 1483485671757,
-            "timeStop": 1483485672034
+            "duration": 0.15,
+            "timeStart": 1483486218076,
+            "timeStop": 1483486218229
           }
         },
         {
@@ -945,8 +851,8 @@
             "pending": 0,
             "failures": 0,
             "duration": 0.1,
-            "timeStart": 1483485672034,
-            "timeStop": 1483485672133
+            "timeStart": 1483486218229,
+            "timeStop": 1483486218333
           }
         },
         {
@@ -958,20 +864,56 @@
               "status": 1,
               "title": "should be displayed",
               "fullTitle": "auth login modal growl message should be displayed",
-              "duration": 0.08,
+              "duration": 0.06,
               "error": null
             },
             {
               "status": 1,
               "title": "should be error",
               "fullTitle": "auth login modal growl message should be error",
+              "duration": 0.04,
+              "error": null
+            },
+            {
+              "status": 1,
+              "title": "should have blurb passphrase_required",
+              "fullTitle": "auth login modal growl message should have blurb passphrase_required",
+              "duration": 0.06,
+              "error": null
+            }
+          ],
+          "stats": {
+            "tests": 3,
+            "pending": 0,
+            "failures": 0,
+            "duration": 0.15,
+            "timeStart": 1483486218333,
+            "timeStop": 1483486218487
+          }
+        },
+        {
+          "title": "passphrase input",
+          "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
+          "suites": [],
+          "tests": [
+            {
+              "status": 1,
+              "title": "should be displayed",
+              "fullTitle": "auth login modal passphrase input should be displayed",
+              "duration": 0.08,
+              "error": null
+            },
+            {
+              "status": 1,
+              "title": "type should be \"password\"",
+              "fullTitle": "auth login modal passphrase input type should be \"password\"",
               "duration": 0.05,
               "error": null
             },
             {
               "status": 1,
-              "title": "should have blurb could_not_decrypt_authfile",
-              "fullTitle": "auth login modal growl message should have blurb could_not_decrypt_authfile",
+              "title": "type should be sent keys \"pass\"",
+              "fullTitle": "auth login modal passphrase input type should be sent keys \"pass\"",
               "duration": 0.1,
               "error": null
             }
@@ -980,9 +922,67 @@
             "tests": 3,
             "pending": 0,
             "failures": 0,
-            "duration": 0.23,
-            "timeStart": 1483485672134,
-            "timeStop": 1483485672359
+            "duration": 0.22,
+            "timeStart": 1483486218487,
+            "timeStop": 1483486218708
+          }
+        },
+        {
+          "title": "submit button",
+          "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
+          "suites": [],
+          "tests": [
+            {
+              "status": 1,
+              "title": "should be clicked",
+              "fullTitle": "auth login modal submit button should be clicked",
+              "duration": 0.08,
+              "error": null
+            }
+          ],
+          "stats": {
+            "tests": 1,
+            "pending": 0,
+            "failures": 0,
+            "duration": 0.08,
+            "timeStart": 1483486218708,
+            "timeStop": 1483486218786
+          }
+        },
+        {
+          "title": "growl message",
+          "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
+          "suites": [],
+          "tests": [
+            {
+              "status": 1,
+              "title": "should be displayed",
+              "fullTitle": "auth login modal growl message should be displayed",
+              "duration": 0.06,
+              "error": null
+            },
+            {
+              "status": 1,
+              "title": "should be error",
+              "fullTitle": "auth login modal growl message should be error",
+              "duration": 0.04,
+              "error": null
+            },
+            {
+              "status": 1,
+              "title": "should have blurb could_not_decrypt_authfile",
+              "fullTitle": "auth login modal growl message should have blurb could_not_decrypt_authfile",
+              "duration": 0.07,
+              "error": null
+            }
+          ],
+          "stats": {
+            "tests": 3,
+            "pending": 0,
+            "failures": 0,
+            "duration": 0.18,
+            "timeStart": 1483486218786,
+            "timeStop": 1483486218966
           }
         },
         {
@@ -994,7 +994,7 @@
               "status": 1,
               "title": "type should be sent keys \"word\"",
               "fullTitle": "auth login modal passphrase input type should be sent keys \"word\"",
-              "duration": 0.07,
+              "duration": 0.06,
               "error": null
             }
           ],
@@ -1002,9 +1002,9 @@
             "tests": 1,
             "pending": 0,
             "failures": 0,
-            "duration": 0.07,
-            "timeStart": 1483485672359,
-            "timeStop": 1483485672431
+            "duration": 0.06,
+            "timeStart": 1483486218966,
+            "timeStop": 1483486219027
           }
         },
         {
@@ -1016,14 +1016,14 @@
               "status": 1,
               "title": "should be displayed",
               "fullTitle": "auth login modal show passphrase checkbox should be displayed",
-              "duration": 0.1,
+              "duration": 0.08,
               "error": null
             },
             {
               "status": 1,
               "title": "should be clicked \"passphrase\"",
               "fullTitle": "auth login modal show passphrase checkbox should be clicked \"passphrase\"",
-              "duration": 0.13,
+              "duration": 0.11,
               "error": null
             },
             {
@@ -1038,9 +1038,9 @@
             "tests": 3,
             "pending": 0,
             "failures": 0,
-            "duration": 0.28,
-            "timeStart": 1483485672431,
-            "timeStop": 1483485672708
+            "duration": 0.22,
+            "timeStart": 1483486219027,
+            "timeStop": 1483486219250
           }
         },
         {
@@ -1052,7 +1052,7 @@
               "status": 1,
               "title": "should be clicked",
               "fullTitle": "auth login modal submit button should be clicked",
-              "duration": 0.15,
+              "duration": 0.05,
               "error": null
             }
           ],
@@ -1060,9 +1060,9 @@
             "tests": 1,
             "pending": 0,
             "failures": 0,
-            "duration": 0.16,
-            "timeStart": 1483485672708,
-            "timeStop": 1483485672863
+            "duration": 0.05,
+            "timeStart": 1483486219250,
+            "timeStop": 1483486219304
           }
         },
         {
@@ -1074,21 +1074,21 @@
               "status": 1,
               "title": "should be displayed",
               "fullTitle": "auth login modal growl message should be displayed",
-              "duration": 0.09,
+              "duration": 0.26,
               "error": null
             },
             {
               "status": 1,
               "title": "should be success",
               "fullTitle": "auth login modal growl message should be success",
-              "duration": 0.07,
+              "duration": 0.04,
               "error": null
             },
             {
               "status": 1,
               "title": "should have blurb login_successful",
               "fullTitle": "auth login modal growl message should have blurb login_successful",
-              "duration": 0.07,
+              "duration": 0.06,
               "error": null
             }
           ],
@@ -1096,9 +1096,9 @@
             "tests": 3,
             "pending": 0,
             "failures": 0,
-            "duration": 0.23,
-            "timeStart": 1483485672863,
-            "timeStop": 1483485673094
+            "duration": 0.35,
+            "timeStart": 1483486219304,
+            "timeStop": 1483486219656
           }
         }
       ],
@@ -1115,9 +1115,9 @@
         "tests": 30,
         "pending": 0,
         "failures": 0,
-        "duration": 2.66,
-        "timeStart": 1483485670439,
-        "timeStop": 1483485673094
+        "duration": 2.36,
+        "timeStart": 1483486217292,
+        "timeStop": 1483486219656
       }
     },
     {
@@ -1133,7 +1133,7 @@
               "status": 1,
               "title": "should be displayed",
               "fullTitle": "auth settings modal profile address should be displayed",
-              "duration": 0.08,
+              "duration": 0.07,
               "error": null
             },
             {
@@ -1148,9 +1148,9 @@
             "tests": 2,
             "pending": 0,
             "failures": 0,
-            "duration": 0.14,
-            "timeStart": 1483485673140,
-            "timeStop": 1483485673280
+            "duration": 0.12,
+            "timeStart": 1483486219694,
+            "timeStop": 1483486219817
           }
         }
       ],
@@ -1159,7 +1159,7 @@
           "status": 1,
           "title": "should be displayed",
           "fullTitle": "auth settings modal should be displayed",
-          "duration": 0.05,
+          "duration": 0.04,
           "error": null
         }
       ],
@@ -1167,9 +1167,9 @@
         "tests": 3,
         "pending": 0,
         "failures": 0,
-        "duration": 0.19,
-        "timeStart": 1483485673094,
-        "timeStop": 1483485673280
+        "duration": 0.16,
+        "timeStart": 1483486219656,
+        "timeStop": 1483486219817
       }
     }
   ],
@@ -1178,8 +1178,8 @@
     "tests": 76,
     "pending": 0,
     "failures": 0,
-    "duration": 7.1,
-    "timeStart": 1483485666176,
-    "timeStop": 1483485673280
+    "duration": 6.43,
+    "timeStart": 1483486213385,
+    "timeStop": 1483486219817
   }
 }
