@@ -31,10 +31,14 @@
             </td>
         </tr>
         <tr>
-            <td>Currency</td>
-            <td>
-                <select type="text" ng-model="currency" class="form-control" ng-options="currency as currency.to('ascii') for currency in currencies"></select>
-            </td>
+          <td>Currency</td>
+          <td>
+            <select type="text" ng-model="currency" class="form-control" ng-options="currency as currency.to('ascii') for currency in currencies"></select>
+          </td>
+        </tr>
+        <tr>
+          <td>Country</td>
+          <td country-select="country"></td>
         </tr>
         <tr ng-if="profile">
           <td>Logout</td>

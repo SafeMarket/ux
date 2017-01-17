@@ -22,14 +22,14 @@ describe('setTickerPrices', () => {
   })
 
   it('get WEI price as 1', () => {
-    solWrapper.get(
+    solWrapper.fetch(
       'getPrice(bytes4)',
       [currencies.WEI]
     ).should.eventually.amorphTo('number').equal(1)
   })
 
   it('get ETH price as 11000000000000000000', () => {
-    solWrapper.get(
+    solWrapper.fetch(
       'getPrice(bytes4)',
       [currencies.ETH]
     ).should.eventually.amorphTo('number').equal(1000000000000000000)

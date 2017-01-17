@@ -16,7 +16,6 @@ describe('deploy', () => {
 
   it('should have correct runtimeBytecodes', () => {
     const promises = _.map(contractAddresses, (contractAddress, contractName) => {
-      console.log('test', contractName, contractAddress)
       return ultralightbeam.eth.getCode(contractAddress, blockFlags.latest).should.eventually.amorphEqual(
         contracts[contractName].runtimeBytecode, 'hex'
       )

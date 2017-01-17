@@ -10,6 +10,12 @@ module.exports = {
   resolve: {
     modulesDirectories: ['node_modules', 'bower_components']
   },
+  node: {
+    fs: false
+  },
+  browser: {
+    fs: false
+  },
   plugins: [
     new webpack.ResolverPlugin(
       new webpack.ResolverPlugin.DirectoryDescriptionFilePlugin('.bower.json', ['main'])

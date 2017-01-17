@@ -1,6 +1,7 @@
 @import url(./node_modules/bootstrap/dist/css/bootstrap.css);
 @import url(./node_modules/angular-ui-bootstrap/dist/ui-bootstrap-csp.css);
 @import url(./bower_components/angular-growl-v2/build/angular-growl.min.css);
+@import url(./css/flags16.css);
 
 body{
   padding:0 0 80px 0;
@@ -155,7 +156,7 @@ h3 .btn{float: right}
   max-width: 200px;
 }
 
-.authfile {
+.monospace {
   word-wrap: break-word;
   font-size: small;
   font-family: monospace;

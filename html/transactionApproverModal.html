@@ -5,7 +5,10 @@
   <div class="alert alert-danger" ng-if="isTotalCostGreaterThanBalance">
     Total Cost of this transaction exceeds available balance
   </div>
-  <table class="table">
+  <div class="alert alert-info" ng-if="!isReady">
+    Simulating gas costs...
+  </div>
+  <table class="table" ng-show="isReady">
     <tr>
       <td>From</td><td address="from.address"></td>
     </tr>
@@ -18,8 +21,16 @@
     <tr>
       <td>Value</td><td pricemorph="valuePricemorph"></td>
     </tr>
+    <tr ng-if="data">
+      <td>Data</td><td><div class="monospace">{{data.to('hex.prefixed')}}</div></td>
+    </tr>
     <tr>
       <td>Gas</td><td>{{gas.to('number')}}</td>
+    </tr>
+    <tr>
+      <td>Gas Multiplier: x{{gasMultiplier}}</td><td>
+        <input type="range" ng-model="gasMultiplier" class="form-control" min="1" max="5" step=".1">
+      </td>
     </tr>
     <tr>
       <td>

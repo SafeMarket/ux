@@ -29,10 +29,10 @@ module.exports = function setTickerPrices(tickerAddress) {
       const pricemorph = new Pricemorph(one, currencyAscii)
       const weiPrice = pricemorph.to('WEI')
       console.log(`1 ${currencyAscii} = ${weiPrice.to('number')} WEI`)
-      return solWrapper.set(
+      return solWrapper.broadcast(
         'setPrice(bytes4,uint256)',
         [new Amorph(currencyAscii, 'ascii'), weiPrice]
-      )
+      ).transactionPromise
     })
     return Q.all(promises)
   })

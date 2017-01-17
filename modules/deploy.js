@@ -3,7 +3,7 @@ const ultralightbeam = require('../lib/ultralightbeam')
 const SolDeployTransactionRequest = require('ultralightbeam/lib/SolDeployTransactionRequest')
 const Q = require('q')
 
-const contractNames = ['Ticker', 'AliasReg']
+const contractNames = ['Ticker', 'AliasReg', 'Multiprox']
 
 
 module.exports = function deploy() {
