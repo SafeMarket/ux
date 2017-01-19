@@ -10,7 +10,6 @@ module.exports = function deploy() {
   const contractAddresses = {}
   const deployments = []
   contractNames.forEach((contractName) => {
-    console.log(`Deploying ${contractName}`)
     const transactionRequest = new SolDeployTransactionRequest(
       contracts[contractName].bytecode,
       contracts[contractName].abi,

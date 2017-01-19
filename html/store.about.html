@@ -1,63 +1,39 @@
-<table class="table">
+<table class="table" ng-controller="StoreProducts">
+	<tr>
+		<td>Address</td>
+		<td class="oneliner">{{store.address.to('hex.prefixed')}}</td>
+	</tr>
 	<tr>
 		<td>Status</td>
-		<td>{{store.infosphered.data.isOpen ? 'Open' : 'Closed'}}</td>
+		<td>{{store.isOpen.to('boolean') ? 'Open' : 'Closed'}}</td>
 	</tr>
 	<tr>
 		<td>Location</td>
-		<td country="store.meta.base"></td>
+		<td>{{store.base.name}}</td>
 	</tr>
 	<tr>
 		<td>Shipping</td>
 		<td>
 			<div ng-repeat="transport in store.transports">
-				<span ng-if="!transport.isGlobal" country="transport.to"></span>
-				<span ng-if="transport.isGlobal">Globally</span>
-				({{transport.name}})
+				{{transport.getLabel()}}
 			</div>
 		</td>
 	</tr>
 	<tr>
 		<td>Dispute Resolution Time</td>
-		<td>{{store.infosphered.data.disputeSeconds | disputeSeconds}}</td>
+		<td>{{store.disputeSecondsOption.label}}</td>
 	</tr>
 	<tr>
 		<td>Exchange Rate Buffer</td>
-		<td>{{store.infosphered.data.bufferCentiperun.toNumber()}}%</td>
+		<td>{{store.bufferCentiperun.to('number')}}%</td>
 	</tr>
 	<tr>
 		<td>Minimum Products Total</td>
-		<td><amounts value="store.minProductsTotal.in(store.currency)" from="store.currency" to="displayCurrencies"></amounts></td>
+		<td>{{store.minProductsTotal.to(store.currency.to('ascii')).to('number')}} {{store.currency.to('ascii')}}</td>
 	</tr>
 	<tr>
 		<td>Affiliate Fee</td>
-		<td>{{store.infosphered.data.affiliateFeeCentiperun.toNumber()}}%</td>
+		<td>{{store.affiliateFeeCentiperun.to('number')}}%</td>
 	</tr>
-	<tr ng-show="store.reviews.length>0">
-		<td>Reviews ({{store.averageScore.toFixed(1).toString()}})</td>
-		<td><table class="table">
-			<tr ng-repeat="scoreCount in store.scoreCountsReversed track by $index">
-				<td>{{5-$index}} ({{scoreCount}})</td>
-				<td>
-					<progressbar value="scoreCount/store.scoreCountsTotal" max="1"></progressbar>
-				</td>
-				<td>{{scoreCount/store.scoreCountsTotal | perun}}</td>
-			</tr>
-		</table></td>
-	</tr>
-	<tbody collapsable is-collapsed="true">
-		<tr>
-			<td>Address</td>
-			<td class="oneliner">{{store.addr}}</td>
-		</tr>
-		<tr>
-			<td>Owner</td>
-			<td class="oneliner">{{store.owner}}</td>
-		</tr>
-		<tr>
-			<td>Public Key</td>
-			<td key="store.key"></td>
-		</tr>
-	</tbody>
 </table>
 <div marked="store.info"></div>

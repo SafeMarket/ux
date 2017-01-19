@@ -1,21 +1,25 @@
-<div alias-bar="{{store.alias}}"></div>
-<h1>
-	<span id="name">{{store.meta.name}}</span>
-	<button
-		ng-show="account === store.owner"
-		class="btn btn-default"
-		ng-click="openStoreModal(store)"
-    id="open-store-modal-button"
-	>
-		Edit Store
-	</button>
-</h1>
-<tabset>
-    <tab
+<div alias-bar></div>
+<div class="alert alert-info" ng-show="!store.isReady">
+	Loading Store
+</div>
+<div ng-if="store && store.isReady">
+	<h1>
+		<span id="name">{{store.name}}</span>
+		<button
+			class="btn btn-default"
+			ng-click="editStore()"
+	    id="open-store-modal-button"
+		>
+			Edit Store
+		</button>
+	</h1>
+	<uib-tabset active="activeTabIndex">
+    <uib-tab
         ng-repeat="tab in tabs"
         heading="{{tab.heading}}"
         select="go(tab.route)"
-        active="tab.active">
-    </tab>
-</tabset>
-<div ui-view></div>
+    >
+    </uib-tab>
+	</uib-tabset>
+	<div ui-view></div>
+</div>

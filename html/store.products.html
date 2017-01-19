@@ -1,6 +1,6 @@
-<div ng-controller="ProductsController">
+<div ng-controller="StoreProducts">
 	<table class="table">
-		<tr ng-repeat="product in products">
+		<tr ng-repeat="product in store.products">
 			<td>
 				<div ng-repeat="img in product.imgs track by $index">
 					<img ipfs-img="img" class="product-image">
@@ -8,107 +8,37 @@
 			</td>
 			<td>
 				{{product.name}}
-				<div class="text-muted text-small">{{product.units.toString()}} Units Available</div>
+				<div class="text-muted text-small">{{product.units.to('number.string')}} Units Available</div>
 			</td>
 			<td>
 				{{product.info}}
 			</td>
+			<td pricemorph="product.price"></td>
 			<td>
-				<amounts
-					value="product.price.in(store.currency)"
-					from="store.currency"
-					to="displayCurrencies">
-				</amounts>
-			</td>
-			<td>
-				<input class="form-control" type="number" ng-model="product.quantity" min="0" max="{{product.units.toNumber()}}" ng-change="quantityChanged()">
+				<input class="form-control" type="number" ng-model="productUnits[$index]" min="0" max="{{product.units.to('number')}}" amorph-input="number" ng-change="onQuantitiesChanged()">
 			</td>
 		</tr>
 		<tr>
 			<td colspan="4"></td>
-			<td>
-				<amounts
-					value="productsTotal.in(store.currency)"
-					from="store.currency"
-					to="displayCurrencies">
-				</amounts>
-			</td>
+			<td pricemorph="productsTotal"></td>
 		</tr>
 		<tr>
 			<td>Transport</td>
 			<td colspan="3">
-				<select ng-model="transport" ng-options="getTransportLabel(transport) for transport in transports" class="form-control"></select>
+				<select ng-model="transport" ng-options="transport.getLabel() for transport in store.transports" class="form-control"></select>
 			</td>
-			<td>
-				<amounts
-					value="transport.price.in(store.currency)"
-					from="store.currency"
-					to="displayCurrencies">
-				</amounts>
-			</td>
+			<td pricemorph="transport.price"></td>
 		</tr>
 		<tr>
-			<td>Submarket Escrow</td>
-			<td colspan="3">
-				<select ng-model="submarketOption" ng-options="submarketOption.label for submarketOption in submarketOptions" class="form-control" id="escrow-select"></select>
-			</td>
-			<td>
-				<amounts
-					value="escrowFee.in(store.currency)"
-					from="store.currency"
-					to="displayCurrencies">
-				</amounts>
-			</td>
+			<td colspan="4">Exchange Rate Buffer ({{store.bufferCentiperun.to('number.string')}}%)</td>
+			<td pricemorph="buffer"></td>
 		</tr>
 		<tr>
-			<td colspan="4">Exchange Rate Buffer ({{store.infosphered.data.bufferCentiperun.toNumber()}}%)</td>
-			<td>
-				<amounts
-					value="buffer.in(store.currency)"
-					from="store.currency"
-					to="displayCurrencies">
-				</amounts>
-			</td>
-		</tr>
-		<tr>
-			<td colspan="4"></td>
-			<td>
-				<amounts
-					value="orderTotal.in(store.currency)"
-					from="store.currency"
-					to="displayCurrencies">
-				</amounts>
-			</td>
-		</tr>
-		<tr>
-			<td colspan="4">Safemarket Fee ({{safemarketFeeMilliperun.div(10).toString() | bigNumber}}%)</td>
-			<td>
-				<amounts
-					value="safemarketFee.in(store.currency)"
-					from="store.currency"
-					to="displayCurrencies">
-				</amounts>
-			</td>
-		</tr>
-		<tr>
-			<td colspan="4"></td>
-			<td>
-				<amounts
-					value="total.in(store.currency)"
-					from="store.currency"
-					to="displayCurrencies">
-				</amounts>
-			</td>
-		</tr>
-		<tr>
-			<td>Affiliate</td>
-			<td colspan="2">
-				<input class="form-control" ng-model="affiliateCodeOrAlias" placeholder="Optional">
-			</td>
-			<td colspan="2"></td>
+			<td colspan="4">Total</td>
+			<td pricemorph="total"></td>
 		</tr>
 	</table>
-    <div class="text-right">
-		<button ng-click="createOrder()" class="btn btn-primary btn-lg" id="create-order-button">Create Your Order</button>
+  <div class="text-right">
+	<button ng-click="createOrder()" class="btn btn-primary btn-lg" id="create-order-button">Create Your Order</button>
 	</div>
 </div>

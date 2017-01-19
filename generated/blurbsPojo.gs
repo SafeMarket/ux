@@ -17,6 +17,9 @@ module.exports = {
   "looking_up_alias": {
     "eng": "Looking up alias @%s"
   },
+  "no_updates": {
+    "eng": "Nothing to update"
+  },
   "passphrase_mismatch": {
     "eng": "Passphrases do not match"
   },

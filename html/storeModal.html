@@ -1,11 +1,11 @@
 <div class="modal-header">
-  <h3 class="modal-title" ng-cloak>{{isEditing?'Edit':'Create a'}} Store</h3>
+  <h3 class="modal-title" ng-cloak>{{store.address ? 'Edit':'Create a' }} Store</h3>
 </div>
 <div class="modal-body" id="store-modal-modal-body">
   <table class="table">
     <tr>
       <td>
-        Accept new Orders
+        Open
       </td>
       <td>
         <input type="checkbox" ng-model="store.isOpen" amorph-input="boolean">
@@ -30,7 +30,7 @@
     <tr>
       <td>Exchange Rate Buffer: <span ng-cloak>{{store.bufferCentiperun.to('number')}}</span>%</td>
       <td>
-        <input type="range" ng-model="store.bufferCentiperun" class="form-control" min="0" max="300" step="1" amorph-input="number">
+        <input type="range" ng-model="store.bufferCentiperun" class="form-control" min="0" max="100" step="1" amorph-input="number">
       </td>
     </tr>
     <tr>
@@ -38,7 +38,7 @@
         <div class="text-small text-muted">How long after shipping can buyers open a dispute?</div>
       </td>
       <td>
-        <select type="text" ng-model="store.disputeSeconds" class="form-control" ng-options="option.seconds as option.label for option in disputeSecondsOptions"></select>
+        <select type="text" ng-model="store.disputeSecondsOption" class="form-control" ng-options="option.label for option in disputeSecondsOptions"></select>
       </td>
     </tr>
     <tr>
@@ -78,10 +78,7 @@
       <tr>
         <td>Units Available</td>
         <td>
-          <label><input type="checkbox" ng-model="product.isUnitsLimited"> Limited Supply Available</label>
-          <div ng-if="product.isUnitsLimited">
-            <input amorph-input="number" type="number" ng-model="product.units" class="form-control" min="0" ng-required>
-          </div>
+          <input amorph-input="number" type="number" ng-model="product.units" class="form-control" min="0" ng-required>
         </td>
       </tr>
       <tr>
@@ -139,10 +136,9 @@
         <td pricemorph-input-group="transport.price" currency="store.currency"></td>
       </tr>
       <tr>
-        <td>Ships To <span flag="transport.to" ng-show="!transport.isGlobal"></span></td>
+        <td>Ships</td>
         <td>
-          <label><input type="checkbox" ng-model='transport.isGlobal'> Anywhere in the World</label>
-          <div country-select="transport.to" ng-if="!transport.isGlobal"></div>
+          <div place-select="transport.to"></div>
         </td>
       </tr>
       <tr ng-show="transport.index!==undefined">
