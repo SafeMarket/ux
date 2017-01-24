@@ -9,6 +9,8 @@
     "test": "mocha --require modules/chai -t 10000",
     "generate": "node --require colors --require ./modules/generate",
     "generate-blurbs-pojo": "node --require colors --require ./modules/generateBlurbsPojo",
+    "generate-protofile-utf8": "node --require colors --require ./modules/generateProtofileUtf8",
+    "add-protofile-to-ipfs": "node --require colors --require ./modules/addProtofileToIpfs",
     "protractor": "protractor protractor.conf.js"
   },
   "repository": {
@@ -28,6 +30,7 @@
     "amorph-buffer": "^1.0.0",
     "amorph-hex": "^1.0.2",
     "angular-ui-router": "^0.3.2",
+    "ipfs-amorph-api": "0.0.2",
     "ipfs-api": "^12.1.2",
     "pricemorph": "0.0.8",
     "safemarket-protocol": "^0.1.1",
@@ -65,7 +68,6 @@
     "ethereumjs-testrpc": "^3.0.3",
     "file-loader": "^0.9.0",
     "http-server": "^0.9.0",
-    "ipfs-api": "^12.1.0",
     "ipfs-merkle-dag": "^0.7.3",
     "ipfs-unixfs": "^0.1.9",
     "iso-3166-country-codes-angular": "^1.2.1",
@@ -76,6 +78,7 @@
     "mock-fs": "^3.12.1",
     "ng-file-upload": "^12.2.13",
     "pricemorph": "^0.1.0",
+    "protobufjs": "^6.5.3",
     "protractor": "^4.0.14",
     "q": "^1.4.1",
     "raw-loader": "^0.5.1",
@@ -90,5 +93,8 @@
     "url-loader": "^0.5.7",
     "webpack": "^1.13.3",
     "yamljs": "^0.2.8"
+  },
+  "browser": {
+    "fs": {}
   }
 }
