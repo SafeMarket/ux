@@ -1,4 +1,7 @@
 module.exports = {
+  "alias_char_codes": {
+    "eng": "Aliases should only contain lowercase letters, numbers, and underscores"
+  },
   "authfile_required": {
     "eng": "Authfile is required"
   },

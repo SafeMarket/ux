@@ -2,62 +2,69 @@
   <h3 class="modal-title" ng-cloak>{{store.address ? 'Edit':'Create a' }} Store</h3>
 </div>
 <div class="modal-body" id="store-modal-modal-body">
-  <table class="table">
-    <tr>
-      <td>
-        Open
-      </td>
-      <td>
-        <input type="checkbox" ng-model="store.isOpen" amorph-input="boolean">
-      </td>
-    </tr>
-    <tr>
-      <td>Store Name</td>
-      <td>
-        <input id="store-modal-name-input" type="text" ng-model="store.name" class="form-control">
-      </td>
-    </tr>
-    <tr>
-      <td>Currency</td>
-      <td>
-        <select type="text" ng-model="store.currency" class="form-control" ng-options="currency as currency.to('ascii') for currency in currencies"></select>
-      </td>
-    </tr>
-    <tr>
-      <td>Location (Ships From) <span flag="base"></span></td>
-      <td country-select="store.base"></td>
-    </tr>
-    <tr>
-      <td>Exchange Rate Buffer: <span ng-cloak>{{store.bufferCentiperun.to('number')}}</span>%</td>
-      <td>
-        <input type="range" ng-model="store.bufferCentiperun" class="form-control" min="0" max="100" step="1" amorph-input="number">
-      </td>
-    </tr>
-    <tr>
-      <td>Dispute Resolution Time
-        <div class="text-small text-muted">How long after shipping can buyers open a dispute?</div>
-      </td>
-      <td>
-        <select type="text" ng-model="store.disputeSecondsOption" class="form-control" ng-options="option.label for option in disputeSecondsOptions"></select>
-      </td>
-    </tr>
-    <tr>
-      <td>Minimum Products Total</td>
-      <td pricemorph-input-group="store.minProductsTotal" currency="store.currency"></td>
-    </tr>
-    <tr>
-      <td>Affiliate Fee: <span ng-cloak>{{store.affiliateFeeCentiperun.to('number')}}</span>%</td>
-      <td>
-        <input type="range" ng-model="store.affiliateFeeCentiperun" class="form-control" min="0" max="10" step=".1" amorph-input="number">
-      </td>
-    </tr>
-    <tr>
-      <td>Info</td>
-      <td>
-        <textarea class="form-control" ng-model="info" id="store-modal-info"></textarea>
-      </td>
-    </tr>
-  </table>
+  <form name="form">
+    <table class="table">
+      <tr>
+        <td>Open</td>
+        <td>
+          <input type="checkbox" ng-model="store.isOpen" amorph-input="boolean">
+        </td>
+      </tr>
+      <tr>
+        <td>Alias</td>
+        <td>
+          <div ng-if="!store.address" alias-input-group="store.alias"></div>
+          <div ng-if="store.address">@{{alias.to('hex.prefixed')}}</div>
+        </td>
+      </tr>
+      <tr>
+        <td>Store Name</td>
+        <td>
+          <input id="store-modal-name-input" type="text" ng-model="store.name" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td>Currency</td>
+        <td>
+          <select type="text" ng-model="store.currency" class="form-control" ng-options="currency as currency.to('ascii') for currency in currencies"></select>
+        </td>
+      </tr>
+      <tr>
+        <td>Location (Ships From) <span flag="base"></span></td>
+        <td country-select="store.base"></td>
+      </tr>
+      <tr>
+        <td>Exchange Rate Buffer: <span ng-cloak>{{store.bufferCentiperun.to('number')}}</span>%</td>
+        <td>
+          <input type="range" ng-model="store.bufferCentiperun" class="form-control" min="0" max="100" step="1" amorph-input="number">
+        </td>
+      </tr>
+      <tr>
+        <td>Dispute Resolution Time
+          <div class="text-small text-muted">How long after shipping can buyers open a dispute?</div>
+        </td>
+        <td>
+          <select type="text" ng-model="store.disputeSecondsOption" class="form-control" ng-options="option.label for option in disputeSecondsOptions"></select>
+        </td>
+      </tr>
+      <tr>
+        <td>Minimum Products Total</td>
+        <td pricemorph-input-group="store.minProductsTotal" currency="store.currency"></td>
+      </tr>
+      <tr>
+        <td>Affiliate Fee: <span ng-cloak>{{store.affiliateFeeCentiperun.to('number')}}</span>%</td>
+        <td>
+          <input type="range" ng-model="store.affiliateFeeCentiperun" class="form-control" min="0" max="10" step=".1" amorph-input="number">
+        </td>
+      </tr>
+      <tr>
+        <td>Info</td>
+        <td>
+          <textarea class="form-control" ng-model="info" id="store-modal-info"></textarea>
+        </td>
+      </tr>
+    </table>
+  </form>
   <h3>Products</h3>
   <table class="table tbody-alternate">
     <tbody ng-repeat="product in store.products">

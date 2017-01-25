@@ -4,6 +4,10 @@
 		<td class="oneliner">{{store.address.to('hex.prefixed')}}</td>
 	</tr>
 	<tr>
+		<td>Alias</td>
+		<td class="oneliner">{{store.alias.to('ascii')}}</td>
+	</tr>
+	<tr>
 		<td>Status</td>
 		<td>{{store.isOpen.to('boolean') ? 'Open' : 'Closed'}}</td>
 	</tr>
