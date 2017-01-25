@@ -91,16 +91,8 @@
         <td>Images</td>
         <td>
           <table class="table">
-            <tr ng-repeat="img in product.imgs track by $index">
-              <td>
-                <img ipfs-img="img" class="product-image">
-              </td>
-              <td>
-                <button class="btn btn-danger btn-xs" ng-click="product.imgs.splice($index, 1)">x</button>
-              </td>
-            </tr>
             <tr>
-              <td colspan="2" ipfs-images-select="product.ipfsImageHashes"></td>
+              <td colspan="2" ipfs-images-select="product.images"></td>
             </tr>
           </table>
         </td>

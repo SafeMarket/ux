@@ -2,8 +2,8 @@
 	<table class="table">
 		<tr ng-repeat="product in store.products">
 			<td>
-				<div ng-repeat="img in product.imgs track by $index">
-					<img ipfs-img="img" class="product-image">
+				<div ng-repeat="image in product.images track by $index">
+					<img amorph-image="image" class="image">
 				</div>
 			</td>
 			<td>

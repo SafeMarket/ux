@@ -11,6 +11,9 @@ module.exports = {
   "created_store": {
     "eng": "Created store at %s"
   },
+  "image_type_error": {
+    "eng": "File must be a jpeg image"
+  },
   "login_successful": {
     "eng": "Login successful!"
   },

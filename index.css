@@ -114,7 +114,7 @@ h3 .btn{float: right}
 .mainTable{width:100%;}
 .push-down{margin-top: 10px}
 
-.product-image{max-height: 100px;max-width: 100%}
+.image{max-width: 100%; padding: 10px}
 
 [blockie]{
     display: inline-block;
