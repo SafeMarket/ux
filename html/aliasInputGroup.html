@@ -5,5 +5,5 @@
   <input name="alias" amorph-input="ascii" type="text" ng-model="alias" class="form-control" alias-input name>
 </div>
 <div ng-show="form.alias.$error.charCodes" class="error">{{'alias_char_codes' | blurb}}</div>
-<div ng-show="form.alias.$error.availability" class="error">{{'alias_unavailable' | blurb:alias.to('ascii')}}</div>
+<div ng-show="form.alias.$error.availability" class="error">{{'alias_unavailable' | blurb:form.alias.$$rawModelValue.to('ascii')}}</div>
 </form>
