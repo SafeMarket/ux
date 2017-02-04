@@ -34,9 +34,9 @@
         <td pricemorph-input-group="arbitrator.feeBase" currency="arbitrator.currency"></td>
       </tr>
       <tr>
-        <td>Percentage Fee: <span ng-cloak>{{arbitrator.feeCentiperun.to('number')}}</span>%</td>
+        <td>Percentage Fee: <span ng-cloak>{{arbitrator.feeMicroperun | perun:-6}}</span></td>
         <td>
-          <input type="range" ng-model="arbitrator.feeCentiperun" class="form-control" min="0" max="10" step=".1" amorph-input="number">
+          <input type="range" ng-model="arbitrator.feeMicroperun" class="form-control" min="0" max="100000" step="1000" amorph-input="number">
         </td>
       </tr>
       <tr>

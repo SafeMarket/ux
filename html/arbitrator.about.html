@@ -21,11 +21,11 @@
 	</tr>
 	<tr>
 		<td>Base Fee</td>
-		<td>{{arbitrator.feeBase.to(arbitrator.currency.to('ascii')).to('number')}} {{arbitrator.currency.to('ascii')}}</td>
+		<td pricemorph="arbitrator.feeBase"></td>
 	</tr>
 	<tr>
 		<td>Percentage Fee</td>
-		<td>{{arbitrator.feeCentiperun.to('number')}}%</td>
+		<td>{{arbitrator.feeMicroperun | perun:-6}}</td>
 	</tr>
 </table>
 <div marked="arbitrator.info"></div>
