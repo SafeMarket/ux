@@ -1,17 +1,18 @@
-const contracts = require('../lib/contracts')
+const contracts = require('safemarket-protocol/modules/contracts')
 const ultralightbeam = require('../lib/ultralightbeam')
 const SolDeployTransactionRequest = require('ultralightbeam/lib/SolDeployTransactionRequest')
 const Q = require('q')
 
-const contractNames = ['Ticker', 'AliasReg', 'Multiprox']
+const contractNames = ['Ticker', 'AliasReg', 'God']
 
 
 module.exports = function deploy() {
   const contractAddresses = {}
   const deployments = []
   contractNames.forEach((contractName) => {
+    console.log(`Deploying ${contractName}...`)
     const transactionRequest = new SolDeployTransactionRequest(
-      contracts[contractName].bytecode,
+      contracts[contractName].code,
       contracts[contractName].abi,
       []
     )

@@ -1,0 +1,31 @@
+<table class="table">
+	<tr>
+		<td>Address</td>
+		<td class="oneliner">{{arbitrator.address.to('hex.prefixed')}}</td>
+	</tr>
+	<tr>
+		<td>Alias</td>
+		<td>@{{arbitrator.alias.to('ascii')}}</td>
+	</tr>
+	<tr>
+		<td>Approved Stores</td>
+		<td>
+			<div ng-repeat="approvedStoreAlias in arbitrator.approvedStoreAliases">
+				@{{approvedStoreAlias.to('ascii')}}
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>Status</td>
+		<td>{{arbitrator.isOpen.to('boolean') ? 'Open' : 'Closed'}}</td>
+	</tr>
+	<tr>
+		<td>Base Fee</td>
+		<td>{{arbitrator.feeBase.to(arbitrator.currency.to('ascii')).to('number')}} {{arbitrator.currency.to('ascii')}}</td>
+	</tr>
+	<tr>
+		<td>Percentage Fee</td>
+		<td>{{arbitrator.feeCentiperun.to('number')}}%</td>
+	</tr>
+</table>
+<div marked="arbitrator.info"></div>

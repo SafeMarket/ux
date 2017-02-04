@@ -1,10 +1,7 @@
 <div ng-if='block'>
 Block Number: {{block.number.to('number') }} &nbsp;&nbsp;&nbsp;
 Mined: {{blockSecondsAgo}} seconds ago &nbsp;&nbsp;&nbsp;
-Gas Limit: {{block.gasLimit.to('number')}} &nbsp;&nbsp;&nbsp;
-<span ng-if="priceOfEthInCurrencyNumber">
-1 ETH = {{ priceOfEthInCurrencyNumber | rounded }} {{ currencyAscii }}
-</span>
+Gas Limit: {{block.gasLimit.to('number')}}
 </div>
 <div ng-if="!block">
   Waiting for latest block...

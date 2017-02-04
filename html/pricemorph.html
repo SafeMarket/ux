@@ -1,6 +1,6 @@
 <div ng-if="pricemorph">
 <div ng-if="isPricemorphReady">
-  {{ pricemorph.to(currency.to('ascii')).to('number') | rounded }} {{ currency.to('ascii') }}
+  {{pricemorphLabel}}
   <br>
   <span class="text-small text-muted" ng-if="currency.to('ascii')!=='ETH'">{{pricemorph.to('ETH').to('number') | rounded }} ETH</span>
 </div>

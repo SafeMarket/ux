@@ -12,13 +12,17 @@ message Store {
 message StoreProduct {
   required string name = 1;
   required string info = 2;
-  repeated bytes imageMultihashes = 3;
+  repeated bytes imageMultihashes = 3 [packed=true];
 }
 
 message StoreTransport {
   required string name = 1;
   required string to = 2;
   required string info = 3;
-  repeated bytes imageMultihashes = 4;
+}
+
+message Arbitrator {
+  required string name = 1;
+  required string info = 2;
 }
 `

@@ -33,7 +33,7 @@
         <tr>
           <td>Currency</td>
           <td>
-            <select type="text" ng-model="currency" class="form-control" ng-options="currency as currency.to('ascii') for currency in currencies"></select>
+            <select type="text" ng-model="currency" class="form-control" ng-options="currencyOption.currency as currencyOption.label for currencyOption in currencyOptions"></select>
           </td>
         </tr>
         <tr>

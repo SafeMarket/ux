@@ -1,11 +1,19 @@
-<table class="table" ng-controller="StoreProducts">
+<table class="table">
 	<tr>
 		<td>Address</td>
 		<td class="oneliner">{{store.address.to('hex.prefixed')}}</td>
 	</tr>
 	<tr>
 		<td>Alias</td>
-		<td class="oneliner">{{store.alias.to('ascii')}}</td>
+		<td>@{{store.alias.to('ascii')}}</td>
+	</tr>
+	<tr>
+		<td>Approved Arbitrators</td>
+		<td>
+			<div ng-repeat="approvedArbitratorAlias in store.approvedArbitratorAliases">
+				@{{approvedArbitratorAlias.to('ascii')}}
+			</div>
+		</td>
 	</tr>
 	<tr>
 		<td>Status</td>
@@ -29,15 +37,15 @@
 	</tr>
 	<tr>
 		<td>Exchange Rate Buffer</td>
-		<td>{{store.bufferCentiperun.to('number')}}%</td>
+		<td>{{store.bufferMicroperun | perun:-6}}</td>
 	</tr>
 	<tr>
 		<td>Minimum Products Total</td>
-		<td>{{store.minProductsTotal.to(store.currency.to('ascii')).to('number')}} {{store.currency.to('ascii')}}</td>
+		<td pricemorph="store.minProductsTotal"></td>
 	</tr>
 	<tr>
 		<td>Affiliate Fee</td>
-		<td>{{store.affiliateFeeCentiperun.to('number')}}%</td>
+		<td>{{store.affiliateFeeMicroperun | perun:-6}}</td>
 	</tr>
 </table>
 <div marked="store.info"></div>

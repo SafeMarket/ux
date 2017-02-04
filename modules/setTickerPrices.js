@@ -1,8 +1,8 @@
-const contracts = require('../lib/contracts')
+const contracts = require('safemarket-protocol/modules/contracts')
 const ultralightbeam = require('../lib/ultralightbeam')
 const Q = require('q')
 const getApiPricemorphs = require('./getApiPricemorphs')
-const Pricemorph = require('pricemorph')
+const Pricemorph = require('../lib/classes/Pricemorph')
 const Amorph = require('../lib/classes/Amorph')
 const SolWrapper = require('ultralightbeam/lib/SolWrapper')
 const _ = require('lodash')
@@ -30,7 +30,7 @@ module.exports = function setTickerPrices(tickerAddress) {
       const weiPrice = pricemorph.to('WEI')
       console.log(`1 ${currencyAscii} = ${weiPrice.to('number')} WEI`)
       return solWrapper.broadcast(
-        'setPrice(bytes4,uint256)',
+        'setPrice(bytes32,uint256)',
         [new Amorph(currencyAscii, 'ascii'), weiPrice]
       ).transactionPromise
     })

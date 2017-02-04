@@ -5,7 +5,7 @@ const httpServer = require('./httpServer')
 const deploy = require('./deploy')
 const generateContractAddressesHex = require('./generators/contractAddressesHex')
 const setTickerPrices = require('./setTickerPrices')
-const registerMultiproxCodes = require('./registerMultiproxCodes')
+const registerGodCodes = require('./registerGodCodes')
 
 testRPCserver.listen(8545)
 httpServer.listen(8080)
@@ -15,7 +15,7 @@ console.log('HTTP Server lisetning on :8080'.green)
 
 deploy().then((contractAddresses) => {
   generateContractAddressesHex(contractAddresses)
-  return registerMultiproxCodes(contractAddresses.Multiprox).then(() => {
+  return registerGodCodes(contractAddresses.God).then(() => {
     return setTickerPrices(contractAddresses.Ticker).then(() => {
       console.log('Done!'.green)
     })

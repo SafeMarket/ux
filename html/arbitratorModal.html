@@ -1,0 +1,76 @@
+<div class="modal-header">
+  <h3 class="modal-title" ng-cloak>{{arbitrator.address ? 'Edit':'Create a' }} Arbitrator</h3>
+</div>
+<div class="modal-body" id="arbitrator-modal-modal-body">
+  <form name="form">
+    <table class="table">
+      <tr>
+        <td>Open</td>
+        <td>
+          <input type="checkbox" ng-model="arbitrator.isOpen" amorph-input="boolean">
+        </td>
+      </tr>
+      <tr>
+        <td>Alias</td>
+        <td>
+          <div ng-if="!arbitrator.address" alias-input-group="arbitrator.alias" require-availability="true"></div>
+          <div ng-if="arbitrator.address">@{{arbitrator.alias.to('ascii')}}</div>
+        </td>
+      </tr>
+      <tr>
+        <td>Arbirator Name</td>
+        <td>
+          <input id="arbitrator-modal-name-input" type="text" ng-model="arbitrator.name" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td>Currency</td>
+        <td>
+          <select type="text" ng-model="arbitrator.currency" class="form-control" ng-options="currencyOption.currency as currencyOption.label for currencyOption in currencyOptions"></select>
+        </td>
+      </tr>
+      <tr>
+        <td>Base Fee</td>
+        <td pricemorph-input-group="arbitrator.feeBase" currency="arbitrator.currency"></td>
+      </tr>
+      <tr>
+        <td>Percentage Fee: <span ng-cloak>{{arbitrator.feeCentiperun.to('number')}}</span>%</td>
+        <td>
+          <input type="range" ng-model="arbitrator.feeCentiperun" class="form-control" min="0" max="10" step=".1" amorph-input="number">
+        </td>
+      </tr>
+      <tr>
+        <td>Info</td>
+        <td>
+          <textarea class="form-control" ng-model="info" id="arbitrator-modal-info"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td>Approved Stores</td>
+        <td>
+          <table class="table">
+            <tr ng-repeat="approvedStoreAlias in arbitrator.approvedStoreAliases track by $index">
+              <td alias-input-group="arbitrator.approvedStoreAliases[$index]"></td>
+              <td >
+                <div class="pull-right">
+                  <button class="btn btn-xs btn-danger" ng-click="deleteApprovedStoreAlias($index)">Delete</button>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <div class="pull-right">
+                  <button class="btn btn-xs btn-info" ng-click="arbitrator.addApprovedStoreAlias()">+</button>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </form>
+</div>
+<div class="modal-footer">
+    <button id="arbitrator-modal-submit-button" class="btn btn-primary" type="button" ng-click="submit()">OK</button>
+    <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+</div>

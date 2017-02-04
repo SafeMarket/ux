@@ -13,8 +13,8 @@
       <tr>
         <td>Alias</td>
         <td>
-          <div ng-if="!store.address" alias-input-group="store.alias"></div>
-          <div ng-if="store.address">@{{alias.to('hex.prefixed')}}</div>
+          <div ng-if="!store.address" alias-input-group="store.alias" require-availability="true"></div>
+          <div ng-if="store.address">@{{store.alias.to('ascii')}}</div>
         </td>
       </tr>
       <tr>
@@ -26,7 +26,7 @@
       <tr>
         <td>Currency</td>
         <td>
-          <select type="text" ng-model="store.currency" class="form-control" ng-options="currency as currency.to('ascii') for currency in currencies"></select>
+          <select type="text" ng-model="store.currency" class="form-control" ng-options="currencyOption.currency as currencyOption.label for currencyOption in currencyOptions"></select>
         </td>
       </tr>
       <tr>
@@ -34,9 +34,9 @@
         <td country-select="store.base"></td>
       </tr>
       <tr>
-        <td>Exchange Rate Buffer: <span ng-cloak>{{store.bufferCentiperun.to('number')}}</span>%</td>
+        <td>Exchange Rate Buffer: <span ng-cloak>{{store.bufferMicroperun | perun:-6 }}</span></td>
         <td>
-          <input type="range" ng-model="store.bufferCentiperun" class="form-control" min="0" max="100" step="1" amorph-input="number">
+          <input type="range" ng-model="store.bufferMicroperun" class="form-control" min="0" max="1000000" step="10000" amorph-input="number">
         </td>
       </tr>
       <tr>
@@ -52,15 +52,37 @@
         <td pricemorph-input-group="store.minProductsTotal" currency="store.currency"></td>
       </tr>
       <tr>
-        <td>Affiliate Fee: <span ng-cloak>{{store.affiliateFeeCentiperun.to('number')}}</span>%</td>
+        <td>Affiliate Fee: <span ng-cloak>{{store.affiliateFeeMicroperun | perun:-6 }}</span></td>
         <td>
-          <input type="range" ng-model="store.affiliateFeeCentiperun" class="form-control" min="0" max="10" step=".1" amorph-input="number">
+          <input type="range" ng-model="store.affiliateFeeMicroperun" class="form-control" min="0" max="100000" step="1000" amorph-input="number">
         </td>
       </tr>
       <tr>
         <td>Info</td>
         <td>
           <textarea class="form-control" ng-model="info" id="store-modal-info"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td>Approved Arbitrators</td>
+        <td>
+          <table class="table">
+            <tr ng-repeat="approvedArbitratorAlias in store.approvedArbitratorAliases track by $index">
+              <td alias-input-group="store.approvedArbitratorAliases[$index]"></td>
+              <td >
+                <div class="pull-right">
+                  <button class="btn btn-xs btn-danger" ng-click="deleteApprovedArbitratorAlias($index)">Delete</button>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <div class="pull-right">
+                  <button class="btn btn-xs btn-info" ng-click="store.addApprovedArbitratorAlias()">+</button>
+                </div>
+              </td>
+            </tr>
+          </table>
         </td>
       </tr>
     </table>
@@ -85,7 +107,7 @@
       <tr>
         <td>Units Available</td>
         <td>
-          <input amorph-input="number" type="number" ng-model="product.units" class="form-control" min="0" ng-required>
+          <input amorph-input="number" type="number" ng-model="product.quantity" class="form-control" min="0" ng-required>
         </td>
       </tr>
       <tr>

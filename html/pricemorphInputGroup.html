@@ -1,4 +1,4 @@
 <div class="input-group">
   <input pricemorph-input="currency" type="number" ng-model="pricemorph" class="form-control" min="0">
-  <div class="input-group-addon">{{currency.to('ascii')}}</div>
+  <div class="input-group-addon">{{currency.to('ascii').split('6').join('')}}</div>
 </div>

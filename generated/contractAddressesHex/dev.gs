@@ -1,5 +1,5 @@
 module.exports = {
-  "Ticker": "61dd3a671aa0babacfeb475053871b30c52404e1",
-  "AliasReg": "75ee597bac4940d3b252bd81c1fa2ba83840f37a",
-  "Multiprox": "7b76bbe56ca4ea441f995beec742fb51ce1b29f1"
+  "Ticker": "50bce30f0fb4418147490a175a5f1b73f6839f73",
+  "AliasReg": "265923554e4465ccb43b042fbd5acdda6f3d68d7",
+  "God": "b88177db49364f48c71e496506b73a41bc35e482"
 }
