@@ -1,228 +1,41 @@
-<div class="container" id="order">
+<div class="container" ng-controller="Order">
 	<h1>
-		<a ng-href="{{order.store.addr | url:'store'}}">{{order.store.meta.name}}</a> » Order {{order.addr.substr(0,6)}}...
+		Order #{{order.id.to('number')}}
 	</h1>
-	<div class="alert alert-info text-center" ng-show="order.status>=3 && order.review.blockNumber.equals(0)">
-		<a ng-click="setReview()">Leave a review</a> for @{{order.store.addr | alias}}	
-	</div>
-	<!--
-	<div class="panel panel-default" ng-show="!order.review.blockNumber.equals(0)">
-		<div class="panel-heading"><h3 class="panel-title">My Review</h3></div>
-		<div class="panel-body">
-			<blockquote>{{order.review.text}}</blockquote>
-		</div>
-		<div class="panel-footer clearfix">
-			<div timestamp="order.review.timestamp" class="pull-left"></div>
-			<a class="btn btn-default pull-right" ng-click="setReview()">Edit</a>
-		</div>
-	</div>
-	-->
 	<table class="table">
-		<tr>
-			<td>Status</td>
-			<td>
-				{{order.status | status}}
-			</td>
-			<td class="text-right">
-				<div class="alert alert-info text-center" ng-show="isUpdatingStatus">
-					<img src="images/balls.gif"> Updating Updating status
-				</div>
-				<div ng-show="!isUpdatingStatus">
-					<button
-						class="btn btn-xs btn-default"
-						ng-show="order.status===0 && (userRole === 'buyer' || userRole === 'storeOwner')"
-						ng-click="cancel()"
-					>Cancel</button>
-					<button
-						class="btn btn-xs btn-default"
-						ng-show="order.status===0 && userRole === 'storeOwner' || true"
-						ng-click="markAsShipped()"
-					>Mark as Shipped</button>
-					<button
-						class="btn btn-xs btn-default"
-						ng-show="order.status===2 && userRole === 'buyer'"
-						ng-click="dispute()"
-					>Dispute</button>
-					<button
-						class="btn btn-xs btn-default"
-						ng-show="order.status===2 && userRole === 'buyer'"
-						ng-click="finalize()"
-					>Finalize</button>
-					<button
-						class="btn btn-xs btn-default"
-						ng-show="order.status===4 && userRole === 'submarketOwner' || true"
-						ng-click="openResolutionModal()"
-					>Resolve Dispute</button>
-				</div>
-			</td>
-		</tr>
-		<tr ng-show="order.submarket">
-			<td>Submarket</td>
-			<td colspan="2" alias="order.submarket.addr">
-			</td>
-		</tr>
-		<tr ng-show="order.status===0 || order.status===2">
-			<td>Dispute Deadline</td>
-			<td colspan="2">
-				<div ng-show="order.status==0">
-					{{order.disputeSeconds | disputeSeconds}}
-				</div>
-				<div ng-show="order.status===2" timestamp="order.disputeDeadline"></div>
-			</td>
-		</tr>
-		<tr ng-show="order.status===5">
-			<td>Resolution</td>
-			<td>Buyer ({{order.buyerPerun | perun}})
-				<amounts value="order.buyerAmount" from="'WEI'" to="displayCurrencies"></amounts>
-			</td>
-			<td class="text-right">@{{order.store.addr | alias}}  ({{order.storeOwnerPerun | perun}})
-				<amounts value="order.storeOwnerAmount" from="'WEI'" to="displayCurrencies"></amounts>
-			</td>
-		</tr>
 		<tr>
 			<td>Created</td>
 			<td timestamp="order.createdAt" colspan="2"></td>
 		</tr>
-		<tr ng-show="order.shippedAt.greaterThan(0)">
-			<td>Shipping Date</td>
-			<td timestamp="order.shippedAt" colspan="2"></td>
-		</tr>
-		<tbody collapsable is-collapsed="true">
-			<tr>
-				<td>Address</td>
-				<td class="oneliner" colspan="2">{{order.addr}}</td>
-			</tr>
-			<tr>
-				<td>Buyer</td>
-				<td class="oneliner" colspan="2">{{order.buyer}}</td>
-			</tr>
-		</tbody>
 		<tr>
-			<td>Product Total</td>
-			<td colspan="2">
-				<amounts
-					value="order.productsTotal.in(order.storeCurrency)"
-					from="order.storeCurrency"
-					to="displayCurrencies">
-				</amounts>
-			</td>
+			<td>Buyer</td>
+			<td colspan="2" address="order.buyer"></td>
 		</tr>
 		<tr>
-			<td>Shipping ({{order.transport.name}})</td>
-			<td colspan="2">
-				<amounts
-					value="order.transport.price.in(order.storeCurrency)"
-					from="order.storeCurrency"
-					to="displayCurrencies">
-				</amounts>
-			</td>
+			<td>Store</td>
+			<td colspan="2" address="order.store"></td>
+		</tr>
+		<tr ng-if="order.isArbitrator">
+			<td>Arbitrator</td>
+			<td colspan="2" address="order.arbitrator"></td>
+		</tr>
+		<tr ng-if="order.isAffiliate">
+			<td>Affiliate</td>
+			<td colspan="2" address="order.affiliate"></td>
 		</tr>
 		<tr>
-			<td>Submarket Escrow Fee ({{order.escrowFeeBase | coinage:userCurrency}} + {{order.escrowFeeCentiperun.toNumber()}}%)</td>
-			<td colspan="2">
-				<amounts
-					value="order.escrowFee.in(order.submarketCurrency)"
-					from="order.submarketCurrency"
-					to="displayCurrencies">
-				</amounts>
-			</td>
-		</tr>
-		<tr>
-			<td>Affiliate Fee ({{order.affiliateFeeCentiperun.toNumber()}}%)
-			<div><span class="short-addr text-small text-muted">{{order.affiliate}}</span></div>
-			</td>
-			<td colspan="2">
-				<amounts
-					value="order.affiliateAmount"
-					from="'WEI'"
-					to="displayCurrencies">
-				</amounts>
-			</td>
-		</tr>
-		<tr>
-			<td>Received ({{order.receivedPerun | perun}})
-			<div class="text-muted text-small">{{order.confirmations.toString()}}/{{order.confirmationsNeeded.toString()}} Confirmations</div>
-			</td>
-			<td>
-				<amounts
-					value="order.balance"
-					from="'WEI'"
-					to="displayCurrencies">
-				</amounts>
-			</td>
-			<td class="text-right">
-				<button
-					class="btn btn-xs btn-default"
-					ng-show="order.status===0 && userRole === 'buyer'"
-					ng-click="makePayment()"
-				>Make Payment</button>
-				<button
-					class="btn btn-xs btn-default"
-					ng-show="order.status===0 && userRole === 'buyer' && order.received.greaterThan(0)"
-					ng-click="makeWithdrawl()"
-				>Make Withdrawl</button>
-			</td>
+			<td>Transport</td>
+			<td>{{order.transport.name}}</td>
+			<td pricemorph="order.transport.price"></td>
 		</tr>
 	</table>
 	<h3>Products</h3>
 	<table class="table">
 		<tr ng-repeat="product in order.products">
-			<td>
-				<div ng-repeat="img in product.imgs">
-					<img ipfs-img="img" class="product-image">
-				</div>
-			</td>
-			<td>
-				{{product.name}}
-			</td>
-			<td>
-				{{product.info}}
-			</td>
-			<td>
-				<amounts
-					value="product.price.in(order.storeCurrency)"
-					from="order.storeCurrency"
-					to="displayCurrencies">
-				</amounts>
-			</td>
-			<td>
-				x{{product.quantity.toString()}}
-			</td>
-		</tr>
-	</table>
-	<h3>Messages</h3>
-	<p>Messages are encrypted and stored on the blockchain</p>
-	<table class="table">
-		<tr ng-repeat="messageOrUpdate in order.messagesAndUpdates" ng-class="{'update':messageOrUpdate.isUpdate,'message':messageOrUpdate.isMessage}">
-			<td>
-				<span ng-show="messageOrUpdate.isMessage">{{messageOrUpdate.role | role | capitalize}}</span>
-				<span ng-show="messageOrUpdate.isUpdate">Update</span>
-				<div class="text-small text-muted">
-					<span class="short-addr text-small text-muted">{{messageOrUpdate.sender}}</span>
-				</div>
-			</td>
-			<td>
-				<div ng-show="messageOrUpdate.file">
-					<div ng-show="messageOrUpdate.text">{{messageOrUpdate.text}}</div>
-					<pre ng-show="!messageOrUpdate.text">Unable to decrypt</pre>
-				</div>
-				<div ng-show="messageOrUpdate.status">
-					{{messageOrUpdate.role | role | capitalize}} has marked the order as {{messageOrUpdate.status | status | lowercase}}
-				</div>
-			</td>
-			<td class="text-right" timestamp="messageOrUpdate.timestamp"></td>
-		</tr>
-		<tr>
-			<td colspan="3">
-				<div class="alert alert-info text-center" ng-show="isAddingMessage">
-					<img src="images/balls.gif"> Updating Adding message
-				</div>
-				<form ng-submit="addMessage()" ng-show="!isAddingMessage">
-					<textarea class="form-control" ng-model="messageText"></textarea>
-					<br>
-					<button class="btn btn-primary">Submit</button>
-				</form>
-			</td>
+			<td><code>PRODUCT ID #{{product.id.to('number')}}</code></td>
+			<td>{{product.name}}</td>
+			<td pricemorph="product.price"></td>
+			<td>x{{product.quantity.to('number')}}</td>
 		</tr>
 	</table>
 </div>
