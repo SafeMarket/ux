@@ -32,7 +32,7 @@ module.exports = function setTickerPrices(tickerAddress) {
       return solWrapper.broadcast(
         'setPrice(bytes32,uint256)',
         [new Amorph(currencyAscii, 'ascii'), weiPrice]
-      ).transactionPromise
+      ).getConfirmation()
     })
     return Q.all(promises)
   })

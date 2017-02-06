@@ -6,6 +6,7 @@ const deploy = require('./deploy')
 const generateContractAddressesHex = require('./generators/contractAddressesHex')
 const setTickerPrices = require('./setTickerPrices')
 const registerGodCodes = require('./registerGodCodes')
+const setOrderRegTicker = require('./setOrderRegTicker')
 
 testRPCserver.listen(8545)
 httpServer.listen(8080)
@@ -17,7 +18,9 @@ deploy().then((contractAddresses) => {
   generateContractAddressesHex(contractAddresses)
   return registerGodCodes(contractAddresses.God).then(() => {
     return setTickerPrices(contractAddresses.Ticker).then(() => {
-      console.log('Done!'.green)
+      return setOrderRegTicker(contractAddresses.OrderReg, contractAddresses.Ticker).then(() => {
+        console.log('Done!'.green)
+      })
     })
   })
 }, (err) => {

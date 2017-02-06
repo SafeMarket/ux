@@ -82,7 +82,7 @@
     "protractor": "^4.0.14",
     "q": "^1.4.1",
     "raw-loader": "^0.5.1",
-    "safemarket-protocol": "^1.1.4",
+    "safemarket-protocol": "^1.1.5",
     "solidity-sha3": "^0.4.1",
     "sprintf-js": "^1.0.3",
     "style-loader": "^0.13.1",

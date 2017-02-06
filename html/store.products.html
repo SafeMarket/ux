@@ -15,7 +15,7 @@
 			</td>
 			<td pricemorph="product.price"></td>
 			<td>
-				<input class="form-control" type="number" ng-model="productUnits[$index]" min="0" max="{{product.quantity.to('number')}}" amorph-input="number" ng-change="onQuantitiesChanged()">
+				<input class="form-control" type="number" ng-model="productQuantities[$index]" min="0" max="{{product.quantity.to('number')}}" amorph-input="number" ng-change="onQuantitiesChanged()">
 			</td>
 		</tr>
 		<tr>
