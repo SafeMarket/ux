@@ -10,9 +10,7 @@
 	<tr>
 		<td>Approved Stores</td>
 		<td>
-			<div ng-repeat="approvedStoreAlias in arbitrator.approvedStoreAliases">
-				@{{approvedStoreAlias.to('ascii')}}
-			</div>
+			<div ng-repeat="approvedStore in arbitrator.approvedStores" address="approvedStore"></div>
 		</td>
 	</tr>
 	<tr>

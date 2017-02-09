@@ -1,7 +1,11 @@
 <table class="table">
 	<tr>
 		<td>Address</td>
-		<td class="oneliner">{{store.address.to('hex.prefixed')}}</td>
+		<td address="store.address"></td>
+	</tr>
+	<tr>
+		<td>Coinbase</td>
+		<td address="store.coinbase"></td>
 	</tr>
 	<tr>
 		<td>Alias</td>
@@ -10,9 +14,7 @@
 	<tr>
 		<td>Approved Arbitrators</td>
 		<td>
-			<div ng-repeat="approvedArbitratorAlias in store.approvedArbitratorAliases">
-				@{{approvedArbitratorAlias.to('ascii')}}
-			</div>
+			<div ng-repeat="approvedArbitrator in store.approvedArbitrators" address="approvedArbitrator"></div>
 		</td>
 	</tr>
 	<tr>

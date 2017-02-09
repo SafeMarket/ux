@@ -23,7 +23,20 @@ module.exports = function setTickerPrices(tickerAddress) {
       Pricemorph.loadPricemorph(pricemorph, currencyAscii)
     })
     console.log('Start readying')
-    Pricemorph.ready()
+    Pricemorph.ready({
+      formPairsSort: (formPairA, formPairB) => {
+        if (formPairA.indexOf('BTC') >= 0) {
+          return 1
+        }
+        if (formPairA.indexOf('ETH') >= 0) {
+          return 1
+        }
+        if (formPairA.indexOf('WEI') >= 0) {
+          return 1
+        }
+        return 0
+      }
+    })
     console.log('Ready complete')
     const promises = Pricemorph.forms.map((currencyAscii) => {
       const pricemorph = new Pricemorph(one, currencyAscii)

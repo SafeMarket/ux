@@ -4,12 +4,10 @@
           <div address="recipient"></div>
         </td>
         <td>
-             <select ng-model="recipientType" ng-options="recipientType as recipientLabel for (recipientType,recipientLabel) in recipientTypes" class="form-control"></select>
-             <select ng-show="recipientType==='internal'" ng-model="recipientInternal" ng-options="recipient as recipient.to('hex.prefixed') for recipient in recipientsInternal" class="form-control push-down"></select>
-             <div ng-show="recipientType=='external'" class="input-group push-down">
-                <div class="input-group-addon">0x</div>
-                <input ng-model="externalRecipient" type="text" class="form-control">
-            </div>
+          <select ng-model="recipientType" ng-options="recipientType as recipientLabel for (recipientType,recipientLabel) in recipientTypes" class="form-control"></select>
+          <select ng-show="recipientType==='internal'" ng-model="recipientInternal" ng-options="recipient as recipient.to('hex.prefixed') for recipient in recipientsInternal" class="form-control push-down"></select>
+          <div ng-show="recipientType=='external'" class="push-down" address-input-group="recipientExternal">
+          </div>
         </td>
     </tr>
     <tr>

@@ -4,6 +4,24 @@
 	</h1>
 	<table class="table">
 		<tr>
+			<td>Actions</td>
+			<td colspan="2">
+					<div ng-if="order.userIsBuyer">
+						<div class="btn btn-xs btn-default" ng-click="setStatusToCancelled()">Cancel</div>
+						<div class="btn btn-xs btn-default" ng-click="withdrawAsBuyer()">Withdraw</div>
+					</div>
+					<div ng-if="order.userIsStoreOwner">
+						<div class="btn btn-xs btn-default" ng-click="setStatusToCancelled()">Cancel</div>
+						<div class="btn btn-xs btn-default" ng-click="setStatusToShipped()">Mark as Shipped</div>
+						<div class="btn btn-xs btn-default" ng-click="withdrawAsStore()">Withdraw</div>
+					</div>
+			</td>
+		</tr>
+		<tr>
+			<td>Status</td>
+			<td colspan="2">{{order.status.to('number')}}</td>
+		</tr>
+		<tr>
 			<td>Created</td>
 			<td timestamp="order.createdAt" colspan="2"></td>
 		</tr>
@@ -13,11 +31,11 @@
 		</tr>
 		<tr>
 			<td>Store</td>
-			<td colspan="2" address="order.store"></td>
+			<td colspan="2" address="order.store.address"></td>
 		</tr>
 		<tr ng-if="order.isArbitrator">
 			<td>Arbitrator</td>
-			<td colspan="2" address="order.arbitrator"></td>
+			<td colspan="2" address="order.arbitrator.address"></td>
 		</tr>
 		<tr ng-if="order.isAffiliate">
 			<td>Affiliate</td>
@@ -27,6 +45,21 @@
 			<td>Transport</td>
 			<td>{{order.transport.name}}</td>
 			<td pricemorph="order.transport.price"></td>
+		</tr>
+		<tr>
+			<td>Total (Pre-Buffer)</td>
+			<td colspan="2" pricemorph="order.prebuffer"></td>
+		</tr>
+		<tr>
+			<td>Received</td>
+			<td colspan="2" pricemorph="order.received"></td>
+		</tr>
+		<tr>
+			<td>Buffer Remaining ({{order.bufferRemainingPerun | perun:0}})</td>
+			<td colspan="2" pricemorph="order.bufferRemaining"></td>
+		</tr>
+		<tr>
+			<td></td>
 		</tr>
 	</table>
 	<h3>Products</h3>
