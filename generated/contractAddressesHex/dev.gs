@@ -1,6 +1,6 @@
 module.exports = {
-  "Ticker": "50bce30f0fb4418147490a175a5f1b73f6839f73",
-  "AliasReg": "265923554e4465ccb43b042fbd5acdda6f3d68d7",
-  "God": "b88177db49364f48c71e496506b73a41bc35e482",
-  "OrderReg": "ba966903600cc8612bbc3e65e6cc2d5f0969f7ab"
+  "Ticker": "aa9f41e2535a66c06f138a6ad807c8932a65aef7",
+  "AliasReg": "88e0a42f569acd6846472cb30cd4fb4a232f0b81",
+  "God": "e02f9391178f8f8200391f60d885cc75a0b99d05",
+  "OrderReg": "2ad9a9c065d0dc4b090f948f53a738bcf39a5b9c"
 }

@@ -1,0 +1,24 @@
+<div class="modal-header">
+  <h3 class="modal-title">Resolve Order #{{order.id.to('number')}} Dispute</h3>
+</div>
+<div class="modal-body" id="settings-modal-body">
+  <table class="table">
+    <tr>
+      <td colspan="pull-left">
+        Buyer: {{buyerPayoutMicroperun | perun:-6}}
+      </td>
+      <td colspan="pull-right">
+        Store: {{storePayoutMicroperun | perun:-6}}
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <input type="range" ng-model="storePayoutMicroperun" amorph-input="number" min="0" max="1000000" step="10000">
+      </td>
+    </tr>
+  </table>
+</div>
+<div class="modal-footer">
+  <button class="btn btn-primary" type="button" ng-click="cancel()">Cancel</button>
+  <button class="btn btn-primary" type="button" ng-click="submit()">OK</button>
+</div>

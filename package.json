@@ -11,6 +11,10 @@
     "generate-blurbs-pojo": "node --require colors --require ./modules/generateBlurbsPojo",
     "generate-protofile-utf8": "node --require colors --require ./modules/generateProtofileUtf8",
     "add-protofile-to-ipfs": "node --require colors --require ./modules/addProtofileToIpfs",
+    "deploy": "node --require colors --require ./modules/deploy",
+    "register-god-codes": "node --require colors --require ./modules/registerGodCodes",
+    "set-ticker-prices": "node --require colors --require ./modules/setTickerPrices",
+    "set-order-reg-ticker": "node --require colors --require ./modules/setOrderRegTicker",
     "protractor": "protractor protractor.conf.js"
   },
   "repository": {
@@ -82,14 +86,14 @@
     "protractor": "^4.0.14",
     "q": "^1.4.1",
     "raw-loader": "^0.5.1",
-    "safemarket-protocol": "^1.1.11",
+    "safemarket-protocol": "^1.1.13",
     "solidity-sha3": "^0.4.1",
     "sprintf-js": "^1.0.3",
     "style-loader": "^0.13.1",
     "testable-error": "0.0.3",
     "transform-loader": "^0.2.3",
     "tweetnacl": "^0.14.5",
-    "ultralightbeam": "^0.15.2",
+    "ultralightbeam": "^0.15.3",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.3",
     "yamljs": "^0.2.8"
