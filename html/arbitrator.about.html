@@ -4,10 +4,6 @@
 		<td class="oneliner">{{arbitrator.address.to('hex.prefixed')}}</td>
 	</tr>
 	<tr>
-		<td>Alias</td>
-		<td>@{{arbitrator.alias.to('ascii')}}</td>
-	</tr>
-	<tr>
 		<td>Approved Stores</td>
 		<td>
 			<div ng-repeat="approvedStore in arbitrator.approvedStores" address="approvedStore"></div>

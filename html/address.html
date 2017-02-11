@@ -1,3 +1,3 @@
 <span blockie="address"></span>
 <code ng-if="!alias" class="ellipsis">{{address.to('hex.prefixed')}}</code>
-<a ng-if="alias" ng-href="/#!/go/@{{alias.to('ascii')}}">@{{alias.to('ascii')}}</a>
+<a ng-if="alias" ng-href="{{href}}">@{{alias.to('ascii')}}</a>

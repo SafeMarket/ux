@@ -9,12 +9,10 @@
 					<div ng-if="order.userIsBuyer">
 						<div class="btn btn-xs btn-default" ng-click="setStatusToCancelled()">Cancel</div>
 						<div class="btn btn-xs btn-default" ng-click="setStatusToDisputed()">Dispute</div>
-						<div class="btn btn-xs btn-default" ng-click="withdrawAsBuyer()">Withdraw</div>
 					</div>
 					<div ng-if="order.userIsStoreOwner">
 						<div class="btn btn-xs btn-default" ng-click="setStatusToCancelled()">Cancel</div>
 						<div class="btn btn-xs btn-default" ng-click="setStatusToShipped()">Mark as Shipped</div>
-						<div class="btn btn-xs btn-default" ng-click="withdrawAsStore()">Withdraw</div>
 					</div>
 					<div ng-if="order.userIsArbitratorOwner">
 						<div class="btn btn-xs btn-default" ng-click="openDisputeResolutionModal()">Resolve Dispute</div>
@@ -23,7 +21,7 @@
 		</tr>
 		<tr>
 			<td>Status</td>
-			<td colspan="2">{{order.status.to('number')}}</td>
+			<td colspan="2">{{order.status | status}}</td>
 		</tr>
 		<tr>
 			<td>Dispute Time</td>
@@ -68,11 +66,17 @@
 		</tr>
 		<tr>
 			<td>Store Payout ({{order.storePayoutMicroperun | perun:-6}})</td>
-			<td colspan="2"></td>
+			<td pricemorph="order.storePayout"></td>
+			<td>
+				<div class="btn btn-xs btn-default" ng-click="payoutStore()">Payout</div>
+			</td>
 		</tr>
 		<tr>
 			<td>Buyer Payout ({{order.buyerPayoutMicroperun | perun:-6}})</td>
-			<td colspan="2"></td>
+			<td pricemorph="order.buyerPayout"></td>
+			<td>
+				<div class="btn btn-xs btn-default" ng-click="payoutBuyer()">Payout</div>
+			</td>
 		</tr>
 		<tr>
 			<td></td>

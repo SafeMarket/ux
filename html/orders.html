@@ -11,15 +11,16 @@
 	<tr ng-repeat="order in orders">
 		<td><code>ORDER ID #{{order.id.to('number')}}</code></a></td>
 		<td timestamp ="order.createdAt"></td>
-		<td address="order.store"></td>
+		<td address="order.store.address"></td>
 		<td>
-			<div ng-if="order.arbitrator.to('number') > 0" address="order.arbitrator"></div>
+			<div ng-if="order.isArbitrator" address="order.arbitrator.address"></div>
+			<div ng-if="!order.isArbitrator">None</div>
 		</td>
 		<td>
-			{{order.status.to('number')}}
+			{{order.status | status}}
 		</td>
 		<td class="pull-right">
-			<a class="btn btn-xs btn-info" ng-href="/#!/orders/{{orderReg.address.to('hex.prefixed')}}/{{order.id.to('number')}}">
+			<a class="btn btn-xs btn-info" ng-href="{{getHref(order)}}">
 				View
 			</a>
 		</td>
