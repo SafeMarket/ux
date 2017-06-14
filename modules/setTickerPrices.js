@@ -5,8 +5,8 @@ const _ = require('lodash')
 
 const prices = {
   ETH0: new Amorph('1000000000000000000', 'number.string'),
-  USD6: new Amorph('300000000000000000000', 'number.string'),
-  EUR6: new Amorph('400000000000000000000', 'number.string')
+  USD6: new Amorph('300000000000000000000000000', 'number.string'),
+  EUR6: new Amorph('400000000000000000000000000', 'number.string')
 }
 
 const promises = _.map(prices, (price, currencyAscii) => {

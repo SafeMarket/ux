@@ -45,21 +45,21 @@
 /***/ 0:
 /***/ (function(module, exports, __webpack_require__) {
 
-	__webpack_require__(865)
+	__webpack_require__(860)
 
 
 /***/ }),
 
-/***/ 865:
+/***/ 860:
 /***/ (function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(866);
+	var content = __webpack_require__(861);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(879)(content, {});
+	var update = __webpack_require__(874)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -77,32 +77,32 @@
 
 /***/ }),
 
-/***/ 866:
+/***/ 861:
 /***/ (function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(867)();
+	exports = module.exports = __webpack_require__(862)();
 	// imports
+	exports.i(__webpack_require__(863), "");
+	exports.i(__webpack_require__(864), "");
+	exports.i(__webpack_require__(865), "");
+	exports.i(__webpack_require__(866), "");
+	exports.i(__webpack_require__(867), "");
 	exports.i(__webpack_require__(868), "");
 	exports.i(__webpack_require__(869), "");
 	exports.i(__webpack_require__(870), "");
 	exports.i(__webpack_require__(871), "");
 	exports.i(__webpack_require__(872), "");
 	exports.i(__webpack_require__(873), "");
-	exports.i(__webpack_require__(874), "");
-	exports.i(__webpack_require__(875), "");
-	exports.i(__webpack_require__(876), "");
-	exports.i(__webpack_require__(877), "");
-	exports.i(__webpack_require__(878), "");
 
 	// module
-	exports.push([module.id, "['Amorph'-image] {\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: contain;\n  background-image: url('/assets/img/loading.gif')\n}\n.gallery-main {\n  height: 200px;\n}\n\n[ng-click]{\n  cursor: pointer;\n}\n\n/*\nbody{\n  padding:0 0 80px 0;\n  overflow-y:scroll;\n    overflow-x:hidden;\n  background-image:none;\n}\ntbody{border-top: none !important}\n\na.glyphicon:hover{text-decoration: none;}\na[href]:not([href*=\"#\"]):not([href=\"\"]):not([href=\".\"]):before\n,a[href]:not([href*=\"#\"]):not([href=\"\"]):not([href=\".\"]):after{\n    content:'\\26a0';color:red;font-weight: bold;padding:0 3px;\n}\n\ninput[type='file'] {\n  color: transparent;\n}\n\ntable{\n    table-layout: fixed\n}\n\ninput[type=\"range\"]{\n    height: 6px;\n    padding: 0;\n    margin-top: 7px;\n}\n\n.input-group select{\n    -webkit-appearance: none;\n}\n\nh3 .btn{float: right}\n\n.mainView{padding:0 10px 10px;}\n\n.nav.nav-tabs{margin-bottom: 20px}\n\n\n.oneliner{\n    overflow: hidden;\n    text-overflow: ellipsis;\n}\n\n.short-addr{\n    display: inline-block;\n    max-width: 100px;\n    overflow: hidden;\n    text-overflow:ellipsis;\n}\n\n.text-small{font-size: 14px}\n\n.key{\n  font-family: \"Lucida Console\", Monaco, monospace;\n  font-size: .8em;\n    line-height: 1.42857;\n    word-break: break-all;\n    word-wrap: break-word;\n    color: #333;\n    white-space: pre;\n}\n\n.panel-title{position: relative;}\n\n[ng-click]{cursor: pointer;}\n\n[collapsable]{\n    border-top-width: 4 !important;\n    border-top-style: dotted !important;\n    border-top-color:#ccc !important;\n    cursor: pointer !important;\n    padding-top: 8px;\n}\n[collapsable] tr{background-color: #eee}\n[collapsable]:before{\n    content:'';\n    position: absolute;\n    width:100%;\n    height:10px;\n    margin-top: -4px;\n    cursor: pointer;\n}\n[collapsable].isCollapsed td{display: none}\n[collapsable] tr:first-child td{border-top:none;}\n[collapsable].isCollapsed + tbody{border-top: none !important}\n[collapsable].isCollapsed + tbody tr:first-child td{border-top:none;}\n\n.comment-child{background-color: #eee}\n.update{background-color:#EFF3FA;}\n\n.spin{ animation: spin 2s linear infinite; }\n@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }\n\n.btn:focus {\n  outline: none !important;\n}\n\n.mainTable{width:100%;}\n.push-down{margin-top: 10px}\n\n.image{max-width: 100%; padding: 10px}\n\n.error{ color: red; font-size: 12px; margin: 5px 0; }\n\n[blockie]{\n    display: inline-block;\n    width: 1.6em;\n    height: 1.6em;\n    background-size: cover;\n    background-repeat: no-repeat;\n    border-radius: 50%;\n}\n\n.settings-blockie{\n    font-size: 18px;\n    margin-bottom: -2px;\n}\n\n.navbar [blockie]{\n    font-size: 36px;\n    margin-bottom: -14px;\n    margin-right: 2px;\n}\n\n.navbar{margin-bottom: 0}\n.blockWatcher{\n  padding: 8px;\n  background-color: #f8f8f8;\n  border-bottom: 1px #e7e7e7 solid;\n  margin-bottom: 20px;\n  text-align: center;\n  color: #999;\n  min-height: 37px;\n}\n\n.ellipsis{\n    overflow: hidden;\n    text-overflow:ellipsis;\n    display: inline-block;\n}\n[address] .ellipsis{\n  max-width: 200px;\n}\n\n.monospace {\n  word-wrap: break-word;\n  font-size: small;\n  font-family: monospace;\n  max-height: 100px;\n  overflow: scroll;\n}\n\n.tbody-alternate tbody:not(:last-child){\n    border-bottom: 2px solid #ccc;\n}\n\n.tbody-alternate tbody:not(:last-child):nth-child(even){\n    background-color:#eee;\n}\n\ninput.ng-dirty.ng-invalid {\n  border-color: red\n}\n*/\n", ""]);
+	exports.push([module.id, "[amorph-image] {\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: contain;\n  background-image: url('/assets/img/loading.gif')\n}\n.gallery-main {\n  height: 200px;\n}\n\n[ng-click]{\n  cursor: pointer;\n}\n\n/*\nbody{\n  padding:0 0 80px 0;\n  overflow-y:scroll;\n    overflow-x:hidden;\n  background-image:none;\n}\ntbody{border-top: none !important}\n\na.glyphicon:hover{text-decoration: none;}\na[href]:not([href*=\"#\"]):not([href=\"\"]):not([href=\".\"]):before\n,a[href]:not([href*=\"#\"]):not([href=\"\"]):not([href=\".\"]):after{\n    content:'\\26a0';color:red;font-weight: bold;padding:0 3px;\n}\n\ninput[type='file'] {\n  color: transparent;\n}\n\ntable{\n    table-layout: fixed\n}\n\ninput[type=\"range\"]{\n    height: 6px;\n    padding: 0;\n    margin-top: 7px;\n}\n\n.input-group select{\n    -webkit-appearance: none;\n}\n\nh3 .btn{float: right}\n\n.mainView{padding:0 10px 10px;}\n\n.nav.nav-tabs{margin-bottom: 20px}\n\n\n.oneliner{\n    overflow: hidden;\n    text-overflow: ellipsis;\n}\n\n.short-addr{\n    display: inline-block;\n    max-width: 100px;\n    overflow: hidden;\n    text-overflow:ellipsis;\n}\n\n.text-small{font-size: 14px}\n\n.key{\n  font-family: \"Lucida Console\", Monaco, monospace;\n  font-size: .8em;\n    line-height: 1.42857;\n    word-break: break-all;\n    word-wrap: break-word;\n    color: #333;\n    white-space: pre;\n}\n\n.panel-title{position: relative;}\n\n[ng-click]{cursor: pointer;}\n\n[collapsable]{\n    border-top-width: 4 !important;\n    border-top-style: dotted !important;\n    border-top-color:#ccc !important;\n    cursor: pointer !important;\n    padding-top: 8px;\n}\n[collapsable] tr{background-color: #eee}\n[collapsable]:before{\n    content:'';\n    position: absolute;\n    width:100%;\n    height:10px;\n    margin-top: -4px;\n    cursor: pointer;\n}\n[collapsable].isCollapsed td{display: none}\n[collapsable] tr:first-child td{border-top:none;}\n[collapsable].isCollapsed + tbody{border-top: none !important}\n[collapsable].isCollapsed + tbody tr:first-child td{border-top:none;}\n\n.comment-child{background-color: #eee}\n.update{background-color:#EFF3FA;}\n\n.spin{ animation: spin 2s linear infinite; }\n@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }\n\n.btn:focus {\n  outline: none !important;\n}\n\n.mainTable{width:100%;}\n.push-down{margin-top: 10px}\n\n.image{max-width: 100%; padding: 10px}\n\n.error{ color: red; font-size: 12px; margin: 5px 0; }\n\n[blockie]{\n    display: inline-block;\n    width: 1.6em;\n    height: 1.6em;\n    background-size: cover;\n    background-repeat: no-repeat;\n    border-radius: 50%;\n}\n\n.settings-blockie{\n    font-size: 18px;\n    margin-bottom: -2px;\n}\n\n.navbar [blockie]{\n    font-size: 36px;\n    margin-bottom: -14px;\n    margin-right: 2px;\n}\n\n.navbar{margin-bottom: 0}\n.blockWatcher{\n  padding: 8px;\n  background-color: #f8f8f8;\n  border-bottom: 1px #e7e7e7 solid;\n  margin-bottom: 20px;\n  text-align: center;\n  color: #999;\n  min-height: 37px;\n}\n\n.ellipsis{\n    overflow: hidden;\n    text-overflow:ellipsis;\n    display: inline-block;\n}\n[address] .ellipsis{\n  max-width: 200px;\n}\n\n.monospace {\n  word-wrap: break-word;\n  font-size: small;\n  font-family: monospace;\n  max-height: 100px;\n  overflow: scroll;\n}\n\n.tbody-alternate tbody:not(:last-child){\n    border-bottom: 2px solid #ccc;\n}\n\n.tbody-alternate tbody:not(:last-child):nth-child(even){\n    background-color:#eee;\n}\n\ninput.ng-dirty.ng-invalid {\n  border-color: red\n}\n*/\n", ""]);
 
 	// exports
 
 
 /***/ }),
 
-/***/ 867:
+/***/ 862:
 /***/ (function(module, exports) {
 
 	/*
@@ -159,10 +159,10 @@
 
 /***/ }),
 
-/***/ 868:
+/***/ 863:
 /***/ (function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(867)();
+	exports = module.exports = __webpack_require__(862)();
 	// imports
 
 
@@ -174,10 +174,10 @@
 
 /***/ }),
 
-/***/ 869:
+/***/ 864:
 /***/ (function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(867)();
+	exports = module.exports = __webpack_require__(862)();
 	// imports
 
 
@@ -189,10 +189,10 @@
 
 /***/ }),
 
-/***/ 870:
+/***/ 865:
 /***/ (function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(867)();
+	exports = module.exports = __webpack_require__(862)();
 	// imports
 
 
@@ -204,10 +204,10 @@
 
 /***/ }),
 
-/***/ 871:
+/***/ 866:
 /***/ (function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(867)();
+	exports = module.exports = __webpack_require__(862)();
 	// imports
 
 
@@ -219,10 +219,10 @@
 
 /***/ }),
 
-/***/ 872:
+/***/ 867:
 /***/ (function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(867)();
+	exports = module.exports = __webpack_require__(862)();
 	// imports
 
 
@@ -234,10 +234,10 @@
 
 /***/ }),
 
-/***/ 873:
+/***/ 868:
 /***/ (function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(867)();
+	exports = module.exports = __webpack_require__(862)();
 	// imports
 
 
@@ -249,10 +249,10 @@
 
 /***/ }),
 
-/***/ 874:
+/***/ 869:
 /***/ (function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(867)();
+	exports = module.exports = __webpack_require__(862)();
 	// imports
 
 
@@ -264,10 +264,10 @@
 
 /***/ }),
 
-/***/ 875:
+/***/ 870:
 /***/ (function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(867)();
+	exports = module.exports = __webpack_require__(862)();
 	// imports
 
 
@@ -279,10 +279,10 @@
 
 /***/ }),
 
-/***/ 876:
+/***/ 871:
 /***/ (function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(867)();
+	exports = module.exports = __webpack_require__(862)();
 	// imports
 
 
@@ -294,10 +294,10 @@
 
 /***/ }),
 
-/***/ 877:
+/***/ 872:
 /***/ (function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(867)();
+	exports = module.exports = __webpack_require__(862)();
 	// imports
 
 
@@ -309,10 +309,10 @@
 
 /***/ }),
 
-/***/ 878:
+/***/ 873:
 /***/ (function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(867)();
+	exports = module.exports = __webpack_require__(862)();
 	// imports
 
 
@@ -324,7 +324,7 @@
 
 /***/ }),
 
-/***/ 879:
+/***/ 874:
 /***/ (function(module, exports, __webpack_require__) {
 
 	/*

@@ -10,7 +10,7 @@
 @import url(./assets/css/loader.css);
 @import url(./node_modules/angularjs-toaster/toaster.css);
 
-['Amorph'-image] {
+[amorph-image] {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
