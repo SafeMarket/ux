@@ -1,0 +1,72 @@
+<div class="checkout-ship" ng-controller="Checkout">
+	<div class="checkout-ship-left">
+		<div class="stepper-container">
+			<div class="stepper-img-container">
+				<img class="stepper-shipping-img" src="/assets/img/stepper-1.png" />
+			</div>
+			<div class="stepper-text-container">
+				<p class="stepper-text stepper-active">SHIPPING</p>
+				<p class="stepper-text">LOG IN/SIGN UP</p>
+				<p class="stepper-text">PAYMENT</p>
+			</div>
+		</div>
+		<div class="shipping-container">
+			<form action="/action_page.php">
+				<p class="inputbox-text">Enter your shipping address:</p>
+				<textarea type="textbox" class="shipping-address" type="text" name="ShippingAddress" placeholder="Full Name / APT. Street, City, State. / Zip code. Country"></textarea><br />
+				<p class="inputbox-text">Transport:</p>
+				<select class="transport-input" ng-options="transport.label for transport in store.transports" ng-model="transport"></select> <br />
+			</form>
+		</div>
+		<div class="buffer">
+			<p class="inputbox-text">Exchange Rate Buffer: {{store.meta.value.bufferMicroperun | perun:-6}} </p>
+			<img class="question-icon" src="/assets/img/question-icon.png" />
+		</div>
+		<div class="btns">
+			<div class="checkout-btn-left sml-btn">
+				<a class="ml-btn-left" href="#">Next</a>
+			</div>
+			<div class="checkout-btn-right sml-btn">
+				<a class="ml-btn-right" href="#">Go back to cart</a>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="checkout-ship-right">
+		<div class="checkout-order-container">
+			<div class="checkout-order-info">
+				<div class="checkout-order-warp">
+					<p class="checkout-order-bdtext">{{store.meta.value.name.to('ascii')}}
+					</p>
+					<p class="checkout-order-bdtext" pricemorph="totalPricemorph"></p>
+				</div>
+				<div class="checkout-order-productinfo" ng-repeat="(productIndex, quantity) in quantities">
+					<img class="checkout-order-img" amorph-image="store.products[productIndex].imageMultihashes[0]">
+					<div class="checkout-order-productinfo-right">
+						<p class="checkout-order-text">{{store.products[productIndex].name.to('ascii')}}</p>
+						<p class="checkout-order-text">Quantity: {{quantity}}</p>
+						<p class="checkout-order-text" pricemorph="store.products[productIndex].pricemorph"></p>
+					</div>
+				</div>
+				<div class="checkout-order-shipop">
+					<div class="checkout-order-warp">
+						<p class="checkout-order-bdtext">Shipping
+						</p>
+						<p class="checkout-order-storename" pricemorph="transport.pricemorph"></p>
+					</div>
+					<p class="checkout-order-text">{{transport.name.to('ascii')}}</p>
+				</div>
+				<div class="checkout-order-warp">
+					<p class="checkout-order-bdtext">Exchange Rate Buffer
+					</p>
+					<p class="checkout-order-bdtext" pricemorph="buffer"></p>
+				</div>
+			</div>
+			<div class="checkout-order-price">
+				<p class="checkout-order-price-total">Total <span pricemorph="totalPricemorph"></span></p>
+				<a href="#" class="checkout-order-edit">Go back edit this order</a>
+			</div>
+		</div>
+	</div>
+</div>

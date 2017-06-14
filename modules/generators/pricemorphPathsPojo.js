@@ -13,11 +13,11 @@ module.exports = function writePricemorphsPathsJson() {
       if (currenciesAscii === _currencyAscii) {
         return
       }
-      const path = ['WEI']
-      if (currencyAscii !== 'WEI') {
+      const path = ['WEI0']
+      if (currencyAscii !== 'WEI0') {
         path.unshift(currencyAscii)
       }
-      if (_currencyAscii !== 'WEI') {
+      if (_currencyAscii !== 'WEI0') {
         path.push(_currencyAscii)
       }
       pricemorphPathsPojo[currencyAscii][_currencyAscii] = path

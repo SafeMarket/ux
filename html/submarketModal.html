@@ -11,13 +11,13 @@
     <div ng-show="!isSyncing">
         <table class="table">
             <tr>
-                <td>Alias</td>
+                <td>storeId</td>
                 <td>
                     <div class="input-group">
                         <div class="input-group-addon">@</div>
-                        <input class="form-control" ng-model="alias" ng-disabled="isEditing" alias-input>
+                        <input class="form-control" ng-model="storeId" ng-disabled="isEditing" store-id-input>
                     </div>
-                    <div alias-validator="alias" ng-show="!isEditing"></div>
+                    <div storeId-validator="storeId" ng-show="!isEditing"></div>
                 </td>
             </tr>
             <tr>
@@ -64,16 +64,16 @@
         <table class="table">   
             <tbody ng-repeat="store in stores">
                 <tr>
-                    <td>Alias</td>
+                    <td>storeId</td>
                     <td>
                         <div class="input-group">
                             <div class="input-group-addon">@</div>
-                            <input class="form-control" ng-model="store.alias" alias-input>
+                            <input class="form-control" ng-model="store.storeId" store-id-input>
                             <div class="input-group-btn">
                                 <button class="btn btn-danger" type="button" ng-click="stores.splice($index,1)">X</button>
                             </div>
                         </div>
-                        <div alias-validator="store.alias" alias-type="store"></div>
+                        <div storeId-validator="store.storeId" storeId-type="store"></div>
                     </td>
                 </tr>
             </tbody>

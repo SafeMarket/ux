@@ -1,5782 +1,5782 @@
 module.exports = {
-  "WEI": {
-    "WEI": [
-      "WEI"
+  "WEI0": {
+    "WEI0": [
+      "WEI0"
     ],
-    "BTC": [
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "WEI",
-      "6THB"
+    "USD6": [
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "WEI0",
+      "ETH0"
     ]
   },
-  "BTC": {
-    "WEI": [
-      "BTC",
-      "WEI"
+  "AUD6": {
+    "WEI0": [
+      "AUD6",
+      "WEI0"
     ],
-    "BTC": [
-      "BTC",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "AUD6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "BTC",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "AUD6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "BTC",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "AUD6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "BTC",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "AUD6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "BTC",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "AUD6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "BTC",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "AUD6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "BTC",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "AUD6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "BTC",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "AUD6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "BTC",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "AUD6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "BTC",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "AUD6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "BTC",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "AUD6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "BTC",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "AUD6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "BTC",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "AUD6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "BTC",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "AUD6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "BTC",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "AUD6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "BTC",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "AUD6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "BTC",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "AUD6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "BTC",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "AUD6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "BTC",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "AUD6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "BTC",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "AUD6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "BTC",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "AUD6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "BTC",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "AUD6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "BTC",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "AUD6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "BTC",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "AUD6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "BTC",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "AUD6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "BTC",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "AUD6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "BTC",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "AUD6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "BTC",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "AUD6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "BTC",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "AUD6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "BTC",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "AUD6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "BTC",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "AUD6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "BTC",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "AUD6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "BTC",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "AUD6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "ETH": {
-    "WEI": [
-      "ETH",
-      "WEI"
+  "BGN6": {
+    "WEI0": [
+      "BGN6",
+      "WEI0"
     ],
-    "BTC": [
-      "ETH",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "BGN6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "ETH",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "BGN6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "ETH",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "BGN6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "ETH",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "BGN6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "ETH",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "BGN6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "ETH",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "BGN6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "ETH",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "BGN6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "ETH",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "BGN6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "ETH",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "BGN6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "ETH",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "BGN6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "ETH",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "BGN6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "ETH",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "BGN6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "ETH",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "BGN6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "ETH",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "BGN6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "ETH",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "BGN6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "ETH",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "BGN6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "ETH",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "BGN6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "ETH",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "BGN6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "ETH",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "BGN6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "ETH",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "BGN6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "ETH",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "BGN6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "ETH",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "BGN6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "ETH",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "BGN6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "ETH",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "BGN6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "ETH",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "BGN6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "ETH",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "BGN6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "ETH",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "BGN6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "ETH",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "BGN6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "ETH",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "BGN6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "ETH",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "BGN6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "ETH",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "BGN6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "ETH",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "BGN6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "ETH",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "BGN6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6AUD": {
-    "WEI": [
-      "6AUD",
-      "WEI"
+  "BRL6": {
+    "WEI0": [
+      "BRL6",
+      "WEI0"
     ],
-    "BTC": [
-      "6AUD",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "BRL6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6AUD",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "BRL6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6AUD",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "BRL6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6AUD",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "BRL6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6AUD",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "BRL6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6AUD",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "BRL6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6AUD",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "BRL6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6AUD",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "BRL6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6AUD",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "BRL6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6AUD",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "BRL6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6AUD",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "BRL6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6AUD",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "BRL6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6AUD",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "BRL6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6AUD",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "BRL6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6AUD",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "BRL6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6AUD",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "BRL6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6AUD",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "BRL6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6AUD",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "BRL6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6AUD",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "BRL6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6AUD",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "BRL6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6AUD",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "BRL6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6AUD",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "BRL6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6AUD",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "BRL6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6AUD",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "BRL6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6AUD",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "BRL6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6AUD",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "BRL6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6AUD",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "BRL6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6AUD",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "BRL6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6AUD",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "BRL6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6AUD",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "BRL6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6AUD",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "BRL6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6AUD",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "BRL6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6AUD",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "BRL6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6BGN": {
-    "WEI": [
-      "6BGN",
-      "WEI"
+  "CAD6": {
+    "WEI0": [
+      "CAD6",
+      "WEI0"
     ],
-    "BTC": [
-      "6BGN",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "CAD6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6BGN",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "CAD6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6BGN",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "CAD6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6BGN",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "CAD6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6BGN",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "CAD6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6BGN",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "CAD6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6BGN",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "CAD6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6BGN",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "CAD6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6BGN",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "CAD6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6BGN",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "CAD6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6BGN",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "CAD6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6BGN",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "CAD6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6BGN",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "CAD6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6BGN",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "CAD6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6BGN",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "CAD6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6BGN",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "CAD6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6BGN",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "CAD6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6BGN",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "CAD6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6BGN",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "CAD6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6BGN",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "CAD6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6BGN",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "CAD6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6BGN",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "CAD6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6BGN",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "CAD6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6BGN",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "CAD6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6BGN",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "CAD6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6BGN",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "CAD6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6BGN",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "CAD6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6BGN",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "CAD6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6BGN",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "CAD6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6BGN",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "CAD6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6BGN",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "CAD6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6BGN",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "CAD6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6BGN",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "CAD6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6BRL": {
-    "WEI": [
-      "6BRL",
-      "WEI"
+  "CHF6": {
+    "WEI0": [
+      "CHF6",
+      "WEI0"
     ],
-    "BTC": [
-      "6BRL",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "CHF6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6BRL",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "CHF6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6BRL",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "CHF6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6BRL",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "CHF6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6BRL",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "CHF6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6BRL",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "CHF6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6BRL",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "CHF6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6BRL",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "CHF6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6BRL",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "CHF6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6BRL",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "CHF6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6BRL",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "CHF6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6BRL",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "CHF6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6BRL",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "CHF6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6BRL",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "CHF6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6BRL",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "CHF6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6BRL",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "CHF6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6BRL",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "CHF6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6BRL",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "CHF6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6BRL",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "CHF6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6BRL",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "CHF6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6BRL",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "CHF6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6BRL",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "CHF6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6BRL",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "CHF6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6BRL",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "CHF6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6BRL",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "CHF6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6BRL",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "CHF6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6BRL",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "CHF6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6BRL",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "CHF6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6BRL",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "CHF6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6BRL",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "CHF6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6BRL",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "CHF6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6BRL",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "CHF6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6BRL",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "CHF6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6CAD": {
-    "WEI": [
-      "6CAD",
-      "WEI"
+  "CNY6": {
+    "WEI0": [
+      "CNY6",
+      "WEI0"
     ],
-    "BTC": [
-      "6CAD",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "CNY6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6CAD",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "CNY6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6CAD",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "CNY6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6CAD",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "CNY6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6CAD",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "CNY6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6CAD",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "CNY6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6CAD",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "CNY6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6CAD",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "CNY6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6CAD",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "CNY6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6CAD",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "CNY6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6CAD",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "CNY6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6CAD",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "CNY6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6CAD",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "CNY6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6CAD",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "CNY6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6CAD",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "CNY6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6CAD",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "CNY6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6CAD",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "CNY6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6CAD",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "CNY6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6CAD",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "CNY6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6CAD",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "CNY6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6CAD",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "CNY6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6CAD",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "CNY6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6CAD",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "CNY6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6CAD",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "CNY6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6CAD",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "CNY6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6CAD",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "CNY6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6CAD",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "CNY6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6CAD",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "CNY6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6CAD",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "CNY6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6CAD",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "CNY6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6CAD",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "CNY6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6CAD",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "CNY6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6CAD",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "CNY6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6CHF": {
-    "WEI": [
-      "6CHF",
-      "WEI"
+  "CZK6": {
+    "WEI0": [
+      "CZK6",
+      "WEI0"
     ],
-    "BTC": [
-      "6CHF",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "CZK6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6CHF",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "CZK6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6CHF",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "CZK6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6CHF",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "CZK6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6CHF",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "CZK6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6CHF",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "CZK6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6CHF",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "CZK6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6CHF",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "CZK6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6CHF",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "CZK6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6CHF",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "CZK6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6CHF",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "CZK6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6CHF",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "CZK6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6CHF",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "CZK6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6CHF",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "CZK6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6CHF",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "CZK6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6CHF",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "CZK6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6CHF",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "CZK6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6CHF",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "CZK6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6CHF",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "CZK6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6CHF",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "CZK6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6CHF",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "CZK6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6CHF",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "CZK6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6CHF",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "CZK6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6CHF",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "CZK6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6CHF",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "CZK6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6CHF",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "CZK6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6CHF",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "CZK6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6CHF",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "CZK6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6CHF",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "CZK6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6CHF",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "CZK6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6CHF",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "CZK6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6CHF",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "CZK6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6CHF",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "CZK6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6CNY": {
-    "WEI": [
-      "6CNY",
-      "WEI"
+  "DKK6": {
+    "WEI0": [
+      "DKK6",
+      "WEI0"
     ],
-    "BTC": [
-      "6CNY",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "DKK6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6CNY",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "DKK6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6CNY",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "DKK6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6CNY",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "DKK6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6CNY",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "DKK6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6CNY",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "DKK6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6CNY",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "DKK6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6CNY",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "DKK6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6CNY",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "DKK6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6CNY",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "DKK6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6CNY",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "DKK6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6CNY",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "DKK6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6CNY",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "DKK6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6CNY",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "DKK6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6CNY",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "DKK6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6CNY",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "DKK6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6CNY",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "DKK6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6CNY",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "DKK6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6CNY",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "DKK6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6CNY",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "DKK6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6CNY",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "DKK6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6CNY",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "DKK6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6CNY",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "DKK6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6CNY",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "DKK6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6CNY",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "DKK6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6CNY",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "DKK6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6CNY",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "DKK6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6CNY",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "DKK6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6CNY",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "DKK6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6CNY",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "DKK6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6CNY",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "DKK6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6CNY",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "DKK6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6CNY",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "DKK6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6CZK": {
-    "WEI": [
-      "6CZK",
-      "WEI"
+  "GBP6": {
+    "WEI0": [
+      "GBP6",
+      "WEI0"
     ],
-    "BTC": [
-      "6CZK",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "GBP6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6CZK",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "GBP6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6CZK",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "GBP6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6CZK",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "GBP6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6CZK",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "GBP6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6CZK",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "GBP6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6CZK",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "GBP6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6CZK",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "GBP6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6CZK",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "GBP6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6CZK",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "GBP6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6CZK",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "GBP6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6CZK",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "GBP6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6CZK",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "GBP6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6CZK",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "GBP6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6CZK",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "GBP6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6CZK",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "GBP6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6CZK",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "GBP6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6CZK",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "GBP6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6CZK",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "GBP6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6CZK",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "GBP6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6CZK",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "GBP6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6CZK",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "GBP6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6CZK",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "GBP6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6CZK",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "GBP6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6CZK",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "GBP6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6CZK",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "GBP6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6CZK",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "GBP6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6CZK",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "GBP6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6CZK",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "GBP6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6CZK",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "GBP6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6CZK",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "GBP6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6CZK",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "GBP6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6CZK",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "GBP6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6DKK": {
-    "WEI": [
-      "6DKK",
-      "WEI"
+  "HKD6": {
+    "WEI0": [
+      "HKD6",
+      "WEI0"
     ],
-    "BTC": [
-      "6DKK",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "HKD6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6DKK",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "HKD6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6DKK",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "HKD6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6DKK",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "HKD6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6DKK",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "HKD6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6DKK",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "HKD6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6DKK",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "HKD6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6DKK",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "HKD6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6DKK",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "HKD6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6DKK",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "HKD6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6DKK",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "HKD6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6DKK",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "HKD6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6DKK",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "HKD6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6DKK",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "HKD6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6DKK",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "HKD6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6DKK",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "HKD6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6DKK",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "HKD6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6DKK",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "HKD6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6DKK",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "HKD6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6DKK",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "HKD6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6DKK",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "HKD6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6DKK",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "HKD6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6DKK",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "HKD6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6DKK",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "HKD6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6DKK",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "HKD6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6DKK",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "HKD6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6DKK",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "HKD6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6DKK",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "HKD6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6DKK",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "HKD6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6DKK",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "HKD6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6DKK",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "HKD6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6DKK",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "HKD6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6DKK",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "HKD6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6GBP": {
-    "WEI": [
-      "6GBP",
-      "WEI"
+  "HRK6": {
+    "WEI0": [
+      "HRK6",
+      "WEI0"
     ],
-    "BTC": [
-      "6GBP",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "HRK6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6GBP",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "HRK6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6GBP",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "HRK6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6GBP",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "HRK6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6GBP",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "HRK6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6GBP",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "HRK6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6GBP",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "HRK6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6GBP",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "HRK6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6GBP",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "HRK6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6GBP",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "HRK6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6GBP",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "HRK6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6GBP",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "HRK6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6GBP",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "HRK6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6GBP",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "HRK6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6GBP",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "HRK6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6GBP",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "HRK6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6GBP",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "HRK6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6GBP",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "HRK6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6GBP",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "HRK6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6GBP",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "HRK6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6GBP",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "HRK6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6GBP",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "HRK6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6GBP",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "HRK6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6GBP",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "HRK6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6GBP",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "HRK6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6GBP",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "HRK6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6GBP",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "HRK6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6GBP",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "HRK6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6GBP",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "HRK6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6GBP",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "HRK6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6GBP",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "HRK6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6GBP",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "HRK6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6GBP",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "HRK6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6HKD": {
-    "WEI": [
-      "6HKD",
-      "WEI"
+  "HUF6": {
+    "WEI0": [
+      "HUF6",
+      "WEI0"
     ],
-    "BTC": [
-      "6HKD",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "HUF6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6HKD",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "HUF6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6HKD",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "HUF6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6HKD",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "HUF6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6HKD",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "HUF6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6HKD",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "HUF6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6HKD",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "HUF6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6HKD",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "HUF6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6HKD",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "HUF6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6HKD",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "HUF6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6HKD",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "HUF6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6HKD",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "HUF6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6HKD",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "HUF6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6HKD",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "HUF6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6HKD",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "HUF6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6HKD",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "HUF6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6HKD",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "HUF6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6HKD",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "HUF6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6HKD",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "HUF6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6HKD",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "HUF6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6HKD",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "HUF6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6HKD",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "HUF6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6HKD",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "HUF6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6HKD",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "HUF6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6HKD",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "HUF6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6HKD",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "HUF6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6HKD",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "HUF6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6HKD",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "HUF6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6HKD",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "HUF6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6HKD",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "HUF6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6HKD",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "HUF6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6HKD",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "HUF6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6HKD",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "HUF6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6HRK": {
-    "WEI": [
-      "6HRK",
-      "WEI"
+  "IDR6": {
+    "WEI0": [
+      "IDR6",
+      "WEI0"
     ],
-    "BTC": [
-      "6HRK",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "IDR6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6HRK",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "IDR6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6HRK",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "IDR6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6HRK",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "IDR6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6HRK",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "IDR6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6HRK",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "IDR6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6HRK",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "IDR6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6HRK",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "IDR6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6HRK",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "IDR6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6HRK",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "IDR6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6HRK",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "IDR6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6HRK",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "IDR6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6HRK",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "IDR6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6HRK",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "IDR6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6HRK",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "IDR6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6HRK",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "IDR6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6HRK",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "IDR6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6HRK",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "IDR6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6HRK",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "IDR6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6HRK",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "IDR6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6HRK",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "IDR6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6HRK",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "IDR6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6HRK",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "IDR6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6HRK",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "IDR6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6HRK",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "IDR6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6HRK",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "IDR6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6HRK",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "IDR6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6HRK",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "IDR6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6HRK",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "IDR6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6HRK",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "IDR6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6HRK",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "IDR6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6HRK",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "IDR6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6HRK",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "IDR6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6HUF": {
-    "WEI": [
-      "6HUF",
-      "WEI"
+  "ILS6": {
+    "WEI0": [
+      "ILS6",
+      "WEI0"
     ],
-    "BTC": [
-      "6HUF",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "ILS6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6HUF",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "ILS6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6HUF",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "ILS6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6HUF",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "ILS6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6HUF",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "ILS6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6HUF",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "ILS6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6HUF",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "ILS6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6HUF",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "ILS6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6HUF",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "ILS6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6HUF",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "ILS6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6HUF",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "ILS6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6HUF",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "ILS6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6HUF",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "ILS6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6HUF",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "ILS6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6HUF",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "ILS6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6HUF",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "ILS6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6HUF",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "ILS6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6HUF",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "ILS6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6HUF",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "ILS6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6HUF",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "ILS6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6HUF",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "ILS6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6HUF",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "ILS6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6HUF",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "ILS6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6HUF",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "ILS6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6HUF",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "ILS6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6HUF",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "ILS6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6HUF",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "ILS6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6HUF",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "ILS6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6HUF",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "ILS6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6HUF",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "ILS6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6HUF",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "ILS6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6HUF",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "ILS6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6HUF",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "ILS6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6IDR": {
-    "WEI": [
-      "6IDR",
-      "WEI"
+  "INR6": {
+    "WEI0": [
+      "INR6",
+      "WEI0"
     ],
-    "BTC": [
-      "6IDR",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "INR6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6IDR",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "INR6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6IDR",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "INR6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6IDR",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "INR6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6IDR",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "INR6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6IDR",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "INR6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6IDR",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "INR6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6IDR",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "INR6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6IDR",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "INR6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6IDR",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "INR6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6IDR",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "INR6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6IDR",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "INR6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6IDR",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "INR6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6IDR",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "INR6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6IDR",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "INR6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6IDR",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "INR6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6IDR",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "INR6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6IDR",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "INR6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6IDR",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "INR6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6IDR",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "INR6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6IDR",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "INR6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6IDR",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "INR6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6IDR",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "INR6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6IDR",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "INR6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6IDR",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "INR6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6IDR",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "INR6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6IDR",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "INR6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6IDR",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "INR6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6IDR",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "INR6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6IDR",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "INR6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6IDR",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "INR6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6IDR",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "INR6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6IDR",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "INR6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6ILS": {
-    "WEI": [
-      "6ILS",
-      "WEI"
+  "JPY6": {
+    "WEI0": [
+      "JPY6",
+      "WEI0"
     ],
-    "BTC": [
-      "6ILS",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "JPY6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6ILS",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "JPY6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6ILS",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "JPY6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6ILS",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "JPY6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6ILS",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "JPY6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6ILS",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "JPY6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6ILS",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "JPY6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6ILS",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "JPY6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6ILS",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "JPY6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6ILS",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "JPY6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6ILS",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "JPY6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6ILS",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "JPY6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6ILS",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "JPY6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6ILS",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "JPY6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6ILS",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "JPY6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6ILS",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "JPY6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6ILS",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "JPY6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6ILS",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "JPY6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6ILS",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "JPY6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6ILS",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "JPY6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6ILS",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "JPY6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6ILS",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "JPY6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6ILS",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "JPY6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6ILS",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "JPY6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6ILS",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "JPY6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6ILS",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "JPY6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6ILS",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "JPY6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6ILS",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "JPY6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6ILS",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "JPY6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6ILS",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "JPY6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6ILS",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "JPY6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6ILS",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "JPY6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6ILS",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "JPY6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6INR": {
-    "WEI": [
-      "6INR",
-      "WEI"
+  "KRW6": {
+    "WEI0": [
+      "KRW6",
+      "WEI0"
     ],
-    "BTC": [
-      "6INR",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "KRW6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6INR",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "KRW6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6INR",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "KRW6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6INR",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "KRW6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6INR",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "KRW6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6INR",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "KRW6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6INR",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "KRW6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6INR",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "KRW6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6INR",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "KRW6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6INR",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "KRW6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6INR",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "KRW6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6INR",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "KRW6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6INR",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "KRW6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6INR",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "KRW6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6INR",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "KRW6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6INR",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "KRW6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6INR",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "KRW6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6INR",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "KRW6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6INR",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "KRW6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6INR",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "KRW6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6INR",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "KRW6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6INR",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "KRW6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6INR",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "KRW6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6INR",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "KRW6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6INR",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "KRW6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6INR",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "KRW6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6INR",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "KRW6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6INR",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "KRW6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6INR",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "KRW6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6INR",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "KRW6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6INR",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "KRW6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6INR",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "KRW6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6INR",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "KRW6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6JPY": {
-    "WEI": [
-      "6JPY",
-      "WEI"
+  "MXN6": {
+    "WEI0": [
+      "MXN6",
+      "WEI0"
     ],
-    "BTC": [
-      "6JPY",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "MXN6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6JPY",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "MXN6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6JPY",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "MXN6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6JPY",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "MXN6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6JPY",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "MXN6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6JPY",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "MXN6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6JPY",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "MXN6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6JPY",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "MXN6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6JPY",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "MXN6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6JPY",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "MXN6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6JPY",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "MXN6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6JPY",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "MXN6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6JPY",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "MXN6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6JPY",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "MXN6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6JPY",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "MXN6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6JPY",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "MXN6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6JPY",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "MXN6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6JPY",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "MXN6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6JPY",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "MXN6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6JPY",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "MXN6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6JPY",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "MXN6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6JPY",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "MXN6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6JPY",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "MXN6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6JPY",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "MXN6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6JPY",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "MXN6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6JPY",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "MXN6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6JPY",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "MXN6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6JPY",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "MXN6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6JPY",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "MXN6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6JPY",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "MXN6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6JPY",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "MXN6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6JPY",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "MXN6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6JPY",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "MXN6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6KRW": {
-    "WEI": [
-      "6KRW",
-      "WEI"
+  "MYR6": {
+    "WEI0": [
+      "MYR6",
+      "WEI0"
     ],
-    "BTC": [
-      "6KRW",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "MYR6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6KRW",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "MYR6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6KRW",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "MYR6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6KRW",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "MYR6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6KRW",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "MYR6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6KRW",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "MYR6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6KRW",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "MYR6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6KRW",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "MYR6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6KRW",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "MYR6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6KRW",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "MYR6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6KRW",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "MYR6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6KRW",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "MYR6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6KRW",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "MYR6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6KRW",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "MYR6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6KRW",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "MYR6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6KRW",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "MYR6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6KRW",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "MYR6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6KRW",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "MYR6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6KRW",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "MYR6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6KRW",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "MYR6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6KRW",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "MYR6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6KRW",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "MYR6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6KRW",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "MYR6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6KRW",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "MYR6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6KRW",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "MYR6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6KRW",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "MYR6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6KRW",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "MYR6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6KRW",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "MYR6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6KRW",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "MYR6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6KRW",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "MYR6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6KRW",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "MYR6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6KRW",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "MYR6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6KRW",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "MYR6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6MXN": {
-    "WEI": [
-      "6MXN",
-      "WEI"
+  "NOK6": {
+    "WEI0": [
+      "NOK6",
+      "WEI0"
     ],
-    "BTC": [
-      "6MXN",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "NOK6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6MXN",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "NOK6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6MXN",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "NOK6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6MXN",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "NOK6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6MXN",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "NOK6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6MXN",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "NOK6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6MXN",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "NOK6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6MXN",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "NOK6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6MXN",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "NOK6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6MXN",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "NOK6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6MXN",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "NOK6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6MXN",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "NOK6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6MXN",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "NOK6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6MXN",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "NOK6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6MXN",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "NOK6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6MXN",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "NOK6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6MXN",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "NOK6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6MXN",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "NOK6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6MXN",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "NOK6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6MXN",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "NOK6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6MXN",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "NOK6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6MXN",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "NOK6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6MXN",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "NOK6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6MXN",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "NOK6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6MXN",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "NOK6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6MXN",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "NOK6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6MXN",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "NOK6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6MXN",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "NOK6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6MXN",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "NOK6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6MXN",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "NOK6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6MXN",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "NOK6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6MXN",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "NOK6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6MXN",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "NOK6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6MYR": {
-    "WEI": [
-      "6MYR",
-      "WEI"
+  "NZD6": {
+    "WEI0": [
+      "NZD6",
+      "WEI0"
     ],
-    "BTC": [
-      "6MYR",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "NZD6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6MYR",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "NZD6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6MYR",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "NZD6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6MYR",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "NZD6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6MYR",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "NZD6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6MYR",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "NZD6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6MYR",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "NZD6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6MYR",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "NZD6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6MYR",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "NZD6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6MYR",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "NZD6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6MYR",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "NZD6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6MYR",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "NZD6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6MYR",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "NZD6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6MYR",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "NZD6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6MYR",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "NZD6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6MYR",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "NZD6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6MYR",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "NZD6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6MYR",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "NZD6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6MYR",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "NZD6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6MYR",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "NZD6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6MYR",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "NZD6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6MYR",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "NZD6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6MYR",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "NZD6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6MYR",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "NZD6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6MYR",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "NZD6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6MYR",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "NZD6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6MYR",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "NZD6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6MYR",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "NZD6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6MYR",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "NZD6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6MYR",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "NZD6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6MYR",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "NZD6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6MYR",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "NZD6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6MYR",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "NZD6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6NOK": {
-    "WEI": [
-      "6NOK",
-      "WEI"
+  "PHP6": {
+    "WEI0": [
+      "PHP6",
+      "WEI0"
     ],
-    "BTC": [
-      "6NOK",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "PHP6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6NOK",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "PHP6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6NOK",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "PHP6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6NOK",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "PHP6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6NOK",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "PHP6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6NOK",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "PHP6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6NOK",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "PHP6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6NOK",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "PHP6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6NOK",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "PHP6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6NOK",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "PHP6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6NOK",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "PHP6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6NOK",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "PHP6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6NOK",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "PHP6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6NOK",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "PHP6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6NOK",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "PHP6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6NOK",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "PHP6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6NOK",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "PHP6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6NOK",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "PHP6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6NOK",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "PHP6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6NOK",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "PHP6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6NOK",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "PHP6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6NOK",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "PHP6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6NOK",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "PHP6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6NOK",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "PHP6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6NOK",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "PHP6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6NOK",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "PHP6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6NOK",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "PHP6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6NOK",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "PHP6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6NOK",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "PHP6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6NOK",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "PHP6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6NOK",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "PHP6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6NOK",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "PHP6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6NOK",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "PHP6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6NZD": {
-    "WEI": [
-      "6NZD",
-      "WEI"
+  "PLN6": {
+    "WEI0": [
+      "PLN6",
+      "WEI0"
     ],
-    "BTC": [
-      "6NZD",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "PLN6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6NZD",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "PLN6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6NZD",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "PLN6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6NZD",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "PLN6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6NZD",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "PLN6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6NZD",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "PLN6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6NZD",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "PLN6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6NZD",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "PLN6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6NZD",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "PLN6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6NZD",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "PLN6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6NZD",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "PLN6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6NZD",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "PLN6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6NZD",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "PLN6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6NZD",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "PLN6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6NZD",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "PLN6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6NZD",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "PLN6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6NZD",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "PLN6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6NZD",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "PLN6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6NZD",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "PLN6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6NZD",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "PLN6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6NZD",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "PLN6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6NZD",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "PLN6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6NZD",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "PLN6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6NZD",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "PLN6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6NZD",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "PLN6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6NZD",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "PLN6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6NZD",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "PLN6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6NZD",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "PLN6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6NZD",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "PLN6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6NZD",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "PLN6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6NZD",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "PLN6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6NZD",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "PLN6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6NZD",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "PLN6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6PHP": {
-    "WEI": [
-      "6PHP",
-      "WEI"
+  "RON6": {
+    "WEI0": [
+      "RON6",
+      "WEI0"
     ],
-    "BTC": [
-      "6PHP",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "RON6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6PHP",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "RON6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6PHP",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "RON6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6PHP",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "RON6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6PHP",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "RON6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6PHP",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "RON6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6PHP",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "RON6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6PHP",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "RON6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6PHP",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "RON6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6PHP",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "RON6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6PHP",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "RON6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6PHP",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "RON6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6PHP",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "RON6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6PHP",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "RON6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6PHP",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "RON6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6PHP",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "RON6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6PHP",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "RON6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6PHP",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "RON6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6PHP",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "RON6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6PHP",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "RON6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6PHP",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "RON6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6PHP",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "RON6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6PHP",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "RON6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6PHP",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "RON6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6PHP",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "RON6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6PHP",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "RON6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6PHP",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "RON6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6PHP",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "RON6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6PHP",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "RON6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6PHP",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "RON6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6PHP",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "RON6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6PHP",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "RON6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6PHP",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "RON6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6PLN": {
-    "WEI": [
-      "6PLN",
-      "WEI"
+  "RUB6": {
+    "WEI0": [
+      "RUB6",
+      "WEI0"
     ],
-    "BTC": [
-      "6PLN",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "RUB6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6PLN",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "RUB6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6PLN",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "RUB6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6PLN",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "RUB6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6PLN",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "RUB6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6PLN",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "RUB6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6PLN",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "RUB6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6PLN",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "RUB6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6PLN",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "RUB6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6PLN",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "RUB6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6PLN",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "RUB6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6PLN",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "RUB6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6PLN",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "RUB6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6PLN",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "RUB6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6PLN",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "RUB6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6PLN",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "RUB6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6PLN",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "RUB6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6PLN",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "RUB6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6PLN",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "RUB6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6PLN",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "RUB6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6PLN",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "RUB6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6PLN",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "RUB6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6PLN",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "RUB6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6PLN",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "RUB6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6PLN",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "RUB6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6PLN",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "RUB6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6PLN",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "RUB6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6PLN",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "RUB6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6PLN",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "RUB6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6PLN",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "RUB6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6PLN",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "RUB6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6PLN",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "RUB6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6PLN",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "RUB6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6RON": {
-    "WEI": [
-      "6RON",
-      "WEI"
+  "SEK6": {
+    "WEI0": [
+      "SEK6",
+      "WEI0"
     ],
-    "BTC": [
-      "6RON",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "SEK6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6RON",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "SEK6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6RON",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "SEK6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6RON",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "SEK6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6RON",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "SEK6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6RON",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "SEK6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6RON",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "SEK6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6RON",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "SEK6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6RON",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "SEK6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6RON",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "SEK6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6RON",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "SEK6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6RON",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "SEK6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6RON",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "SEK6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6RON",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "SEK6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6RON",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "SEK6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6RON",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "SEK6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6RON",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "SEK6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6RON",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "SEK6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6RON",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "SEK6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6RON",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "SEK6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6RON",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "SEK6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6RON",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "SEK6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6RON",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "SEK6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6RON",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "SEK6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6RON",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "SEK6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6RON",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "SEK6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6RON",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "SEK6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6RON",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "SEK6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6RON",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "SEK6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6RON",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "SEK6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6RON",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "SEK6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6RON",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "SEK6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6RON",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "SEK6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6RUB": {
-    "WEI": [
-      "6RUB",
-      "WEI"
+  "SGD6": {
+    "WEI0": [
+      "SGD6",
+      "WEI0"
     ],
-    "BTC": [
-      "6RUB",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "SGD6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6RUB",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "SGD6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6RUB",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "SGD6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6RUB",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "SGD6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6RUB",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "SGD6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6RUB",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "SGD6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6RUB",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "SGD6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6RUB",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "SGD6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6RUB",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "SGD6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6RUB",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "SGD6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6RUB",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "SGD6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6RUB",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "SGD6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6RUB",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "SGD6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6RUB",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "SGD6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6RUB",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "SGD6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6RUB",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "SGD6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6RUB",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "SGD6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6RUB",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "SGD6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6RUB",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "SGD6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6RUB",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "SGD6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6RUB",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "SGD6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6RUB",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "SGD6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6RUB",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "SGD6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6RUB",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "SGD6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6RUB",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "SGD6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6RUB",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "SGD6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6RUB",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "SGD6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6RUB",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "SGD6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6RUB",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "SGD6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6RUB",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "SGD6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6RUB",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "SGD6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6RUB",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "SGD6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6RUB",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "SGD6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6SEK": {
-    "WEI": [
-      "6SEK",
-      "WEI"
+  "THB6": {
+    "WEI0": [
+      "THB6",
+      "WEI0"
     ],
-    "BTC": [
-      "6SEK",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "THB6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6SEK",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "THB6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6SEK",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "THB6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6SEK",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "THB6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6SEK",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "THB6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6SEK",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "THB6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6SEK",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "THB6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6SEK",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "THB6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6SEK",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "THB6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6SEK",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "THB6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6SEK",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "THB6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6SEK",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "THB6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6SEK",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "THB6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6SEK",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "THB6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6SEK",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "THB6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6SEK",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "THB6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6SEK",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "THB6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6SEK",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "THB6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6SEK",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "THB6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6SEK",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "THB6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6SEK",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "THB6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6SEK",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "THB6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6SEK",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "THB6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6SEK",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "THB6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6SEK",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "THB6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6SEK",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "THB6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6SEK",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "THB6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6SEK",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "THB6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6SEK",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "THB6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6SEK",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "THB6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6SEK",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "THB6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6SEK",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "THB6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6SEK",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "THB6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6SGD": {
-    "WEI": [
-      "6SGD",
-      "WEI"
+  "TRY6": {
+    "WEI0": [
+      "TRY6",
+      "WEI0"
     ],
-    "BTC": [
-      "6SGD",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "TRY6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6SGD",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "TRY6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6SGD",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "TRY6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6SGD",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "TRY6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6SGD",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "TRY6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6SGD",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "TRY6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6SGD",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "TRY6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6SGD",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "TRY6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6SGD",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "TRY6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6SGD",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "TRY6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6SGD",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "TRY6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6SGD",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "TRY6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6SGD",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "TRY6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6SGD",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "TRY6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6SGD",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "TRY6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6SGD",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "TRY6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6SGD",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "TRY6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6SGD",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "TRY6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6SGD",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "TRY6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6SGD",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "TRY6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6SGD",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "TRY6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6SGD",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "TRY6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6SGD",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "TRY6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6SGD",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "TRY6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6SGD",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "TRY6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6SGD",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "TRY6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6SGD",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "TRY6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6SGD",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "TRY6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6SGD",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "TRY6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6SGD",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "TRY6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6SGD",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "TRY6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6SGD",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "TRY6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6SGD",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "TRY6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6THB": {
-    "WEI": [
-      "6THB",
-      "WEI"
+  "USD6": {
+    "WEI0": [
+      "USD6",
+      "WEI0"
     ],
-    "BTC": [
-      "6THB",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "USD6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6THB",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "USD6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6THB",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "USD6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6THB",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "USD6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6THB",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "USD6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6THB",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "USD6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6THB",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "USD6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6THB",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "USD6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6THB",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "USD6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6THB",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "USD6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6THB",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "USD6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6THB",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "USD6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6THB",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "USD6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6THB",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "USD6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6THB",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "USD6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6THB",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "USD6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6THB",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "USD6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6THB",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "USD6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6THB",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "USD6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6THB",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "USD6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6THB",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "USD6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6THB",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "USD6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6THB",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "USD6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6THB",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "USD6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6THB",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "USD6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6THB",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "USD6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6THB",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "USD6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6THB",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "USD6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6THB",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "USD6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6THB",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "USD6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6THB",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "USD6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6THB",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "USD6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6THB",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "USD6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6TRY": {
-    "WEI": [
-      "6TRY",
-      "WEI"
+  "ZAR6": {
+    "WEI0": [
+      "ZAR6",
+      "WEI0"
     ],
-    "BTC": [
-      "6TRY",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "ZAR6",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6TRY",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "ZAR6",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6TRY",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "ZAR6",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6TRY",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "ZAR6",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6TRY",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "ZAR6",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6TRY",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "ZAR6",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6TRY",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "ZAR6",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6TRY",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "ZAR6",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6TRY",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "ZAR6",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6TRY",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "ZAR6",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6TRY",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "ZAR6",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6TRY",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "ZAR6",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6TRY",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "ZAR6",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6TRY",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "ZAR6",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6TRY",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "ZAR6",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6TRY",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "ZAR6",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6TRY",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "ZAR6",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6TRY",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "ZAR6",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6TRY",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "ZAR6",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6TRY",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "ZAR6",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6TRY",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "ZAR6",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6TRY",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "ZAR6",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6TRY",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "ZAR6",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6TRY",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "ZAR6",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6TRY",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "ZAR6",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6TRY",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "ZAR6",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6TRY",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "ZAR6",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6TRY",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "ZAR6",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6TRY",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "ZAR6",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6TRY",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "ZAR6",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6TRY",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "ZAR6",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6TRY",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "ZAR6",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6TRY",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "ZAR6",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6USD": {
-    "WEI": [
-      "6USD",
-      "WEI"
+  "BTC0": {
+    "WEI0": [
+      "BTC0",
+      "WEI0"
     ],
-    "BTC": [
-      "6USD",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "BTC0",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6USD",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "BTC0",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6USD",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "BTC0",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6USD",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "BTC0",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6USD",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "BTC0",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6USD",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "BTC0",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6USD",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "BTC0",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6USD",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "BTC0",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6USD",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "BTC0",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6USD",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "BTC0",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6USD",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "BTC0",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6USD",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "BTC0",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6USD",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "BTC0",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6USD",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "BTC0",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6USD",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "BTC0",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6USD",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "BTC0",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6USD",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "BTC0",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6USD",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "BTC0",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6USD",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "BTC0",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6USD",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "BTC0",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6USD",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "BTC0",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6USD",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "BTC0",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6USD",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "BTC0",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6USD",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "BTC0",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6USD",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "BTC0",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6USD",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "BTC0",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6USD",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "BTC0",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6USD",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "BTC0",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6USD",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "BTC0",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6USD",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "BTC0",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6USD",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "BTC0",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6USD",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "BTC0",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6USD",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "BTC0",
+      "WEI0",
+      "ETH0"
     ]
   },
-  "6ZAR": {
-    "WEI": [
-      "6ZAR",
-      "WEI"
+  "ETH0": {
+    "WEI0": [
+      "ETH0",
+      "WEI0"
     ],
-    "BTC": [
-      "6ZAR",
-      "WEI",
-      "BTC"
+    "AUD6": [
+      "ETH0",
+      "WEI0",
+      "AUD6"
     ],
-    "ETH": [
-      "6ZAR",
-      "WEI",
-      "ETH"
+    "BGN6": [
+      "ETH0",
+      "WEI0",
+      "BGN6"
     ],
-    "6AUD": [
-      "6ZAR",
-      "WEI",
-      "6AUD"
+    "BRL6": [
+      "ETH0",
+      "WEI0",
+      "BRL6"
     ],
-    "6BGN": [
-      "6ZAR",
-      "WEI",
-      "6BGN"
+    "CAD6": [
+      "ETH0",
+      "WEI0",
+      "CAD6"
     ],
-    "6BRL": [
-      "6ZAR",
-      "WEI",
-      "6BRL"
+    "CHF6": [
+      "ETH0",
+      "WEI0",
+      "CHF6"
     ],
-    "6CAD": [
-      "6ZAR",
-      "WEI",
-      "6CAD"
+    "CNY6": [
+      "ETH0",
+      "WEI0",
+      "CNY6"
     ],
-    "6CHF": [
-      "6ZAR",
-      "WEI",
-      "6CHF"
+    "CZK6": [
+      "ETH0",
+      "WEI0",
+      "CZK6"
     ],
-    "6CNY": [
-      "6ZAR",
-      "WEI",
-      "6CNY"
+    "DKK6": [
+      "ETH0",
+      "WEI0",
+      "DKK6"
     ],
-    "6CZK": [
-      "6ZAR",
-      "WEI",
-      "6CZK"
+    "GBP6": [
+      "ETH0",
+      "WEI0",
+      "GBP6"
     ],
-    "6DKK": [
-      "6ZAR",
-      "WEI",
-      "6DKK"
+    "HKD6": [
+      "ETH0",
+      "WEI0",
+      "HKD6"
     ],
-    "6GBP": [
-      "6ZAR",
-      "WEI",
-      "6GBP"
+    "HRK6": [
+      "ETH0",
+      "WEI0",
+      "HRK6"
     ],
-    "6HKD": [
-      "6ZAR",
-      "WEI",
-      "6HKD"
+    "HUF6": [
+      "ETH0",
+      "WEI0",
+      "HUF6"
     ],
-    "6HRK": [
-      "6ZAR",
-      "WEI",
-      "6HRK"
+    "IDR6": [
+      "ETH0",
+      "WEI0",
+      "IDR6"
     ],
-    "6HUF": [
-      "6ZAR",
-      "WEI",
-      "6HUF"
+    "ILS6": [
+      "ETH0",
+      "WEI0",
+      "ILS6"
     ],
-    "6IDR": [
-      "6ZAR",
-      "WEI",
-      "6IDR"
+    "INR6": [
+      "ETH0",
+      "WEI0",
+      "INR6"
     ],
-    "6ILS": [
-      "6ZAR",
-      "WEI",
-      "6ILS"
+    "JPY6": [
+      "ETH0",
+      "WEI0",
+      "JPY6"
     ],
-    "6INR": [
-      "6ZAR",
-      "WEI",
-      "6INR"
+    "KRW6": [
+      "ETH0",
+      "WEI0",
+      "KRW6"
     ],
-    "6JPY": [
-      "6ZAR",
-      "WEI",
-      "6JPY"
+    "MXN6": [
+      "ETH0",
+      "WEI0",
+      "MXN6"
     ],
-    "6KRW": [
-      "6ZAR",
-      "WEI",
-      "6KRW"
+    "MYR6": [
+      "ETH0",
+      "WEI0",
+      "MYR6"
     ],
-    "6MXN": [
-      "6ZAR",
-      "WEI",
-      "6MXN"
+    "NOK6": [
+      "ETH0",
+      "WEI0",
+      "NOK6"
     ],
-    "6MYR": [
-      "6ZAR",
-      "WEI",
-      "6MYR"
+    "NZD6": [
+      "ETH0",
+      "WEI0",
+      "NZD6"
     ],
-    "6NOK": [
-      "6ZAR",
-      "WEI",
-      "6NOK"
+    "PHP6": [
+      "ETH0",
+      "WEI0",
+      "PHP6"
     ],
-    "6NZD": [
-      "6ZAR",
-      "WEI",
-      "6NZD"
+    "PLN6": [
+      "ETH0",
+      "WEI0",
+      "PLN6"
     ],
-    "6PHP": [
-      "6ZAR",
-      "WEI",
-      "6PHP"
+    "RON6": [
+      "ETH0",
+      "WEI0",
+      "RON6"
     ],
-    "6PLN": [
-      "6ZAR",
-      "WEI",
-      "6PLN"
+    "RUB6": [
+      "ETH0",
+      "WEI0",
+      "RUB6"
     ],
-    "6RON": [
-      "6ZAR",
-      "WEI",
-      "6RON"
+    "SEK6": [
+      "ETH0",
+      "WEI0",
+      "SEK6"
     ],
-    "6RUB": [
-      "6ZAR",
-      "WEI",
-      "6RUB"
+    "SGD6": [
+      "ETH0",
+      "WEI0",
+      "SGD6"
     ],
-    "6SEK": [
-      "6ZAR",
-      "WEI",
-      "6SEK"
+    "THB6": [
+      "ETH0",
+      "WEI0",
+      "THB6"
     ],
-    "6SGD": [
-      "6ZAR",
-      "WEI",
-      "6SGD"
+    "TRY6": [
+      "ETH0",
+      "WEI0",
+      "TRY6"
     ],
-    "6THB": [
-      "6ZAR",
-      "WEI",
-      "6THB"
+    "USD6": [
+      "ETH0",
+      "WEI0",
+      "USD6"
     ],
-    "6TRY": [
-      "6ZAR",
-      "WEI",
-      "6TRY"
+    "ZAR6": [
+      "ETH0",
+      "WEI0",
+      "ZAR6"
     ],
-    "6USD": [
-      "6ZAR",
-      "WEI",
-      "6USD"
+    "BTC0": [
+      "ETH0",
+      "WEI0",
+      "BTC0"
     ],
-    "6ZAR": [
-      "6ZAR",
-      "WEI",
-      "6ZAR"
+    "ETH0": [
+      "ETH0",
+      "WEI0",
+      "ETH0"
     ]
   }
 }

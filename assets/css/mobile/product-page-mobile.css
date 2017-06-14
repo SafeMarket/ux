@@ -1,0 +1,130 @@
+/*Product-page*/
+/*Mobile*/
+
+@media (max-width: 414px) {
+    body {
+    padding-left: 1vw;
+    padding-right: 1vw;
+   }
+   /*Mobile Nav*/
+    .nav{
+      flex-wrap: wrap;
+    }
+    .connection-status {
+      visibility: hidden;
+    }
+
+
+    /*Mobile Nav End*/
+  
+    
+   .product-page {
+    flex-wrap: wrap;
+   }
+   .product-gallery {
+    width: 100%; 
+    height: auto;
+   }
+
+/*  Show this CSS for mobile view after added the mobile div*/
+
+/*   .product-name-mobile {
+    margin-bottom: 20px;
+    font-weight: 700;
+   }
+   .product-price-mobile {
+    display: flex;
+    align-items: center;
+   }
+    .product-price-usd-mobile {
+    margin-top: 0;
+   }
+   .product-price-eth-mobile {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-size: 14px;
+   }*/
+
+   /*Remove this part for mobile*/
+    .product-name {
+    margin-bottom: 20px;
+    font-weight: 700;
+   }
+   .product-price {
+    display: flex;
+    align-items: center;
+   }
+   .product-price-usd {
+    margin-top: 0;
+   }
+   .product-price-eth{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-size: 14px;
+   }
+   .Feature {
+    flex-wrap: wrap;
+   }
+   .featured-stores {
+    flex-wrap: wrap;
+   }
+   /*Remove this part for mobile*/
+
+   .availability {
+    margin-top: 20px;
+    font-size: 14px;
+   }
+   .quantity-text {
+    font-size: 14px;
+   }
+   .product-btn {
+    width: 164px;
+   }
+   .product-nav {
+    width: 343px;
+   }
+   .last-nav {
+    width: 106px;
+   }
+   .front-nav {
+    width: 116px;
+   }
+   .shipping:hover ~ hr {
+    margin-left: 116px;
+    }
+
+   .return-policy:hover ~ hr {
+    margin-left: 230px;
+    }
+
+
+
+   .footer p {
+  font-size: 6px;
+  }
+  .footer-logo {
+  height: 15px; 
+  padding-left: 5px;
+}
+}
+
+/*For bigger screen*/
+
+@media (min-width: 1440px) {
+    .product-page {
+      display: flex;
+      justify-content: space-around;
+    }
+    .product-gallery {
+    width: 28vw;
+    margin-right: 40px;
+    }  
+   .footer {
+    margin-top: 20px;
+   }
+
+}
+
+

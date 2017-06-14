@@ -1,0 +1,135 @@
+/*Store header*/
+.store-name {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 70px;
+}
+.store-description {
+  font-weight: 400px;
+}
+.info-icon {
+  height: 17px;
+  margin-top: 14px;
+  margin-right: 10px;
+}
+.info-text {
+  font-weight: 300;
+}
+.store-header-grid {
+  display: flex;
+  margin-right: 30px;
+}
+.store-header-info {
+  display: flex;
+}
+/*Store header end*/
+
+/*Store anchors*/
+.store-anchors {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  width: 980px;
+  height: 48px;
+  margin-top: 40px;
+}
+.page-anchor {
+  margin-left: 40px;
+  font-weight: 400;
+  font-size: 14px;
+}
+/*Store anchors*/
+
+/*Products*/
+.Products-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-overview {
+  height: 289px;
+  width: 235px;
+  margin-top: 50px;
+  margin-right: 5px;
+}
+.product-overview-img {
+  width: 235px;
+  height: 158px;
+}
+
+.product-price {
+  font-weight: 300;
+}
+.add-to-cart-btn {
+  font-size: 10px;
+  border: 1px solid black;
+  width: 94px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-description {
+  margin-left: 10px;
+}
+/*Products End*/
+
+/*Orders Table*/
+.table-row-header {
+  display: flex;
+  align-items: center;
+  width: 980px;
+  height: 33px;
+}
+.header {
+  font-weight: 400;
+  width: 180px;
+  margin-right: 20px;
+}
+.table-row {
+  display: flex;
+  align-items: center;
+  width: 980px;
+  height: 33px;
+}
+.single {
+  background-color: #F7F8F9;
+}
+.text {
+  width: 180px;
+  margin-right: 20px;
+  font-weight: 300;
+}
+
+/*Orders Table end*/
+
+/*About section*/
+.info-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.info-left {
+  width: 247px;
+}
+.info-right {
+  width: 383px;
+}
+.info-text {
+  font-weight: 300;
+}
+.eth-alt {
+  margin-left: 15px;
+  color: #6B6B6B;
+}
+.ques-hover {
+  width: 13px;
+  margin-left: 5px;
+}
+.question {
+  display: flex;
+  align-items: center;
+}
+.polices-header {
+  text-transform: uppercase;
+  font-weight: 300;
+}

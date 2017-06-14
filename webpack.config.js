@@ -1,14 +1,17 @@
-const webpack = require('webpack')
+const path = require('path')
 
 module.exports = {
-  entry: './index.js',
+  entry: {
+    app: './app.js',
+    style: './style.js'
+  },
   target: 'web',
   output: {
-    path: __dirname,
-    filename: 'generated/bundle.js'
+    path: path.join(__dirname, 'generated'),
+    filename: '[name].js'
   },
   resolve: {
-    modulesDirectories: ['node_modules', 'bower_components']
+    modulesDirectories: ['node_modules']
   },
   node: {
     fs: false
@@ -16,18 +19,13 @@ module.exports = {
   browser: {
     fs: false
   },
-  plugins: [
-    new webpack.ResolverPlugin(
-      new webpack.ResolverPlugin.DirectoryDescriptionFilePlugin('.bower.json', ['main'])
-    )
-  ],
+  plugins: [],
   module: {
     loaders: [
       { test: /\.css$/, loader: 'style!css' },
       {
         test: /\.js$/,
         loaders: [
-          'transform-loader/cacheable?bulkify',
           'transform-loader/cacheable?brfs',
           'eslint-loader'
         ]

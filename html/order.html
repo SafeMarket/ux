@@ -37,10 +37,6 @@
 			<td>Store</td>
 			<td colspan="2" address="order.store.address"></td>
 		</tr>
-		<tr ng-if="order.isArbitrator">
-			<td>Arbitrator</td>
-			<td colspan="2" address="order.arbitrator.address"></td>
-		</tr>
 		<tr ng-if="order.isAffiliate">
 			<td>Affiliate</td>
 			<td colspan="2" address="order.affiliate"></td>
@@ -85,7 +81,7 @@
 		<tr ng-repeat="product in order.products">
 			<td><code>PRODUCT ID #{{product.id.to('number')}}</code></td>
 			<td>{{product.name}}</td>
-			<td pricemorph="product.price"></td>
+			<td pricemorph="product.pricemorph"></td>
 			<td>x{{product.quantity.to('number')}}</td>
 		</tr>
 	</table>

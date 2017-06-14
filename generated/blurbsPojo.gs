@@ -1,18 +1,12 @@
 module.exports = {
-  "alias_char_codes": {
-    "eng": "Aliases should only contain lowercase letters, numbers, and underscores"
-  },
-  "alias_unavailable": {
-    "eng": "Alias @%s is not available"
-  },
   "authfile_required": {
     "eng": "Authfile is required"
   },
   "could_not_decrypt_authfile": {
     "eng": "Could not decrypt authfile. Make sure the authfile and passphrase is correct."
   },
-  "could_not_find_alias": {
-    "eng": "Could not find alias @%s"
+  "could_not_find_store_id": {
+    "eng": "Could not find store id @%s"
   },
   "created_store": {
     "eng": "Created store at %s"
@@ -23,8 +17,8 @@ module.exports = {
   "login_successful": {
     "eng": "Login successful!"
   },
-  "looking_up_alias": {
-    "eng": "Looking up alias @%s"
+  "looking_up_store_id": {
+    "eng": "Looking up store id @%s"
   },
   "no_updates": {
     "eng": "Nothing to update"
@@ -37,6 +31,12 @@ module.exports = {
   },
   "registration_successful": {
     "eng": "Registration successful! Make sure your authfile is safe."
+  },
+  "store_id_char_codes": {
+    "eng": "Store ids should only contain lowercase letters, numbers, and underscores"
+  },
+  "store_id_unavailable": {
+    "eng": "Store id @%s is not available"
   },
   "uploaded_files_to_ipfs": {
     "eng": "Uploaded %i files to IPFS"

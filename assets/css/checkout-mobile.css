@@ -1,0 +1,35 @@
+@media (max-width: 414px) {
+body {
+    padding-left: 1vw;
+    padding-right: 1vw;
+   }
+.cart-row-1 {
+	display: initial;
+}
+.cart-container {
+	min-width: 0;
+}
+.cart-order-product{
+	flex-direction: column;
+  }
+.cart-storeorder {
+    flex-direction: column;
+    min-width: 0;
+    padding-right: 20px;
+}
+.cart-order-right {
+	border-left: none;
+	border-top: 1px #979797 solid;
+	margin-top: 15px;
+	padding-left: 0px;
+	padding-top: 10px;
+
+}
+.cart-order-totalprice {
+	display: flex;
+}
+.cart-order-totalprice-eth {
+	margin-left: 10px;
+}
+
+}

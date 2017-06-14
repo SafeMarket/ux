@@ -15,9 +15,6 @@
                 Profile
                 <div id="settings-modal-profile-address" address="profile.persona.address"></div>
             </td>
-            <td>
-                 <select ng-model="profile" ng-options="profile as profile.persona.address.to('hex.prefixed') for profile in profiles" class="form-control"></select>
-            </td>
         </tr>
         <tr ng-if="profile">
             <td>

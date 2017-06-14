@@ -1,51 +1,18 @@
 <div ng-controller="StoreProducts">
-	<table class="table">
-		<tr ng-repeat="product in store.products">
-			<td>
-				<div ng-repeat="image in product.images track by $index">
-					<img amorph-image="image" class="image">
+	<div class="Products-section">
+		<div class="product-overview" ng-repeat="product in store.products">
+			<a ng-href="{{product.url}}">
+				<div class="product-overview-img" amorph-image="product.imageMultihashes[0]" ng-click="goToProduct($index)"></div>
+			</a>
+			<div class="product-description">
+				<a class="product-name" ng-href="{{product.url}}">
+					{{product.name.to('ascii')}}
+				</a>
+				<p class="product-price" pricemorph="product.pricemorph"></p>
+				<div class="add-to-cart-btn">
+					<a ng-click="addToCart($index)">ADD TO CART</a>
 				</div>
-			</td>
-			<td>
-				{{product.name}}
-				<div class="text-muted text-small">{{product.quantity.to('number.string')}} Units Available</div>
-			</td>
-			<td>
-				{{product.info}}
-			</td>
-			<td pricemorph="product.price"></td>
-			<td>
-				<input class="form-control" type="number" ng-model="productQuantities[$index]" min="0" max="{{product.quantity.to('number')}}" amorph-input="number" ng-change="onQuantitiesChanged()">
-			</td>
-		</tr>
-		<tr>
-			<td colspan="4"></td>
-			<td pricemorph="productsTotal"></td>
-		</tr>
-		<tr>
-			<td>Transport</td>
-			<td colspan="3">
-				<select ng-model="transport" ng-options="transport.getLabel() for transport in store.transports" class="form-control"></select>
-			</td>
-			<td pricemorph="transport.price"></td>
-		</tr>
-		<tr>
-			<td colspan="4">Exchange Rate Buffer ({{store.bufferMicroperun | perun:-6}})</td>
-			<td pricemorph="buffer"></td>
-		</tr>
-		<tr>
-			<td>Arbitrator</td>
-			<td colspan="3">
-				<select ng-model="arbitratorOption" ng-options="arbitratorOption.getLabel() for arbitratorOption in arbitratorOptions" class="form-control"></select>
-			</td>
-			<td pricemorph="arbitratorTotal"></td>
-		</tr>
-		<tr>
-			<td colspan="4">Total</td>
-			<td pricemorph="total"></td>
-		</tr>
-	</table>
-  <div class="text-right">
-	<button ng-click="createOrder()" class="btn btn-primary btn-lg" id="create-order-button">Create Your Order</button>
+			</div>
+		</div>
 	</div>
 </div>

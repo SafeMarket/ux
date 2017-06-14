@@ -15,10 +15,10 @@
         <td address-input-group="store.coinbase"></td>
       </tr>
       <tr>
-        <td>Alias</td>
+        <td>storeId</td>
         <td>
-          <div ng-if="!store.address" alias-input-group="store.alias" require-availability="true"></div>
-          <div ng-if="store.address">@{{store.alias.to('ascii')}}</div>
+          <div ng-if="!store.address" store-id-input-group="store.storeId" require-availability="true"></div>
+          <div ng-if="store.address">@{{store.storeId.to('ascii')}}</div>
         </td>
       </tr>
       <tr>
@@ -30,7 +30,7 @@
       <tr>
         <td>Currency</td>
         <td>
-          <select type="text" ng-model="store.currency" class="form-control" ng-options="currencyOption.currency as currencyOption.label for currencyOption in currencyOptions"></select>
+          <select type="text" ng-model="store.meta.value.currency" class="form-control" ng-options="currencyOption.currency as currencyOption.label for currencyOption in currencyOptions"></select>
         </td>
       </tr>
       <tr>
@@ -44,16 +44,8 @@
         </td>
       </tr>
       <tr>
-        <td>Dispute Resolution Time
-          <div class="text-small text-muted">How long after shipping can buyers open a dispute?</div>
-        </td>
-        <td>
-          <select type="text" ng-model="store.disputeSecondsOption" class="form-control" ng-options="option.label for option in disputeSecondsOptions"></select>
-        </td>
-      </tr>
-      <tr>
         <td>Minimum Products Total</td>
-        <td pricemorph-input-group="store.minProductsTotal" currency="store.currency"></td>
+        <td pricemorph-input-group="store.minProductsTotal" currency="store.meta.value.currency"></td>
       </tr>
       <tr>
         <td>Affiliate Fee: <span ng-cloak>{{store.affiliateFeeMicroperun | perun:-6 }}</span></td>
@@ -65,28 +57,6 @@
         <td>Info</td>
         <td>
           <textarea class="form-control" ng-model="info" id="store-modal-info"></textarea>
-        </td>
-      </tr>
-      <tr>
-        <td>Approved Arbitrators</td>
-        <td>
-          <table class="table">
-            <tr ng-repeat="approvedArbitratorAlias in store.approvedArbitratorAliases track by $index">
-              <td alias-input-group="store.approvedArbitratorAliases[$index]"></td>
-              <td >
-                <div class="pull-right">
-                  <button class="btn btn-xs btn-danger" ng-click="deleteApprovedArbitratorAlias($index)">Delete</button>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td colspan="2">
-                <div class="pull-right">
-                  <button class="btn btn-xs btn-info" ng-click="store.addApprovedArbitratorAlias()">+</button>
-                </div>
-              </td>
-            </tr>
-          </table>
         </td>
       </tr>
     </table>
@@ -106,7 +76,7 @@
       </tr>
       <tr>
         <td>Price</td>
-        <td pricemorph-input-group="product.price" currency="store.currency"></td>
+        <td pricemorph-input-group="product.pricemorph" currency="store.meta.value.currency"></td>
       </tr>
       <tr>
         <td>Units Available</td>
@@ -158,7 +128,7 @@
       </tr>
       <tr>
         <td>Price</td>
-        <td pricemorph-input-group="transport.price" currency="store.currency"></td>
+        <td pricemorph-input-group="transport.price" currency="store.meta.value.currency"></td>
       </tr>
       <tr>
         <td>Ships</td>

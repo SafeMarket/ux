@@ -1,26 +1,9 @@
-<div alias-bar></div>
-<div class="alert alert-info" ng-show="!store.isReady">
-	Loading Store
-</div>
-<div ng-if="store && store.isReady">
-	<h1>
-		<span id="name">{{store.name}}</span>
-		<button
-			class="btn btn-default"
-			ng-click="editStore()"
-	    id="open-store-modal-button"
-			ng-if="store.isOwner"
-		>
-			Edit Store
-		</button>
-	</h1>
-	<uib-tabset active="activeTabIndex">
-    <uib-tab
-        ng-repeat="tab in tabs"
-        heading="{{tab.heading}}"
-        select="go(tab.route)"
-    >
-    </uib-tab>
-	</uib-tabset>
+<div>
+	<h2 class="store-name">{{store.meta.value.name.to('ascii')}}</h2>
+	<p class="store-description">{{store.meta.value.tagline.to('ascii')}}</p>
+	<div class="store-anchors">
+		<a class="page-anchor" ng-href="{{store.productsUrl}}">Products ({{store.meta.value.products.length}})</a>
+		<a class="page-anchor" ng-href="{{store.aboutUrl}}">About</a>
+	</div>
 	<div ui-view></div>
 </div>

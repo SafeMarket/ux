@@ -1,9 +1,9 @@
 <div class="alert alert-info text-center" ng-show="stores.length===0">
-	{{submarket.meta.name}} has not approved any stores
+	{{submarket.meta.value.name}} has not approved any stores
 </div>
 <table class="table">
 	<tr ng-repeat="store in stores">
-		<td>{{store.meta.name}}</td>
-		<td alias="store.addr"></td>
+		<td>{{store.meta.value.name}}</td>
+		<td storeId="store.addr"></td>
 	</tr>
 </table>

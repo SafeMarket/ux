@@ -1,0 +1,68 @@
+@media (max-width: 414px) {
+    body {
+    padding-left: 1vw;
+    padding-right: 1vw;
+   }
+   /*Mobile Nav*/
+    .nav{
+      flex-wrap: wrap;
+    }
+    .nav-searchbar {
+    margin-left: 20px;
+    }
+    .connection-status {
+      visibility: hidden;
+    }
+
+    /*Mobile Nav End*/
+    .home-tittle {
+      font-size: 18px;
+      line-height: 25px;
+      font-weight: 700;
+    }
+    .Feature {
+      flex-wrap: wrap;
+    }
+    .featured-stores {
+      flex-wrap: wrap;
+    }
+    .feature-title {
+      font-weight: 700;
+    }
+    .featured-stores-tittle {
+      font-weight: 700;
+    }
+    .featured-store-name {
+      font-weight: 700;
+    }
+    .home-sublink {
+      font-size: 12px;
+      line-height: 19px;
+    }
+/*    .searchbar {
+      width: 325px;
+    }*/
+    .search2 {
+    width: 300px; 
+    }
+    .Feature {
+      justify-content: center;
+    }
+    .feature-grid {
+      margin-top: 10px;
+    }
+    .featured-stores {
+      justify-content: center;
+    }
+    .featured-stores-grid {
+      margin-top: 20px;
+    }
+    .footer p {
+      font-size: 6px;
+      }
+      .footer-logo {
+      height: 15px; 
+      padding-left: 5px;
+    }
+
+}

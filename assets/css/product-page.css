@@ -1,0 +1,150 @@
+/*Product page css*/
+
+.product-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/*Product preview gallery*/
+.product-gallery {
+display: flex;
+flex-direction: column;
+width: 405px;
+margin-right: 30px;
+}
+.gallery-main {
+  width: 100%;
+}
+.gallery-preview {
+  display: flex;
+}
+.product-previews {
+  width: 90px;
+  height: 81px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.store-brif-name {
+  font-size: 18px;
+  font-weight: 400;
+}
+.store-brif-description {
+  font-weight: 300;
+}
+.store-brif {
+  margin-top: 30px;
+}
+/*Product preview gallery end*/
+
+/*Product info section, right*/
+.product-name {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+.product-price-usd {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.product-price-eth {
+  font-size: 12px;
+  font-weight: 400;
+  color: #979797;
+  margin-top: 5px;
+}
+.availability {
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 7px;
+  margin-top: 35px;
+}
+.quantity-text {
+  font-size: 12px;
+  font-weight: 400;
+  margin-right: 15px;
+}
+.quantity {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/*Selection box*/
+.qty {
+  width: 69px;
+  height: 23px;
+}
+input.qtyplus { width:40px; height:25px;}
+input.qtyminus { width:40px; height:25px;}
+/*Selection box end*/
+.buy-cart-btns {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-btn {
+  font-size: 12px;
+  font-weight: 400;
+  border: 1px solid black;
+  width: 139px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-btn {
+  margin-right: 10px;
+}
+
+/*Product-page-nav*/
+.product-nav {
+  width: 515px;
+}
+
+.product-nav-ul li {
+  display: inline;
+}
+.product-nav-ul {
+  padding-left: 0;
+}
+
+.inpage-nav {
+  display: inline-block;
+  width: 130px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.shipping:hover ~ hr {
+  margin-left: 130px;
+}
+
+.return-policy:hover ~ hr {
+  margin-left: 260px;
+}
+
+.inpage-hr {
+  height: 2px;
+  width: 130px;
+  background-color: black;
+  border: none;
+  transition: .3s ease-in-out;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 10px;
+}
+.product-nav-description {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.showcase {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(255,255,255,.7);
+}

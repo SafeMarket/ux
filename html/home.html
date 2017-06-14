@@ -1,35 +1,29 @@
-<div class='text-center'>
-	<h1>Hello, Friend</h1>
-	<br>
-	<div alias-bar></div>
-	<div class="row">
-		<div class="col-sm-4">
-			<h4 class="text-center">My Orders</h4>
-			<div ng-repeat="orderAddr in orderAddrs" class="oneliner">
-				<a ng-href="#/orders/{{orderAddr}}">{{orderAddr}}</a>
-			</div>
+<div class="main-tittle">
+	<h1 class="home-tittle">Truly Peer To Peer Ecommerce Begins Here</h1>
+	<div store-id-bar></div>
+</div>
+<div class="Feature">
+<div class="feature-grid">
+	<img class="feature-img" src="assets/img/security.png" />
+	<div class="feature-text">
+		<h4 class="feature-title">Security</h4>
+				<h4 class="feature-description">No more credit card fraud or chargebacks.</h4>
 		</div>
-		<div class="col-sm-4">
-			<h4 class="text-center">
-				My Stores
-				<a ng-click="openStoreModal()" class="glyphicon glyphicon-plus" id="open-store-modal-button"></a>
-				<a ng-click="openImportStoreModal()" class="glyphicon glyphicon-import" id="open-import-store-modal-button"></a>
-			</h4>
-			<div id="my-stores">
-				<div ng-repeat="storeAddr in storeAddrs" alias="storeAddr">
-				</div>
-			</div>
+	</div>
+
+	<div class="feature-grid">
+	<img class="feature-img" src="assets/img/privacy.png" />
+	<div class="feature-text">
+		<h4 class="feature-title">Privacy</h4>
+				<h4 class="feature-description">Add a sentence to describe this featuew</h4>
 		</div>
-		<div class="col-sm-4">
-			<h4 class="text-center">
-				My Arbitrators
-				<a ng-click="openArbitratorModal()" class="glyphicon glyphicon-plus" id="open-submarket-modal-button"></a>
-				<a ng-click="openImportAbirtratorModal()" class="glyphicon glyphicon-import" id="open-import-submarket-modal-button"></a>
-			</h4>
-			<div id="my-submarkets">
-				<div ng-repeat="submarketAddr in submarketAddrs" alias="submarketAddr">
-				</div>
-			</div>
+	</div>
+
+	<div class="feature-grid">
+	<img class="feature-img" src="assets/img/autonomy.png" />
+	<div class="feature-text">
+		<h4 class="feature-title">Autonomy</h4>
+				<h4 class="feature-description">Add a sentence to describe this featuew</h4>
 		</div>
 	</div>
 </div>

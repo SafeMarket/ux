@@ -1,0 +1,53 @@
+<div class="showcase" amorph-image="showcaseImage" ng-show="showcaseImage" ng-click="showcaseImage = undefined">
+</div>
+<div class="product-page" ng-cloak ng-show="store.isReady" >
+	<div class="product-gallery">
+		<div class="gallery-main" amorph-image="product.imageMultihashes[0]" ng-click="showcaseImage = product.imageMultihashes[0]"></div>
+		<div class="gallery-preview">
+      <div class="product-previews" ng-repeat="imageMultihash in product.imageMultihashes" amorph-image="imageMultihash" ng-click="showcaseImage = image"></div>
+		</div>
+		<div class="store-brif">
+			<a class="store-brif-name" ng-href="{{store.productsUrl}}">{{store.meta.value.name.to('ascii')}}</a>
+			<p class="store-brif-description">{{store.meta.value.info.to('ascii')}}</p>
+		</div>
+	</div>
+	<div class="Product-info">
+		<div class="product-info-hide">
+			<p class="product-name">{{product.name.to('ascii')}}</p>
+			<div class="product-price">
+				<p class="product-price-usd" pricemorph="product.price"></p>
+			</div>
+		</div>
+		<div class="choose-quantity">
+			<div class="quantity">
+				<p class="quantity-text">Quantity</p>
+				<div class="quantity-selction-box">
+					<form id='myform' method='POST' action='#'>
+				    <input type='button' value='-' class='qtyminus' field='quantity' ng-click="quantityNumber = quantityNumber - 1" ng-disabled="quantityNumber==1"/>
+				    <input type='number' name='quantity' value='0' class='qty' ng-model="quantityNumber" min="1"/>
+				    <input type='button' value='+' class='qtyplus' field='quantity' ng-click="quantityNumber = quantityNumber + 1"/>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="buy-cart-btns">
+			<div class="product-btn left-btn">
+				<a ng-click="addToCart()">Add to Cart</a>
+			</div>
+			<div class="product-btn">
+				<a href="#">Buy Now</a>
+			</div>
+		</div>
+		<div class="store-header-grid">
+			<a href="#"><img class="info-icon" src="/assets/img/contact-icon.png" /></a>
+			<a class="info-text">Contact Shop owner</a>
+		</div>
+		<div class="product-nav">
+		  <ul class="product-nav-ul">
+		    <li class="description">Description</li>
+		  </ul>
+			<p class="product-nav-description">{{product.info.to('ascii')}}</p>
+		</div>
+	</div>
+
+</div>

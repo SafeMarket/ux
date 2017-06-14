@@ -2,7 +2,7 @@
 <div ng-if="isPricemorphReady">
   {{pricemorphLabel}}
   <br>
-  <span class="text-small text-muted" ng-if="currency.to('ascii')!=='ETH'">{{pricemorph.to('ETH').to('number') | rounded }} ETH</span>
+  <span class="text-small text-muted" ng-if="currency.to('ascii')!=='ETH0'">{{pricemorph.to('ETH0').to('number') | rounded }} ETH</span>
 </div>
 <div ng-if="!isPricemorphReady">
   Waiting for exchange rate data...

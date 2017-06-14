@@ -1,0 +1,5 @@
+<form id='myform' method='POST' action='#'>
+  <input type='button' value='-' class='qtyminus' field='quantity' ng-click="quantity = quantity - 1" ng-disabled="quantity <= 0"/>
+  <input type='text' name='quantity' value='0' class='qty' ng-model="quantity"/>
+  <input type='button' value='+' class='qtyplus' field='quantity' ng-click="quantity = quantity + 1" />
+</form>

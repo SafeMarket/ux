@@ -1,0 +1,24 @@
+/*Footer*/
+.footer {
+  margin-top: 5vw;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer p {
+  font-size: 10px;
+}
+
+.footer-right {
+  display: flex; 
+  align-items: center;
+}
+
+.footer-logo {
+  height: 25px; 
+  padding-left: 10px;
+}
+/*Footer end*/

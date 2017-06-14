@@ -1,6 +1,5 @@
 module.exports = {
-  "Ticker": "42237846545421830c35e22c058af8e17b2d24cb",
-  "AliasReg": "88b63b1556b26ed3a3d611f05ddd1da6d4f625ab",
-  "God": "86b51328b60b801b625c70d0d21995b28d5e62d0",
-  "OrderReg": "d6a45b4bde90dbdec4a58e651752251c40543aa4"
+  "OrderReg": "8dbaa805de1106759c0cd68b857afc063b960557",
+  "Planetoid": "9292aa5c0f63f0f1f2a0d1c362abd85b691008d9",
+  "StoreReg": "aca3ac6376403f539efad821272d47052d68c89a"
 }

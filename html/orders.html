@@ -4,7 +4,6 @@
 		<th></th>
 		<th>Created</th>
 		<th>Store</th>
-		<th>Arbitrator</th>
 		<th>Status</th>
 		<th></th>
 	</tr>
@@ -12,10 +11,6 @@
 		<td><code>ORDER ID #{{order.id.to('number')}}</code></a></td>
 		<td timestamp ="order.createdAt"></td>
 		<td address="order.store.address"></td>
-		<td>
-			<div ng-if="order.isArbitrator" address="order.arbitrator.address"></div>
-			<div ng-if="!order.isArbitrator">None</div>
-		</td>
 		<td>
 			{{order.status | status}}
 		</td>

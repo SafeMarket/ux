@@ -162,17 +162,17 @@ describe('auth', () => {
       })
     })
 
-    describe('growl message', () => {
+    describe('toaster message', () => {
       it('should be displayed', () => {
-        return $('.growl-item').isDisplayed().should.eventually.equal(true)
+        return $('.toaster-item').isDisplayed().should.eventually.equal(true)
       })
 
       it('should be error', () => {
-        return $('.growl-item').getAttribute('class').should.eventually.contain('error')
+        return $('.toaster-item').getAttribute('class').should.eventually.contain('error')
       })
 
       it('should have blurb passphrase_required', () => {
-        return $('.growl-item').getText().should.eventually.contain(getBlurb('passphrase_required'))
+        return $('.toaster-item').getText().should.eventually.contain(getBlurb('passphrase_required'))
       })
     })
 
@@ -188,17 +188,17 @@ describe('auth', () => {
       })
     })
 
-    describe('growl message', () => {
+    describe('toaster message', () => {
       it('should be displayed', () => {
-        return $('.growl-item').isDisplayed().should.eventually.equal(true)
+        return $('.toaster-item').isDisplayed().should.eventually.equal(true)
       })
 
       it('should be error', () => {
-        return $('.growl-item').getAttribute('class').should.eventually.contain('error')
+        return $('.toaster-item').getAttribute('class').should.eventually.contain('error')
       })
 
       it('should have blurb passphrase_mismatch', () => {
-        return $('.growl-item').getText().should.eventually.contain(getBlurb('passphrase_mismatch'))
+        return $('.toaster-item').getText().should.eventually.contain(getBlurb('passphrase_mismatch'))
       })
     })
 
@@ -214,17 +214,17 @@ describe('auth', () => {
       })
     })
 
-    describe('growl message', () => {
+    describe('toaster message', () => {
       it('should be displayed', () => {
-        return $('.growl-item').isDisplayed().should.eventually.equal(true)
+        return $('.toaster-item').isDisplayed().should.eventually.equal(true)
       })
 
       it('should be success', () => {
-        return $('.growl-item').getAttribute('class').should.eventually.contain('success')
+        return $('.toaster-item').getAttribute('class').should.eventually.contain('success')
       })
 
       it('should have blurb registration_successful', () => {
-        return $('.growl-item').getText().should.eventually.contain(getBlurb('registration_successful'))
+        return $('.toaster-item').getText().should.eventually.contain(getBlurb('registration_successful'))
       })
     })
 
@@ -241,17 +241,17 @@ describe('auth', () => {
       })
     })
 
-    describe('growl message', () => {
+    describe('toaster message', () => {
       it('should be displayed', () => {
-        return $('.growl-item').isDisplayed().should.eventually.equal(true)
+        return $('.toaster-item').isDisplayed().should.eventually.equal(true)
       })
 
       it('should be error', () => {
-        return $('.growl-item').getAttribute('class').should.eventually.contain('error')
+        return $('.toaster-item').getAttribute('class').should.eventually.contain('error')
       })
 
       it('should have blurb authfile_required', () => {
-        return $('.growl-item').getText().should.eventually.contain(getBlurb('authfile_required'))
+        return $('.toaster-item').getText().should.eventually.contain(getBlurb('authfile_required'))
       })
     })
 
@@ -291,17 +291,17 @@ describe('auth', () => {
       })
     })
 
-    describe('growl message', () => {
+    describe('toaster message', () => {
       it('should be displayed', () => {
-        return $('.growl-item').isDisplayed().should.eventually.equal(true)
+        return $('.toaster-item').isDisplayed().should.eventually.equal(true)
       })
 
       it('should be error', () => {
-        return $('.growl-item').getAttribute('class').should.eventually.contain('error')
+        return $('.toaster-item').getAttribute('class').should.eventually.contain('error')
       })
 
       it('should have blurb passphrase_required', () => {
-        return $('.growl-item').getText().should.eventually.contain(getBlurb('passphrase_required'))
+        return $('.toaster-item').getText().should.eventually.contain(getBlurb('passphrase_required'))
       })
     })
 
@@ -325,17 +325,17 @@ describe('auth', () => {
       })
     })
 
-    describe('growl message', () => {
+    describe('toaster message', () => {
       it('should be displayed', () => {
-        return $('.growl-item').isDisplayed().should.eventually.equal(true)
+        return $('.toaster-item').isDisplayed().should.eventually.equal(true)
       })
 
       it('should be error', () => {
-        return $('.growl-item').getAttribute('class').should.eventually.contain('error')
+        return $('.toaster-item').getAttribute('class').should.eventually.contain('error')
       })
 
       it('should have blurb could_not_decrypt_authfile', () => {
-        return $('.growl-item').getText().should.eventually.contain(getBlurb('could_not_decrypt_authfile'))
+        return $('.toaster-item').getText().should.eventually.contain(getBlurb('could_not_decrypt_authfile'))
       })
     })
 
@@ -366,17 +366,17 @@ describe('auth', () => {
       })
     })
 
-    describe('growl message', () => {
+    describe('toaster message', () => {
       it('should be displayed', () => {
-        return $('.growl-item').isDisplayed().should.eventually.equal(true)
+        return $('.toaster-item').isDisplayed().should.eventually.equal(true)
       })
 
       it('should be success', () => {
-        return $('.growl-item').getAttribute('class').should.eventually.contain('success')
+        return $('.toaster-item').getAttribute('class').should.eventually.contain('success')
       })
 
       it('should have blurb login_successful', () => {
-        return $('.growl-item').getText().should.eventually.contain(getBlurb('login_successful'))
+        return $('.toaster-item').getText().should.eventually.contain(getBlurb('login_successful'))
       })
     })
 

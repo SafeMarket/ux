@@ -470,28 +470,28 @@
           }
         },
         {
-          "title": "growl message",
+          "title": "toaster message",
           "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
           "suites": [],
           "tests": [
             {
               "status": 1,
               "title": "should be displayed",
-              "fullTitle": "auth register modal growl message should be displayed",
+              "fullTitle": "auth register modal toaster message should be displayed",
               "duration": 0.07,
               "error": null
             },
             {
               "status": 1,
               "title": "should be error",
-              "fullTitle": "auth register modal growl message should be error",
+              "fullTitle": "auth register modal toaster message should be error",
               "duration": 0.04,
               "error": null
             },
             {
               "status": 1,
               "title": "should have blurb passphrase_required",
-              "fullTitle": "auth register modal growl message should have blurb passphrase_required",
+              "fullTitle": "auth register modal toaster message should have blurb passphrase_required",
               "duration": 0.06,
               "error": null
             }
@@ -550,28 +550,28 @@
           }
         },
         {
-          "title": "growl message",
+          "title": "toaster message",
           "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
           "suites": [],
           "tests": [
             {
               "status": 1,
               "title": "should be displayed",
-              "fullTitle": "auth register modal growl message should be displayed",
+              "fullTitle": "auth register modal toaster message should be displayed",
               "duration": 0.06,
               "error": null
             },
             {
               "status": 1,
               "title": "should be error",
-              "fullTitle": "auth register modal growl message should be error",
+              "fullTitle": "auth register modal toaster message should be error",
               "duration": 0.04,
               "error": null
             },
             {
               "status": 1,
               "title": "should have blurb passphrase_mismatch",
-              "fullTitle": "auth register modal growl message should have blurb passphrase_mismatch",
+              "fullTitle": "auth register modal toaster message should have blurb passphrase_mismatch",
               "duration": 0.07,
               "error": null
             }
@@ -630,28 +630,28 @@
           }
         },
         {
-          "title": "growl message",
+          "title": "toaster message",
           "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
           "suites": [],
           "tests": [
             {
               "status": 1,
               "title": "should be displayed",
-              "fullTitle": "auth register modal growl message should be displayed",
+              "fullTitle": "auth register modal toaster message should be displayed",
               "duration": 0.23,
               "error": null
             },
             {
               "status": 1,
               "title": "should be success",
-              "fullTitle": "auth register modal growl message should be success",
+              "fullTitle": "auth register modal toaster message should be success",
               "duration": 0.07,
               "error": null
             },
             {
               "status": 1,
               "title": "should have blurb registration_successful",
-              "fullTitle": "auth register modal growl message should have blurb registration_successful",
+              "fullTitle": "auth register modal toaster message should have blurb registration_successful",
               "duration": 0.08,
               "error": null
             }
@@ -711,28 +711,28 @@
           }
         },
         {
-          "title": "growl message",
+          "title": "toaster message",
           "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
           "suites": [],
           "tests": [
             {
               "status": 1,
               "title": "should be displayed",
-              "fullTitle": "auth login modal growl message should be displayed",
+              "fullTitle": "auth login modal toaster message should be displayed",
               "duration": 0.08,
               "error": null
             },
             {
               "status": 1,
               "title": "should be error",
-              "fullTitle": "auth login modal growl message should be error",
+              "fullTitle": "auth login modal toaster message should be error",
               "duration": 0.05,
               "error": null
             },
             {
               "status": 1,
               "title": "should have blurb authfile_required",
-              "fullTitle": "auth login modal growl message should have blurb authfile_required",
+              "fullTitle": "auth login modal toaster message should have blurb authfile_required",
               "duration": 0.07,
               "error": null
             }
@@ -856,28 +856,28 @@
           }
         },
         {
-          "title": "growl message",
+          "title": "toaster message",
           "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
           "suites": [],
           "tests": [
             {
               "status": 1,
               "title": "should be displayed",
-              "fullTitle": "auth login modal growl message should be displayed",
+              "fullTitle": "auth login modal toaster message should be displayed",
               "duration": 0.06,
               "error": null
             },
             {
               "status": 1,
               "title": "should be error",
-              "fullTitle": "auth login modal growl message should be error",
+              "fullTitle": "auth login modal toaster message should be error",
               "duration": 0.04,
               "error": null
             },
             {
               "status": 1,
               "title": "should have blurb passphrase_required",
-              "fullTitle": "auth login modal growl message should have blurb passphrase_required",
+              "fullTitle": "auth login modal toaster message should have blurb passphrase_required",
               "duration": 0.06,
               "error": null
             }
@@ -950,28 +950,28 @@
           }
         },
         {
-          "title": "growl message",
+          "title": "toaster message",
           "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
           "suites": [],
           "tests": [
             {
               "status": 1,
               "title": "should be displayed",
-              "fullTitle": "auth login modal growl message should be displayed",
+              "fullTitle": "auth login modal toaster message should be displayed",
               "duration": 0.06,
               "error": null
             },
             {
               "status": 1,
               "title": "should be error",
-              "fullTitle": "auth login modal growl message should be error",
+              "fullTitle": "auth login modal toaster message should be error",
               "duration": 0.04,
               "error": null
             },
             {
               "status": 1,
               "title": "should have blurb could_not_decrypt_authfile",
-              "fullTitle": "auth login modal growl message should have blurb could_not_decrypt_authfile",
+              "fullTitle": "auth login modal toaster message should have blurb could_not_decrypt_authfile",
               "duration": 0.07,
               "error": null
             }
@@ -1066,28 +1066,28 @@
           }
         },
         {
-          "title": "growl message",
+          "title": "toaster message",
           "file": "/Users/aakilfernandes/projects/safemarket/ux/spec/index.js",
           "suites": [],
           "tests": [
             {
               "status": 1,
               "title": "should be displayed",
-              "fullTitle": "auth login modal growl message should be displayed",
+              "fullTitle": "auth login modal toaster message should be displayed",
               "duration": 0.26,
               "error": null
             },
             {
               "status": 1,
               "title": "should be success",
-              "fullTitle": "auth login modal growl message should be success",
+              "fullTitle": "auth login modal toaster message should be success",
               "duration": 0.04,
               "error": null
             },
             {
               "status": 1,
               "title": "should have blurb login_successful",
-              "fullTitle": "auth login modal growl message should have blurb login_successful",
+              "fullTitle": "auth login modal toaster message should have blurb login_successful",
               "duration": 0.06,
               "error": null
             }

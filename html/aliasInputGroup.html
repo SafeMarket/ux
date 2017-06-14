@@ -1,9 +1,0 @@
-<form name="form">
-  {{blurbs}}
-<div class="input-group">
-  <div class="input-group-addon">@</div>
-  <input name="alias" type="text" ng-model="alias" class="form-control" alias-input require-availability="requireAvailability" name>
-</div>
-<div ng-show="form.alias.$error.charCodes" class="error">{{'alias_char_codes' | blurb}}</div>
-<div ng-show="form.alias.$error.availability" class="error">{{'alias_unavailable' | blurb:form.alias.$$rawModelValue.to('ascii')}}</div>
-</form>

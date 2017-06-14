@@ -2,38 +2,41 @@
   <head>
     <meta charset="utf-8">
     <style>[ng-cloak]{display: none}</style>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+    <script type="text/javascript" src="generated/style.js" charset="utf-8"></script>
   </head>
   <body>
-    <div ng-app="app" ng-cloak>
-      <div ng-controller="Main">
-        <nav class="navbar navbar-default navbar-top navbar-static-top" id="navbar">
-          <div class="container">
-            <div class="navbar-header pull-left">
-              <a class="navbar-brand" ng-href="{{isLoggedIn?'#/':'.'}}">SafeMarket</a>
-            </div>
-            <div class="navbar-header pull-right">
-              <button class="navbar-btn btn btn-default btn-lg" ng-click="openChainModal()">
-                <span class="glyphicon glyphicon-link"></span>
-              </button>
-              <button id="navbar-settings-button" class="navbar-btn btn btn-default btn-lg" ng-click="openSettingsModal()">
-                <span class="glyphicon glyphicon-cog"></span>
-              </button>
-            </div>
+    <div ng-controller="Main">
+      <div class="nav">
+    		<div class="nav-left">
+    			<a class="nav-title" href="#">SafeMarket</a>
+    			<div class="connection-status">
+    				<div class="network-status">
+    					<h6> Network Status: </h6>
+    					<img class="connected" src="assets/img/network-right.png" />
+    					<a href="#" class="status"> IPFS connected</a>
+    				</div>
+    				<a class="change-network" href="#">Change network</a>
+    			</div>
+    		</div>
+    		<div class="nav-right">
+    			<a class="nav-link nav-item" href="#">Sell on SafeMarket</a>
+    			<a ng-if="!isLoggedIn" class="nav-link nav-item" href="/#!/login">Log in</a>
+          <a ng-if="isLoggedIn" class="nav-link nav-item" href="/#!/logout">Log Out</a>
+    			<img class="nav-line" src="assets/img/nav-line.png" />
+    			<div class="cart-group" ng-controller="Cart">
+    				<a href="/#!/cart"><img class="cart-img" src="assets/img/cart.png" /></a>
+    				<a class="nav-link" href="/#!/cart" ng-controller="Cart">Cart (<span ng-bind="totalQuantityNumber">0</span>)</a>
+    			</div>
+    			<a class="nav-link nav-item" href="#">What is SafeMarket?</a>
+    		</div>
+    	</div>
+      <div class="container">
+          <div ui-view autoscroll="true" class="mainView">
           </div>
-        </nav>
-        <div ng-controller="Status" class="blockWatcher">
-          <div class="container" status></div>
-        </div>
-        <div class="container">
-          <div class="alert alert-warning text-center">SafeMarket is still in Alpha. Funds deposited are likely to be lost.</div>
-          </div>
-          <div class="container">
-              <div growl limit-messages="1"></div>
-              <div ui-view autoscroll="true" class="mainView"></div>
-          </div>
-        </div>
       </div>
+      <toaster-container toaster-options="{'time-out': 1000}"></toaster-container>
     </div>
-    <script type="text/javascript" src="generated/bundle.js" charset="utf-8"></script>
+    <script src="/generated/app.js"></script>
   </body>
 </html>

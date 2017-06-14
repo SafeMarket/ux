@@ -1,0 +1,177 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 15.9vw;
+  padding-right: 15.9vw;
+  padding-top: 15px;
+ }
+
+p {
+   font-size: 12px;
+   line-height: 22px;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color:#4990E2;
+}
+
+h4 {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+h6 {
+  font-size: 10px;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*Nav*/
+.nav-title {
+  font-size: 18px;
+}
+.network-status {
+  display: flex;
+  align-items: center;
+}
+.connected {
+  width: 13px;
+  height: 13px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+.change-network {
+  font-size: 10px;
+  font-weight: 200;
+  color: #4990E2;
+}
+.status {
+  text-decoration: underline;
+  font-size: 10px;
+  font-weight: 300;
+}
+.nav-right {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-link {
+  font-size: 12px;
+  letter-spacing: 0.6px;
+}
+
+.nav-line {
+  height: 23px;
+  margin-left: 10px;
+}
+.cart-img {
+  height: 15px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.cart-group {
+  display: flex;
+  align-items: flex-start;
+}
+.nav-item {
+  margin-left: 30px;
+}
+
+/*Nav end*/
+
+
+/*Maintitle*/
+.main-tittle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+.home-tittle {
+  font-size: 22px;
+  letter-spacing: 3.2px;
+  font-weight: 400;
+}
+.home-sublink {
+  font-size: 12px;
+  letter-spacing: 1.75px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+.searchbar {
+  border: 1px #9B9B9B solid;
+  width: 807px;
+  height: 40px;
+  color: #979797;
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+}
+.alpha {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+/*Maintitle End*/
+
+/*Feature*/
+.Feature {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.feature-img {
+  height: 32px;
+  margin-right: 23px;
+  margin-top: 5px;
+}
+.feature-title {
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+.feature-description {
+  width: 218px;
+}
+.feature-grid {
+  display: flex;
+  align-items: flex-start;
+}
+/*Feature ends*/
+
+/*Featured stores*/
+
+.featured-stores-tittle{
+  font-weight: 400;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.featured-stores{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.store-img {
+  height: 270px;
+  margin-bottom: 10px;
+}
+.store-name {
+  font-weight: 400;
+}
+.store-description {
+  width: 203px;
+  margin-top: 10px;
+}

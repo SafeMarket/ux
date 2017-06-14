@@ -1,0 +1,42 @@
+<div class="cart-container">
+  <div class="cart-row-1">
+		<div class="cart-items">
+			<h3 class="cart-items-text">{{totalQuantityNumber}} items in your cart</h3>
+		</div>
+		<div class="keep-shopping sml-btn">
+			<a class="sml-btn-text" href="#">Keep Shopping</a>
+		</div>
+	</div>
+	<div class="cart-storeorder">
+		<div class="cart-order-left">
+			<div class="cart-order-storeinfo">
+				<h4 class="cart-storename cart-text">{{store.meta.value.name.to('ascii')}}</h4>
+				<div class="store-header-grid">
+					<a href="#"><img class="info-icon cart-contact-icon" src="/assets/img/contact-icon.png" /></a>
+					<a class="info-text cart-contact-text">Contact Shop owner</a>
+				</div>
+			</div>
+			<div class="cart-order-product" ng-repeat="(productIndex, quantity) in quantities">
+				<div class="cart-order-img prod">
+          <div class="product-sml" amorph-image="store.products[productIndex].imageMultihashes[0]"></div>
+				</div>
+				<div class="cart-order-info">
+					<h4 class="cart-productname cart-text">{{store.products[productIndex].name.to('ascii')}}</h4>
+					<div class="quantity order-quan">
+						<p class="quantity-text">Quantity</p>
+						<div class="quantity-selction-box" quantity-select="quantities[productIndex]"></div>
+					</div>
+					<h4 class="cart-price cart-text" pricemorph="store.products[productIndex].pricemorph"></h4>
+					<a class="remove-btn" ng-click="remove(productIndex)">Remove</a>
+				</div>
+			</div>
+		</div>
+		<div class="cart-order-right">
+			<h4 class="cart-total cart-text">Total</h4>
+			<div class="cart-order-totalprice" pricemorph="totalPricemorph"></div>
+			<div class="proceedto-checkout sml-btn">
+				<a class="sml-btn-text" href="/#!/checkout">Proceed to Checkout</a>
+			</div>
+		</div>
+	</div>
+</div>
